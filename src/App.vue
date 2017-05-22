@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <NavigationTop></NavigationTop>
     <img src="./assets/logo.png">
     <router-view></router-view>
   </div>
@@ -18,6 +19,5 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
   }
 </style>

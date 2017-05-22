@@ -13,10 +13,17 @@ Vue.config.productionTip = false
 // use bootstrap 4 for vue
 Vue.use(BootstrapVue)
 
+// components below!
+
+import NavigationTop from './components/NavigationTop'
+
+Vue.component('NavigationTop', NavigationTop)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: {App, NavigationTop}
 })
+
