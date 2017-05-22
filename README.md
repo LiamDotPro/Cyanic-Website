@@ -1,6 +1,6 @@
 # cyanic
 
-> The Ofical Cyanic Website
+> A Vue.js project
 
 ## Build Setup
 

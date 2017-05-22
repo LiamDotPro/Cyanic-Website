@@ -1,7 +1,7 @@
 {
   "name": "cyanic",
   "version": "1.0.0",
-  "description": "The Ofical Cyanic Website",
+  "description": "A Vue.js project",
   "author": "Liam Read <Liam@liam.pro>",
   "private": true,
   "scripts": {
