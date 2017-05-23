@@ -1,12 +1,12 @@
 <template>
-  <div class="services-web">
+  <div class="insert-component-name">
 
   </div>
 </template>
 
 <script>
   export default {
-    name: 'ServicesWeb',
+    name: 'Consultancy',
     data () {
       return {
         msg: 'Welcome to Cyanic'
