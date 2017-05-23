@@ -7,6 +7,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
+  base: '/',
   routes: [
     {
       path: '/',
@@ -16,7 +17,7 @@ export default new Router({
     },
     {
       path: '/home',
-      name: 'Home',
+      name: 'Homepage',
       component: Home
 
     },

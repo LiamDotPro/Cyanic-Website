@@ -1,6 +1,14 @@
 <template>
   <div class="Footer-bot">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
 
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -9,7 +17,6 @@
     name: 'BottomFooter',
     data () {
       return {
-        msg: 'Welcome to Cyanic'
       }
     }
   }
@@ -21,6 +28,4 @@
   .footer-bot {
 
   }
-
-
 </style>

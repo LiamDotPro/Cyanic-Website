@@ -8,16 +8,33 @@
       </button>
       <a class="navbar-brand" href="#">Navbar</a>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <router-link class="nav-link" to="/home">Home</router-link>
           </li>
+          <b-nav-item-dropdown right-alignment>
+
+            <!-- Using text slot -->
+            <template slot="text">
+              <span>Services</span>
+            </template>
+
+            <b-dropdown-item to="/web">Web</b-dropdown-item>
+            <b-dropdown-item to="/seo">Seo</b-dropdown-item>
+            <b-dropdown-item to="/consultancy">Consultancy</b-dropdown-item>
+          </b-nav-item-dropdown>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <router-link class="nav-link" to="/case-studies">Case Studies</router-link>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <router-link class="nav-link" to="/blog">Blog</router-link>
+          </li>
+
+          <li class="nav-item">
+            <router-link class="nav-link" to="/contact">Contact</router-link>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -36,12 +53,25 @@
       return {}
     }
   }
+
+  //  Navigation Structure - Reference for router linking -  are dropdown, + are future.
+  //  home
+  //  case studies
+  //  contact
+  //  blog
+  //  Services
+  //  -web
+  //  -seo
+  //  -consultancy
+  //  +ecommernce
+  //  +mobile
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+  $fontFamily: 'Oxygen', sans-serif;
   .NavigationTop {
-
+    font-family: $fontFamily;
   }
 </style>
-

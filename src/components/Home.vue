@@ -1,25 +1,17 @@
 <template>
   <div class="Home">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-lg-12">
-            <h1>{{ msg }} <icon name="beer" scale="1.5"></icon></h1>
-
-          </div>
-        </div>
-      </div>
-    </div>
+  <hero></hero>
   </div>
 </template>
 
 
 <script>
+  import Hero from './Homepage/Hero'
   export default {
-    name: 'Home',
+    components: {Hero},
+    name: 'Homepage',
     data () {
       return {
-        msg: 'Welcome to Cyanic'
       }
     }
   }

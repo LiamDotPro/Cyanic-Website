@@ -1,10 +1,13 @@
 <template>
-  <div class="static-404">
+  <div class="hero">
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
-          <h1>{{ msg }}</h1>
+          <div class="col-xs-12 col-lg-12">
+            <h1>{{ msg }}
+              <icon name="rocket" scale="1.5"></icon>
+            </h1>
+
           </div>
         </div>
       </div>
@@ -14,10 +17,10 @@
 
 <script>
   export default {
-    name: 'NotFoundComponent',
+    name: 'Hero',
     data () {
       return {
-        msg: '404 page not found'
+        msg: 'Welcome to Cyanic'
       }
     }
   }
@@ -26,8 +29,6 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   // Start coding!
-  .static-404 {
 
-  }
 
 </style>
