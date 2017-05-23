@@ -1,15 +1,15 @@
 <template>
-  <div class="insert-component-name">
+  <div class="Footer-bot">
 
   </div>
 </template>
 
 <script>
   export default {
-    name: 'component name here',
+    name: 'BottomFooter',
     data () {
       return {
-        msg: 'Welcome to Cyanic',
+        msg: 'Welcome to Cyanic'
       }
     }
   }
@@ -17,8 +17,10 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-// Start coding!
+  // Start coding!
+  .footer-bot {
 
+  }
 
 
 </style>

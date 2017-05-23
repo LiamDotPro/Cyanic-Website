@@ -1,45 +1,31 @@
 <template>
   <div class="NavigationTop">
-    <b-navbar toggleable type="inverse" variant="success">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navbar</a>
 
-      <b-nav-toggle target="nav_collapse"></b-nav-toggle>
-
-      <b-link class="navbar-brand" to="#">
-        <span>BootstrapVue</span>
-      </b-link>
-
-      <b-collapse is-nav id="nav_collapse">
-
-        <b-nav is-nav-bar>
-          <b-nav-item>Support</b-nav-item>
-          <b-nav-item>Docs</b-nav-item>
-          <b-nav-item>Contact Us</b-nav-item>
-        </b-nav>
-
-        <b-nav is-nav-bar class="ml-auto">
-
-          <!-- Navbar dropdowns -->
-          <b-nav-item-dropdown text="Lang" right-alignment>
-            <b-dropdown-item to="#">EN</b-dropdown-item>
-            <b-dropdown-item to="#">ES</b-dropdown-item>
-            <b-dropdown-item to="#">RU</b-dropdown-item>
-            <b-dropdown-item to="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
-
-          <b-nav-item-dropdown right-alignment>
-
-            <!-- Using text slot -->
-            <template slot="text">
-              <span style="font-weight: bold;">User</span>
-            </template>
-
-            <b-dropdown-item to="#">Profile</b-dropdown-item>
-            <b-dropdown-item to="#">Signout</b-dropdown-item>
-          </b-nav-item-dropdown>
-
-        </b-nav>
-      </b-collapse>
-    </b-navbar>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
 </template>
 
@@ -54,7 +40,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-  #NavigationTop {
+  .NavigationTop {
 
   }
 </style>
