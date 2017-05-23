@@ -25,10 +25,12 @@ Vue.component('icon', Icon)
 // components below!
 import NavigationTop from './components/NavigationTop'
 import BottomFooter from './components/BottomFooter'
+import NotFoundComponent from './components/NotFoundComponent'
 
 // Use Components Statements
 Vue.component('NavigationTop', NavigationTop)
 Vue.component('BottomFooter', BottomFooter)
+Vue.component('NotFoundComponent', NotFoundComponent)
 
 // Main App entry Point configured to rooter.
 /* eslint-disable no-new */
