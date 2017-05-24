@@ -31,15 +31,21 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   // Start coding!
+  $primaryColour: #027ef1;
+
   .hero {
 
     h1 {
       font-size: 50px;
     }
+    .container-fluid {
 
-    .container {
-      padding-top: 120px;
-      padding-bottom: 120px;
+      background: $primaryColour;
+
+      .container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+      }
     }
 
   }

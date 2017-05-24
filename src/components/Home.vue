@@ -1,14 +1,16 @@
 <template>
   <div class="Home">
     <hero></hero>
+    <CallToAction></CallToAction>
   </div>
 </template>
 
 
 <script>
   import Hero from './Homepage/Hero'
+  import CallToAction from './Homepage/CallToAction'
   export default {
-    components: {Hero},
+    components: {Hero, CallToAction},
     name: 'Homepage',
     data () {
       return {}
