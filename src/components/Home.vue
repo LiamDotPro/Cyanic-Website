@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-  <hero></hero>
+    <hero></hero>
   </div>
 </template>
 
@@ -11,8 +11,7 @@
     components: {Hero},
     name: 'Homepage',
     data () {
-      return {
-      }
+      return {}
     }
   }
 </script>

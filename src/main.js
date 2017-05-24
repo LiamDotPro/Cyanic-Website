@@ -27,16 +27,20 @@ import NavigationTop from './components/NavigationTop'
 import BottomFooter from './components/BottomFooter'
 import NotFoundComponent from './components/NotFoundComponent'
 
-// Use Components Statements
+// Use Components Statements global components
 Vue.component('NavigationTop', NavigationTop)
 Vue.component('BottomFooter', BottomFooter)
 Vue.component('NotFoundComponent', NotFoundComponent)
+
+// Begin routing store to our application
+import store from './store'
 
 // Main App entry Point configured to rooter.
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: {
     App,

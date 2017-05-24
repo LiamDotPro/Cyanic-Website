@@ -28,12 +28,6 @@ export default new Router({
 
     },
     {
-      path: '/home',
-      name: 'Homepage',
-      component: Home
-
-    },
-    {
       path: '/web',
       name: 'Web Services',
       component: ServicesWeb
