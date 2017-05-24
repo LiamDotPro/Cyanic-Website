@@ -31,7 +31,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   // Start coding!
-  $primaryColour: #027ef1;
+  @import "../../assets/master";
 
   .hero {
 

@@ -12,15 +12,7 @@
 
 <style lang="scss">
 
-  // Global variables outline in app so that they can have scope over other objects that are scoped to components.
-  // Colour Palette Reference https://puu.sh/vVbjW/f802be9239.png
-  $primaryColour: #027ef1;
-  $secondaryColour: #026ed2;
-  $primaryWhite: #fcfcfd;
-  $primaryDark: #162030;
-  $lightGrey: #d7d9db;
-  $darkGrey: #c9b3c1;
-  $fontFamily: 'Oxygen', sans-serif;
+  @import "assets/master";
 
   #app {
     @import url('https://fonts.googleapis.com/css?family=Oxygen');

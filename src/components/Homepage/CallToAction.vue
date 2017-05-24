@@ -23,11 +23,10 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   // Start coding!
 
-  $secondaryColour: #026ed2;
+  @import "../../assets/master";
 
   .CallToAction {
 
