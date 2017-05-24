@@ -3,12 +3,12 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-xs-4 col-lg-4 text-left">
+          <div class="col-xs-6 col-lg-6 text-left">
             <h1>Cyanic.io</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa deserunt illum incidunt labore placeat sapiente! Aliquid assumenda autem harum illum ipsum laudantium minima nobis, numquam perferendis, quisquam repellendus sit!</p>
           </div>
-          <div class="col-xs-8 col-lg-8">
+          <div class="col-xs-6 col-lg-6">
             <img src="http://placehold.it/500x250" alt="">
           </div>
         </div>
@@ -28,10 +28,9 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   // Start coding!
-  $primaryColour: #027ef1;
+  @import "../../assets/master";
 
   .hero {
 
