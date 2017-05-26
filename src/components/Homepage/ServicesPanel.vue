@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <ServiceTile class="col-lg-3" v-for="services in tiles" :title="services.title" :image="services.image"
-                     :desc="services.desc" :key="item"></ServiceTile>
+                     :desc="services.desc" :key="services.id"></ServiceTile>
       </div>
     </div>
   </div>
@@ -16,9 +16,24 @@
     data () {
       return {
         tiles: [
-          {image: '/', title: 'Website Development', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'},
-          {image: '/', title: 'SEO', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'},
-          {image: '/', title: 'Consulting', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'}
+          {
+            id: 1,
+            image: '/',
+            title: 'Website Development',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
+          },
+          {
+            id: 2,
+            image: '/',
+            title: 'SEO',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
+          },
+          {
+            id: 3,
+            image: '/',
+            title: 'Consulting',
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
+          }
         ]
       }
     },
