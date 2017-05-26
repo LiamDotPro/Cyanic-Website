@@ -77,9 +77,6 @@
   .NavigationTop {
     font-family: $fontFamily;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-
   }
 
   .nav-link {
@@ -88,6 +85,7 @@
   }
 
   .router-link-active {
+
     color: $primaryWhite;
     opacity:1;
   }
