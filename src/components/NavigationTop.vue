@@ -6,7 +6,7 @@
               aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+      <router-link class="navbar-brand" to="/home">Navbar</router-link>
 
       <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
