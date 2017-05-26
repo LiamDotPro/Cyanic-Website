@@ -11,15 +11,7 @@
   // You can follow the same layout for importing local components
   import Hero from './Homepage/Hero'
   import CallToAction from './Homepage/CallToAction'
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  import ServicesPanel from './Homepage/ServicesPanel'
->>>>>>> 503108e7aa4b741421fc0bb85dd29f4e3f1aceeb
-=======
-  import ServicesPanel from './Homepage/ServicesPanel'
->>>>>>> 503108e7aa4b741421fc0bb85dd29f4e3f1aceeb
-
+  import ServicesPanel from './Homepage/ServicesPanel.vue'
   export default {
     components: {
       ServicesPanel,
