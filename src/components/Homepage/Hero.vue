@@ -40,6 +40,12 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    p {
+      padding-top:10px;
+    }
+>>>>>>> 503108e7aa4b741421fc0bb85dd29f4e3f1aceeb
 =======
     p {
       padding-top:10px;
