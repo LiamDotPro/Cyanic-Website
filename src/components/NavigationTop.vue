@@ -1,48 +1,49 @@
 <template>
-  <div class="NavigationTop">
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <router-link class="navbar-brand" to="/">Navbar</router-link>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="NavigationTop">
+        <nav class="navbar navbar-toggleable-md navbar-transparent">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <router-link class="navbar-brand" to="/" exact="/">Navbar</router-link>
 
-      <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/home" exact>Home</router-link>
-          </li>
-          <b-nav-item-dropdown right-alignment>
+          <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <router-link class="nav-link" to="/home" exact="/home">Home</router-link>
+              </li>
+              <b-nav-item-dropdown right-alignment>
 
-            <!-- Using text slot -->
-            <template slot="text">
-              <span>Services</span>
-            </template>
+                <!-- Using text slot -->
+                <template slot="text">
+                  <span>Services</span>
+                </template>
 
-            <b-dropdown-item to="/web">Web</b-dropdown-item>
-            <b-dropdown-item to="/seo">Seo</b-dropdown-item>
-            <b-dropdown-item to="/consultancy">Consultancy</b-dropdown-item>
-          </b-nav-item-dropdown>
+                <b-dropdown-item to="/web">Web</b-dropdown-item>
+                <b-dropdown-item to="/seo">Seo</b-dropdown-item>
+                <b-dropdown-item to="/consultancy">Consultancy</b-dropdown-item>
+              </b-nav-item-dropdown>
 
-          <li class="nav-item">
-            <router-link class="nav-link" to="/case-studies">Case Studies</router-link>
-          </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/case-studies">Case Studies</router-link>
+              </li>
 
-          <li class="nav-item">
-            <router-link class="nav-link" to="/blog">Blog</router-link>
-          </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/blog">Blog</router-link>
+              </li>
 
-          <li class="nav-item">
-            <router-link class="nav-link" to="/contact">Contact</router-link>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/contact">Contact</router-link>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
       </div>
-    </nav>
+    </div>
   </div>
 </template>
 
@@ -70,17 +71,39 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-  $fontFamily: 'Oxygen', sans-serif;
+
+  @import "../assets/master";
 
   .NavigationTop {
     font-family: $fontFamily;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
   }
 
   .nav-link {
-    color: blue;
+    color: $primaryWhite;
+    opacity: 0.7;
   }
 
   .router-link-active {
-    color: red !important;
+    color: $primaryWhite;
+    opacity:1;
   }
+
+  .container-fluid {
+    background: #027ef1;
+    a {
+      color: $primaryWhite;
+
+    }
+
+    span {
+      color: $primaryWhite;
+      opacity: 0.7;
+    }
+
+  }
+
 </style>

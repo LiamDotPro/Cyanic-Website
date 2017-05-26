@@ -4,7 +4,9 @@
       <w>cyanic</w>
       <w>dropdown</w>
       <w>mixins</w>
+      <w>navbar</w>
       <w>scss</w>
+      <w>toggler</w>
       <w>vuex</w>
     </words>
   </dictionary>

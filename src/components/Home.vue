@@ -1,6 +1,7 @@
 <template>
   <div class="Home">
     <hero></hero>
+    <services-panel></services-panel>
     <CallToAction></CallToAction>
   </div>
 </template>
@@ -9,8 +10,14 @@
 <script>
   import Hero from './Homepage/Hero'
   import CallToAction from './Homepage/CallToAction'
+  import ServicesPanel from './Homepage/ServicesPanel'
+
   export default {
-    components: {Hero, CallToAction},
+    components: {
+      ServicesPanel,
+      Hero,
+      CallToAction
+    },
     name: 'Homepage',
     data () {
       return {}
