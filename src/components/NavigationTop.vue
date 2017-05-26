@@ -6,12 +6,12 @@
               aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <router-link class="navbar-brand" to="/home">Navbar</router-link>
+      <router-link class="navbar-brand" to="/">Navbar</router-link>
 
       <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <router-link class="nav-link" to="/home">Home</router-link>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/home" exact>Home</router-link>
           </li>
           <b-nav-item-dropdown right-alignment>
 
@@ -71,7 +71,16 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   $fontFamily: 'Oxygen', sans-serif;
+
   .NavigationTop {
     font-family: $fontFamily;
+  }
+
+  .nav-link {
+    color: blue;
+  }
+
+  .router-link-active {
+    color: red !important;
   }
 </style>
