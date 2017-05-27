@@ -2,6 +2,7 @@
   <div class="Home">
     <hero></hero>
     <services-panel></services-panel>
+    <HomeTextComponent></HomeTextComponent>
     <CallToAction></CallToAction>
   </div>
 </template>
@@ -11,12 +12,14 @@
   // You can follow the same layout for importing local components
   import Hero from './Homepage/Hero'
   import CallToAction from './Homepage/CallToAction'
-  import ServicesPanel from './Homepage/ServicesPanel.vue'
+  import ServicesPanel from './Homepage/ServicesPanel'
+  import HomeTextComponent from './Homepage/HomeTextComponent'
   export default {
     components: {
       ServicesPanel,
       Hero,
-      CallToAction
+      CallToAction,
+      HomeTextComponent
     },
     name: 'Homepage',
     data () {

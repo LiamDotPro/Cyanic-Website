@@ -15,6 +15,16 @@
               <li class="nav-item">
                 <router-link class="nav-link" to="/home" exact="/home">Home</router-link>
               </li>
+
+
+              <li class="nav-item">
+                <router-link class="nav-link" to="/case-studies">Case Studies</router-link>
+              </li>
+
+              <li class="nav-item">
+                <router-link class="nav-link" to="/blog">Blog</router-link>
+              </li>
+
               <b-nav-item-dropdown right-alignment>
 
                 <!-- Using text slot -->
@@ -26,14 +36,6 @@
                 <b-dropdown-item to="/seo">Seo</b-dropdown-item>
                 <b-dropdown-item to="/consultancy">Consultancy</b-dropdown-item>
               </b-nav-item-dropdown>
-
-              <li class="nav-item">
-                <router-link class="nav-link" to="/case-studies">Case Studies</router-link>
-              </li>
-
-              <li class="nav-item">
-                <router-link class="nav-link" to="/blog">Blog</router-link>
-              </li>
 
               <li class="nav-item">
                 <router-link class="nav-link" to="/contact">Contact</router-link>
@@ -76,7 +78,7 @@
 
   .NavigationTop {
     font-family: $fontFamily;
-
+    padding-top: 20px;
   }
 
   .nav-link {
@@ -87,7 +89,7 @@
   .router-link-active {
 
     color: $primaryWhite;
-    opacity:1;
+    opacity: 1;
   }
 
   .container-fluid {

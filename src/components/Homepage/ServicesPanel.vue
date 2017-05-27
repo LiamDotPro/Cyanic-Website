@@ -2,8 +2,11 @@
   <div class="Services-panel">
     <div class="container">
       <div class="row">
-        <ServiceTile class="col-lg-3" v-for="services in tiles" :title="services.title" :image="services.image"
-                     :desc="services.desc" :key="services.id"></ServiceTile>
+        <div class="col-lg" v-for="services in tiles">
+          <service-tile :title="services.title" :image="services.image"
+                        :desc="services.desc" :key="services.id">>
+          </service-tile>
+        </div>
       </div>
     </div>
   </div>
@@ -25,7 +28,7 @@
           {
             id: 2,
             image: '/',
-            title: 'SEO',
+            title: 'Search Engine Optimisation',
             desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
           },
           {

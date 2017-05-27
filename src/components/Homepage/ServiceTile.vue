@@ -1,13 +1,11 @@
 <template>
   <div class="Service-tile">
-    <div class="service-tile">
-      <div class="service-image">
-        <img :src="image" alt="">
-      </div>
-      <div class="service-text">
-        <h1>{{title}}</h1>
-        <span>{{desc}}</span>
-      </div>
+    <div class="service-image">
+      <img :src="image" alt="">
+    </div>
+    <div class="service-text">
+      <h1>{{title}}</h1>
+      <p>{{desc}}</p>
     </div>
   </div>
 </template>
@@ -30,28 +28,23 @@
 
   .Service-tile {
     text-align: center;
-    min-width: 300px;
-    min-height: 300px;
     background: $primaryWhite;
-    vertical-align: middle;
-    padding-top: 20px;
     display: block;
-    overflow: hidden;
-    margin: 10px 10px;
-
     border-radius: 4px;
-
-    p {
-      color: black;
-    }
+    padding: 20px 40px 20px 40px;
+    height:100%;
 
     h1 {
       font-size: 26px;
       color: $primaryColour;
     }
 
-    span {
+    p {
       color: $lightGrey;
+    }
+
+    .service-text{
+      margin-bottom: 20px;
     }
   }
 
