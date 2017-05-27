@@ -4,15 +4,36 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-6 col-lg-6 text-left">
-            <h1>{{msg}}</h1>
+            <h1>{{header}}</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa deserunt illum incidunt labore placeat sapiente! Aliquid assumenda autem harum illum ipsum laudantium minima nobis, numquam perferendis, quisquam repellendus sit!
+              Were a youthful and rebellious web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
             </p>
+
             <div class="hero-button">
-              <button type="button" class="btn btn-outline-secondary">Vue our Work
-                <svgicon icon="arrow-right" width="40" height="19" color="#fff"></svgicon>
-              </button>
+              <router-link to="/case-studies/method">
+                <button type="button" class="btn btn-outline-secondary">
+                  How Were Empowering Global Brands
+                  <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+                </button>
+              </router-link>
+
             </div>
+
+            <div class="social-links">
+              <a href="">
+                <icon name='facebook' scale="1.5"></icon>
+              </a>
+              <a href="">
+                <icon name='linkedin' scale="1.5"></icon>
+              </a>
+              <a href="">
+                <icon name='github' scale="1.5"></icon>
+              </a>
+              <a href="">
+                <icon name='instagram' scale="1.5"></icon>
+              </a>
+            </div>
+
             <div class="hero-bottom-text">
               <h3>
                 We built a bespoke solution for method.gg
@@ -37,7 +58,7 @@
     name: 'Hero',
     data () {
       return {
-        msg: 'We build Excellence'
+        header: 'Building Web Experiences for the Future'
       }
     }
   }
@@ -72,6 +93,36 @@
       h3 {
         padding-top: 200px;
       }
+    }
+
+    .social-links {
+      padding: 15px 0 15px 0;
+
+      svg {
+        color: $primaryWhite;
+        margin-right: 10px;
+      }
+    }
+
+    .hero-button {
+      padding-bottom: 10px;
+    }
+
+    .btn-outline-secondary {
+      color: $primaryWhite;
+
+      a {
+        color: $primaryWhite;
+        text-decoration: none;
+      }
+    }
+
+    .btn-outline-secondary:hover {
+      background: $secondaryColour;
+    }
+
+    .btn-outline-secondary:focus {
+      box-shadow: none;
     }
 
   }

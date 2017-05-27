@@ -3,11 +3,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs col-lg-4 team-text">
-          <span>Proudly Developed & Design by The Cyanic Team</span>
+          <span><icon name="code" scale="0.8"></icon> + <icon name="paint-brush" scale="0.7"></icon> = The Cyanic Team </span>
         </div>
         <div class="col-xs col-lg copyright-text float-right">
           <div class="float-right">
-            <span class="">Copyright © Cyanic.io </span>
+            <span class=""> © 2017 Cyanic Solutions </span>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@
   @import "/../assets/master";
 
   .signature-footer {
-
+text-align: left;
     color: $darkGrey;
 
     .row {
@@ -45,6 +45,7 @@
 
     .team-text {
       font-size:14px;
+      padding-left: 0;
     }
   }
 

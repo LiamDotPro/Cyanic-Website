@@ -8,7 +8,8 @@
                   aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <router-link class="navbar-brand" to="/" exact="/">Navbar</router-link>
+          <router-link class="navbar-brand" to="/" exact="/"><img src="../assets/img/cyanic.png"
+                                                                  alt="Cyanic Web Development Logo"></router-link>
 
           <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -81,6 +82,11 @@
     padding-top: 20px;
   }
 
+  nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .nav-link {
     color: $primaryWhite;
     opacity: 0.7;
@@ -104,7 +110,7 @@
       opacity: 0.7;
     }
 
-    .dropdown a::after{
+    .dropdown a::after {
       color: white !important;
     }
 

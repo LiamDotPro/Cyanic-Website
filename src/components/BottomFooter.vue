@@ -68,18 +68,21 @@
     h3 {
       color: $primaryColour;
       font-size: 22px;
+      text-align: left;
     }
 
     ul {
       list-style: none;
       text-align: left;
+      padding-left: 0;
     }
 
     li {
-      color: $darkGrey;
+      color: $primaryDark;
 
       a {
-        color: $darkGrey;
+        color: $primaryDark;
+        text-decoration: none;
       }
     }
 
