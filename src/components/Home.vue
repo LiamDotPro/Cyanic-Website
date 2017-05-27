@@ -5,6 +5,7 @@
     <HomeTextComponent></HomeTextComponent>
     <product-tile-left></product-tile-left>
     <product-tile-right></product-tile-right>
+    <icon-table></icon-table>
     <CallToAction></CallToAction>
   </div>
 </template>
@@ -18,6 +19,7 @@
   import HomeTextComponent from './Homepage/HomeTextComponent'
   import ProductTileLeft from './Homepage/ProductTileLeft'
   import ProductTileRight from './Homepage/ProductTileRight'
+  import IconTable from './Homepage/IconTable'
 
   export default {
     components: {
@@ -26,7 +28,8 @@
       CallToAction,
       HomeTextComponent,
       ProductTileLeft,
-      ProductTileRight
+      ProductTileRight,
+      IconTable
     },
     name: 'Homepage',
     data () {
