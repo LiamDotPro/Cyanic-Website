@@ -16,7 +16,6 @@
 
   #app {
     @import url('https://fonts.googleapis.com/css?family=Roboto:300;400;700');
-    @import url('https://fonts.googleapis.com/icon?family=Material+Icons&#038;ver=4.7.5');
 
     font-family: $fontFamily;
     -webkit-font-smoothing: antialiased;

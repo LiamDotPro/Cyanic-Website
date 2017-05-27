@@ -6,10 +6,24 @@
           <div class="col-xs-6 col-lg-6 text-left">
             <h1>{{msg}}</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa deserunt illum incidunt labore placeat sapiente! Aliquid assumenda autem harum illum ipsum laudantium minima nobis, numquam perferendis, quisquam repellendus sit!</p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi culpa deserunt illum incidunt labore placeat sapiente! Aliquid assumenda autem harum illum ipsum laudantium minima nobis, numquam perferendis, quisquam repellendus sit!
+            </p>
+            <div class="hero-button">
+              <button type="button" class="btn btn-outline-secondary">Vue our Work
+                <svgicon icon="arrow-right" width="40" height="19" color="#fff"></svgicon>
+              </button>
+            </div>
+            <div class="hero-bottom-text">
+              <h3>
+                We built a bespoke solution for method.gg
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque harum veritatis? Ab aliquam asperiores consequatur delectus, dolorum eligendi esse fuga illum neque possimus quis, sequi sint, soluta vero voluptatem.
+              </p>
+            </div>
           </div>
           <div class="col-xs-6 col-lg-6">
-            <img class="img-responsive" src="http://placehold.it/550x500" alt="">
+            <img class="img-responsive" src="../../assets/img/feature-framework-img.png" alt="">
           </div>
         </div>
       </div>
@@ -18,6 +32,7 @@
 </template>
 
 <script>
+  import '../../assets/icons/arrow-right'
   export default {
     name: 'Hero',
     data () {
@@ -39,11 +54,7 @@
     }
 
     p {
-      padding-top:10px;
-    }
-
-    p {
-      padding-top:10px;
+      padding-top: 10px;
     }
 
     .container-fluid {
@@ -51,13 +62,15 @@
       background: $primaryColour;
 
       .container {
-        padding-top: 120px;
+        padding-top: 100px;
         padding-bottom: 120px;
 
-        .ma-beer{
-          opacity: 0.8;
-        }
+      }
+    }
 
+    .hero-bottom-text {
+      h3 {
+        padding-top: 200px;
       }
     }
 

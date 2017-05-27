@@ -104,6 +104,14 @@
       opacity: 0.7;
     }
 
+    .dropdown a::after{
+      color: white !important;
+    }
+
+    .navbar-toggleable-md .navbar-nav .nav-link {
+      color: white !important;
+    }
+
   }
 
 </style>

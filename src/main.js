@@ -13,6 +13,11 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 
+// SVG Loader - Material Svg's
+import VueSVGIcon from 'vue-svgicon'
+
+Vue.use(VueSVGIcon)
+
 // Production configure - Set to true for deployment.
 Vue.config.productionTip = false
 
