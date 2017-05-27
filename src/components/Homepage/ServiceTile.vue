@@ -32,7 +32,7 @@
     display: block;
     border-radius: 4px;
     padding: 20px 40px 20px 40px;
-    height:100%;
+    height: 100%;
 
     h1 {
       font-size: 26px;
@@ -40,10 +40,10 @@
     }
 
     p {
-      color: $lightGrey;
+      color: $mediumGrey;
     }
 
-    .service-text{
+    .service-text {
       margin-bottom: 20px;
     }
   }

@@ -40,10 +40,12 @@
 
     h1 {
       color: $primaryColour;
+      font-size: 36px;
     }
 
     h3 {
-      color: $lightGrey;
+      color: $mediumGrey;
+      font-size: 20px;
     }
   }
 

@@ -34,14 +34,14 @@
               </a>
             </div>
 
-            <div class="hero-bottom-text">
-              <h3>
-                We built a bespoke solution for method.gg
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque harum veritatis? Ab aliquam asperiores consequatur delectus, dolorum eligendi esse fuga illum neque possimus quis, sequi sint, soluta vero voluptatem.
-              </p>
-            </div>
+            <!--<div class="hero-bottom-text">-->
+              <!--<div class="hero-bottom-card">-->
+                <!--<h3>Case Study: Method Gaming</h3>-->
+                <!--<h5>-->
+                  <!--We helped Method.gg reach more than 4m people in 2017 by creating and designing a full bespoke system that is now enjoyied by millions of users annually.</h5>-->
+                <!--<router-link to="/case-studies/method">Find out more</router-link>-->
+              <!--</div>-->
+            <!--</div>-->
           </div>
           <div class="col-xs-6 col-lg-6">
             <img class="img-responsive" src="../../assets/img/feature-framework-img.png" alt="">
@@ -84,14 +84,29 @@
 
       .container {
         padding-top: 100px;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
 
       }
     }
 
     .hero-bottom-text {
-      h3 {
-        padding-top: 200px;
+
+      padding-top: 120px;
+      color: $mediumGrey;
+      .hero-bottom-card{
+        border-radius: 4px;
+        padding: 20px 10px 20px 10px;
+        box-shadow: 0 4px 0 #e1dede;
+        background: $primaryWhite;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+
+      a {
+        color: $primaryDark;
+        text-decoration: none;
       }
     }
 
@@ -123,6 +138,12 @@
 
     .btn-outline-secondary:focus {
       box-shadow: none;
+    }
+
+    .hero-bottom-text {
+      h3 {
+        font-size: 20px;
+      }
     }
 
   }
