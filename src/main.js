@@ -31,11 +31,13 @@ Vue.component('icon', Icon)
 import NavigationTop from './components/NavigationTop'
 import BottomFooter from './components/BottomFooter'
 import NotFoundComponent from './components/NotFoundComponent'
+import SignatureFooter from './components/SignatureFooter'
 
 // Use Components Statements global components
 Vue.component('NavigationTop', NavigationTop)
 Vue.component('BottomFooter', BottomFooter)
 Vue.component('NotFoundComponent', NotFoundComponent)
+Vue.component('SignatureFooter', SignatureFooter)
 
 // Begin routing store to our application
 import store from './store'

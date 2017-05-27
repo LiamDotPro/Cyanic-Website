@@ -3,6 +3,7 @@
     <NavigationTop></NavigationTop>
     <router-view></router-view>
     <bottom-footer></bottom-footer>
+    <signature-footer></signature-footer>
   </div>
 </template>
 
