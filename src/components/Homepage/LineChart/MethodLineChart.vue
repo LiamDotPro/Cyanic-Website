@@ -24,7 +24,7 @@
   @import "../../../assets/_master";
 
   .method-line-chart {
-    padding-top: 80px;
+    padding-top: 100px;
 
   }
 </style>
