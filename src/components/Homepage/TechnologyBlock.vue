@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-2">
     <div class="tech-block">
-      <b-tooltip :content="name" popover-style="{background: #ffffff;}" placement="bottom">
+      <b-tooltip :content="name" :popover-style="{backGround: '#ffffff'}" placement="bottom">
         <img ref="image" class="img-fluid" :src="src">
       </b-tooltip>
     </div>
@@ -12,8 +12,7 @@
   export default {
     name: 'TechnologyBlock',
     data () {
-      return {
-      }
+      return {}
     },
     props: ['name', 'src']
   }
