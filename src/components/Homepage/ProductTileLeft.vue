@@ -2,24 +2,24 @@
   <div class="product-tile-left">
     <div class="container">
       <div class="row">
-        <div class="col-lg">
-          <h1>Successful Products</h1>
+        <div class="col-lg product-tile-text">
+          <h1>Connecting you with potential customers</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad architecto assumenda delectus, deserunt, dicta doloremque eius ex facilis fuga harum incidunt ipsum nihil porro quaerat repudiandae similique sunt? Officiis, reprehenderit!
+           One of our core aims is to make sure that the work we carry out for each indvidual clients is getting them the business they deserve. We've already helped brands reach millions of potential clients.
           </p>
           <div class="row">
             <div class="col-md small-card">
-              <icon name="line-chart" scale="6"></icon>
-              <h3>Successful Products</h3>
+              <icon name="wrench" scale="5"></icon>
+              <h3>Bespoke Solutions</h3>
               <p>
-                facilis fuga harum incidunt ipsum nihil porro quaerat repudiandae similique sunt? Officiis, reprehenderit!
+                We create bespoke web exspierences tailored to meet the needs of your business utilizing the best possible technology.
               </p>
             </div>
             <div class="col-md small-card">
-              <icon name="rocket" scale="6"></icon>
-              <h3>Successful Products</h3>
+              <icon name="heart" scale="5"></icon>
+              <h3>Client Satisfaction</h3>
               <p>
-                 ex facilis fuga harum incidunt ipsum nihil porro quaerat repudiandae similique sunt? Officiis, reprehenderit!
+                We take your opinions seriously. As the owner or creator of a brand you can be assured we have your core principles at heart.
               </p>
             </div>
           </div>
@@ -36,9 +36,7 @@
   export default {
     name: 'ProductTileLeft',
     data () {
-      return {
-        msg: 'Welcome to Cyanic'
-      }
+      return {}
     }
   }
 </script>
@@ -53,8 +51,8 @@
     background: $primaryWhite;
     text-align: left;
 
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     h1 {
       color: $primaryColour;
@@ -87,8 +85,13 @@
         position: absolute;
         right: 0;
         z-index: 1;
+        opacity: 0.5;
       }
 
+    }
+
+    .product-tile-text {
+      padding-top: 100px;
     }
 
   }

@@ -5,13 +5,14 @@
         <div class="col-lg">
           <img src="../../assets/img/phone-block.png" alt="Product tile 1">
         </div>
-        <div class="col-lg">
+        <div class="col-lg product-tile-text">
           <h1>We've got the right skill set to get things done</h1>
           <p>
             We have a rich set of technologies that we develop with, which gives our clients the satisfaction in knowing there getting not only a great looking product but also a product ready to tackle the real world. If your looking for older technologies we still support many older legacy systems and may be able to help, contact us below.
           </p>
           <div class="row icon-area">
-            <technology-block v-for="tech in images" :name="tech.name" :src="tech.src" :key="tech.id"></technology-block>
+            <technology-block v-for="tech in images" :name="tech.name" :src="tech.src"
+                              :key="tech.id"></technology-block>
           </div>
         </div>
       </div>
@@ -58,8 +59,8 @@
 
     background: $primaryWhite;
     text-align: left;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     h1 {
       color: $primaryColour;
@@ -77,6 +78,9 @@
       padding-top: 20px;
     }
 
+    .product-tile-text {
+      padding-top: 100px;
+    }
   }
 
 </style>
