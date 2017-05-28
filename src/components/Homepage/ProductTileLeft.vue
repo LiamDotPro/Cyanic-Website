@@ -5,14 +5,14 @@
         <div class="col-lg product-tile-text">
           <h1>Connecting you with potential customers</h1>
           <p>
-           One of our core aims is to make sure that the work we carry out for each indvidual clients is getting them the business they deserve. We've already helped brands reach millions of potential clients.
+            One of our core aims is to engage as many of your users as possible, creating positive user experiences which maximize your online presence. We've already helped brands reach millions of potential customers.
           </p>
-          <div class="row">
+          <div class="row small-card-row">
             <div class="col-md small-card">
               <icon name="wrench" scale="5"></icon>
               <h3>Bespoke Solutions</h3>
               <p>
-                We create bespoke web exspierences tailored to meet the needs of your business utilizing the best possible technology.
+                We create bespoke web experiences tailored to meet the needs of your business utilizing the best possible technology.
               </p>
             </div>
             <div class="col-md small-card">
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-lg">
-          <img src="../../assets/img/phone-block.png" alt="Product tile 1">
+          <MethodLineChart></MethodLineChart>
         </div>
       </div>
     </div>
@@ -33,10 +33,14 @@
 </template>
 
 <script>
+  import MethodLineChart from './LineChart/MethodLineChart'
   export default {
     name: 'ProductTileLeft',
     data () {
       return {}
+    },
+    components: {
+      MethodLineChart
     }
   }
 </script>
@@ -92,6 +96,10 @@
 
     .product-tile-text {
       padding-top: 100px;
+    }
+
+    .small-card-row {
+      padding-top: 20px;
     }
 
   }
