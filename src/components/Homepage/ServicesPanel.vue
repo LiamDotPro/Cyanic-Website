@@ -53,8 +53,7 @@
   @import "../../assets/master";
 
   .Services-panel {
-
-    background: $lightGrey;
+    background: #eff1f2;
     padding-top: 50px;
     padding-bottom: 100px;
 
