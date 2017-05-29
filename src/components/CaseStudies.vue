@@ -45,8 +45,8 @@
             image: require('../assets/img/case-studies-images/method-cyanic-project-preview.jpg'),
             title: 'Method',
             tagline: 'Esports Organization',
-            link: '',
-            linkText: '',
+            link: '/case-studies/method',
+            linkText: 'View the Method Case Study',
             body: 'Stuffff'
           },
           {
@@ -54,8 +54,8 @@
             image: require('../assets/img/case-studies-images/method-cyanic-project-preview.jpg'),
             title: 'Placeholder',
             tagline: 'Placeholder Organization',
-            link: '',
-            linkText: '',
+            link: '/case-studies/placeholder',
+            linkText: 'View the Placeholder Case Study',
             body: 'placeholder'
           }
         ]

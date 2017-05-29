@@ -7,10 +7,12 @@
       <div v-if="position === 'left'" class="case-study-text">
         <h2>{{title}} <span>{{tagline}}</span></h2>
         <p>{{body}}</p>
-        <button type="button" class="btn btn-outline-secondary">
-          View the project
-          <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
-        </button>
+        <router-link :to="link">
+          <button type="button" class="btn btn-outline-secondary">
+            {{linkText}}
+            <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+          </button>
+        </router-link>
       </div>
 
     </div>
@@ -21,10 +23,12 @@
       <div v-if="position === 'right'" class="case-study-text">
         <h2>{{title}} <span>{{tagline}}</span></h2>
         <p>{{body}}</p>
-        <button type="button" class="btn btn-outline-secondary">
-          View the project
-          <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
-        </button>
+        <router-link :to="link">
+          <button type="button" class="btn btn-outline-secondary">
+            {{linkText}}
+            <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+          </button>
+        </router-link>
       </div>
 
     </div>

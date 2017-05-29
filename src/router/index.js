@@ -8,6 +8,7 @@ import ServicesConsultancy from '@/components/ServicesConsultancy'
 import Blog from '@/components/Blog'
 import CaseStudies from '@/components/CaseStudies'
 import Contact from '@/components/Contact'
+import Method from '@/components/Case-Studies/IndividualCaseStudies/Method'
 
 Vue.use(Router)
 
@@ -64,8 +65,14 @@ export default new Router({
 
     },
     {
+      path: '/case-studies/method',
+      name: 'Method Case Study',
+      component: Method
+    },
+    {
       path: '*',
       component: NotFoundComponent
     }
+
   ]
 })

@@ -1,14 +1,19 @@
 <template>
-  <div class="case-image">
-
+  <div class="method">
+    <MethodHero></MethodHero>
   </div>
 </template>
 
 <script>
+  import MethodHero from './CaseMethod/MethodHero'
+
   export default {
-    name: 'CaseImage',
+    components: {MethodHero},
+    name: 'Method',
     data () {
-      return {}
+      return {
+        msg: 'Welcome to Cyanic'
+      }
     }
   }
 </script>
