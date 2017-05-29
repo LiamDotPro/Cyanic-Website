@@ -4,35 +4,36 @@
       <div class="row">
         <div class="col-lg">
           <icon name="rocket" scale="2"></icon>
-          <h3>Product title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam cumque excepturi in.</p>
+          <h3>Bespoke Systems</h3>
+          <p>We can tailor your needs to one complete bespoke system ideal for your business.</p>
         </div>
         <div class="col-lg">
-          <icon name="rocket" scale="2"></icon>
-          <h3>Product title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam cumque excepturi in.</p>
+          <icon name="paint-brush" scale="2"></icon>
+          <h3>Pixel Perfect Design</h3>
+          <p>Crisp, Sharp and Beautiful Industry standard imagery to represent your brand.</p>
         </div>
         <div class="col-lg">
-          <icon name="rocket" scale="2"></icon>
-          <h3>Product title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam cumque excepturi in.</p>
+          <icon name="cog" scale="2"></icon>
+          <h3>Business Applications</h3>
+          <p>Our Business applications increase your productivity, time to stop wasting time.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg">
-          <icon name="rocket" scale="2"></icon>
-          <h3>Product title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam cumque excepturi in.</p>
+          <icon name="users" scale="2"></icon>
+          <h3>Social Media Experts</h3>
+          <p>Social Media Integration as standard so your customers can find you on multiple platforms.</p>
         </div>
         <div class="col-lg">
-          <icon name="rocket" scale="2"></icon>
-          <h3>Product title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam cumque excepturi in.</p>
+          <icon name="universal-access" scale="2"></icon>
+          <h3>Accessibility</h3>
+          <p>
+            We can make sure all of your customers are receiving the same experience, even if there on Internet Explorer.</p>
         </div>
         <div class="col-lg">
-          <icon name="rocket" scale="2"></icon>
-          <h3>Product title</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam cumque excepturi in.</p>
+          <icon name="line-chart" scale="2"></icon>
+          <h3>SEO</h3>
+          <p>We follow search engine best practices allowing your website to be ranked effectively. </p>
         </div>
       </div>
     </div>
@@ -56,10 +57,11 @@
 
   .icon-table {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     text-align: left;
     color: $mediumGrey;
     background: $primaryWhite;
+    vertical-align: middle;
 
     svg {
       color: $primaryColour;
