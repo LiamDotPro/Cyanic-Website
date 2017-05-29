@@ -19,7 +19,7 @@
     data () {
       return {
         headerText: 'We Measure our success by your success',
-        descriptionText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad atque blanditiis enim, explicabo facilis harum hic id iste minima nam nisi numquam praesentium quaerat quod recusandae sint vel veritatis.'
+        descriptionText: 'We strive to make sure that all our clients projects are masterfully crafted, breath-takingly beautiful and ultimately match the requirements of what they wanted. We go above and beyond to make your dream a reality.'
       }
     }
   }
