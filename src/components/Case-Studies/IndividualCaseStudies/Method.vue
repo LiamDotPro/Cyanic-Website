@@ -1,14 +1,19 @@
 <template>
   <div class="method">
     <MethodHero></MethodHero>
+    <MethodProjectReq></MethodProjectReq>
   </div>
 </template>
 
 <script>
   import MethodHero from './CaseMethod/MethodHero'
+  import MethodProjectReq from './CaseMethod/MethodProjectReq'
 
   export default {
-    components: {MethodHero},
+    components: {
+      MethodHero,
+      MethodProjectReq
+    },
     name: 'Method',
     data () {
       return {
