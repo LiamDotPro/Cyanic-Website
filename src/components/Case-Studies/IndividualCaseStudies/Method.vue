@@ -3,6 +3,7 @@
     <MethodHero></MethodHero>
     <MethodProjectReq></MethodProjectReq>
     <MethodCarousel></MethodCarousel>
+    <MethodFeaturedTable></MethodFeaturedTable>
   </div>
 </template>
 
@@ -10,11 +11,14 @@
   import MethodHero from './CaseMethod/MethodHero'
   import MethodProjectReq from './CaseMethod/MethodProjectReq'
   import MethodCarousel from './CaseMethod/MethodCarousel'
+  import MethodFeaturedTable from './CaseMethod/MethodFeaturedTable'
+
   export default {
     components: {
       MethodHero,
       MethodProjectReq,
-      MethodCarousel
+      MethodCarousel,
+      MethodFeaturedTable
     },
     name: 'Method',
     data () {
