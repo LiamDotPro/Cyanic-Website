@@ -18,6 +18,11 @@ import VueSVGIcon from 'vue-svgicon'
 
 Vue.use(VueSVGIcon)
 
+// Vue Carousel
+import VueCarousel from 'vue-carousel'
+
+Vue.use(VueCarousel)
+
 // Production configure - Set to true for deployment.
 Vue.config.productionTip = false
 

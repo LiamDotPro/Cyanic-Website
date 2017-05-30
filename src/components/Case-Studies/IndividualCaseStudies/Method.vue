@@ -2,17 +2,19 @@
   <div class="method">
     <MethodHero></MethodHero>
     <MethodProjectReq></MethodProjectReq>
+    <MethodCarousel></MethodCarousel>
   </div>
 </template>
 
 <script>
   import MethodHero from './CaseMethod/MethodHero'
   import MethodProjectReq from './CaseMethod/MethodProjectReq'
-
+  import MethodCarousel from './CaseMethod/MethodCarousel'
   export default {
     components: {
       MethodHero,
-      MethodProjectReq
+      MethodProjectReq,
+      MethodCarousel
     },
     name: 'Method',
     data () {
