@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg" v-for="services in tiles">
           <service-tile :title="services.title" :image="services.image"
-                        :desc="services.desc" :key="services.id">
+                        :desc="services.desc" :link="services.link" :key="services.id">
           </service-tile>
         </div>
       </div>

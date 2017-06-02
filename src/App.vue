@@ -26,7 +26,7 @@
   }
 
   #app {
-    @import url('https://fonts.googleapis.com/css?family=Roboto:300;400;700');
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 
     font-family: $fontFamily;
     -webkit-font-smoothing: antialiased;

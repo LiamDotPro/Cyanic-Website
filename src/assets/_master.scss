@@ -9,6 +9,29 @@ $mediumGrey: #5f6b82;
 $darkGrey: #c9b3c1;
 $fontFamily: 'Roboto', sans-serif;
 
+// Outlined Button - Blue Outline
+.btn-outline-primary {
+  color: $primaryColour;
+  background-image: none;
+  background-color: transparent;
+  border-color: $primaryColour;
+  text-transform: uppercase;
+  padding: 0.9rem 1.4rem 0.9rem 1.5rem;
+  cursor: pointer;
+  font-size: 15px;
+
+  svg {
+    margin-left: 10px;
+    margin-top: -4px;
+  }
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:visited {
+  background-color: $primaryColour;
+  color: #fff;
+}
+
+// Outlined Button - White Outline
 .btn-outline-secondary {
   color: #fff;
   background-image: none;
@@ -30,7 +53,7 @@ $fontFamily: 'Roboto', sans-serif;
   border-color: #fff;
 }
 
-.btn-outline-secondary:focus, .btn-outline-secondary.focus {
+.btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-primary:visited {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
