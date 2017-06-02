@@ -18,7 +18,7 @@
           <p>Our Business applications increase your productivity, time to stop wasting time.</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row second-row">
         <div class="col-lg">
           <icon name="users" scale="2"></icon>
           <h3>Social Media Experts</h3>
@@ -69,6 +69,12 @@
 
     h3 {
       color: $primaryColour;
+      padding-top: 5px;
+      font-size: 20px;
+    }
+
+    .second-row {
+      padding-top: 20px;
     }
   }
 

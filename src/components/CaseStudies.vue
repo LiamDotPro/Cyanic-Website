@@ -1,7 +1,7 @@
 <template>
   <div class="case-studies">
     <case-study-hero></case-study-hero>
-    <div class="container-fluid">
+    <div class="container-fluid case-studies-inside">
       <div class="container">
         <CaseStudy v-for="study in studies"
                    v-if="!!(study.id % 2)"
@@ -67,6 +67,15 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
   // Start coding!
+  @import "../assets/master";
 
+  .case-studies {
+    .case-studies-inside {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    background: $primaryDark;
+  }
 
 </style>

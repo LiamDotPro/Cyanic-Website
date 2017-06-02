@@ -56,7 +56,11 @@
   @import "../../assets/_master";
 
   .case-study {
+
+    background: $primaryDark;
+
     .case-study-text {
+      color: $primaryWhite;
       padding-top: 120px;
     }
   }

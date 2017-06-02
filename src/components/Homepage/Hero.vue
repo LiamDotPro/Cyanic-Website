@@ -20,27 +20,30 @@
             </div>
 
             <div class="social-links">
-              <a href="">
+              <a href="" target="_blank">
                 <icon name='facebook' scale="1.5"></icon>
               </a>
-              <a href="">
+              <a href="" target="_blank">
                 <icon name='linkedin' scale="1.5"></icon>
               </a>
-              <a href="">
+              <a href="" target="_blank">
                 <icon name='github' scale="1.5"></icon>
               </a>
-              <a href="">
+              <a href="" target="_blank">
                 <icon name='instagram' scale="1.5"></icon>
+              </a>
+              <a href="" target="_blank">
+                <icon name='twitter' scale="1.5"></icon>
               </a>
             </div>
 
             <!--<div class="hero-bottom-text">-->
-              <!--<div class="hero-bottom-card">-->
-                <!--<h3>Case Study: Method Gaming</h3>-->
-                <!--<h5>-->
-                  <!--We helped Method.gg reach more than 4m people in 2017 by creating and designing a full bespoke system that is now enjoyied by millions of users annually.</h5>-->
-                <!--<router-link to="/case-studies/method">Find out more</router-link>-->
-              <!--</div>-->
+            <!--<div class="hero-bottom-card">-->
+            <!--<h3>Case Study: Method Gaming</h3>-->
+            <!--<h5>-->
+            <!--We helped Method.gg reach more than 4m people in 2017 by creating and designing a full bespoke system that is now enjoyied by millions of users annually.</h5>-->
+            <!--<router-link to="/case-studies/method">Find out more</router-link>-->
+            <!--</div>-->
             <!--</div>-->
           </div>
           <div class="col-xs-6 col-lg-6">
@@ -93,7 +96,7 @@
 
       padding-top: 120px;
       color: $mediumGrey;
-      .hero-bottom-card{
+      .hero-bottom-card {
         border-radius: 4px;
         padding: 20px 10px 20px 10px;
         box-shadow: 0 4px 0 #e1dede;
