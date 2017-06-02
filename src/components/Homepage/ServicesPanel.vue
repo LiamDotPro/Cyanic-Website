@@ -23,19 +23,22 @@
             id: 1,
             image: require('../../assets/img/icon1.png'),
             title: 'Website Development',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit.',
+            link: 'web'
           },
           {
             id: 2,
             image: require('../../assets/img/icon2.png'),
             title: 'Search Engine Optimisation',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit.',
+            link: 'seo'
           },
           {
             id: 3,
             image: require('../../assets/img/icon3.png'),
             title: 'Consulting',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit. Aperiam dicta dolores ea ipsum, maiores, nam possimus quidem reiciendis rerum sapiente vel!'
+            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit.',
+            link: 'consulting'
           }
         ]
       }
@@ -55,7 +58,7 @@
   .Services-panel {
     background: #eff1f2;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
   }
 

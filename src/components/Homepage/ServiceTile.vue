@@ -16,7 +16,7 @@
     data () {
       return {}
     },
-    props: ['image', 'title', 'desc']
+    props: ['image', 'title', 'desc', 'link']
   }
 </script>
 
@@ -29,22 +29,38 @@
   .Service-tile {
     text-align: center;
     background: $primaryWhite;
-    display: block;
-    border-radius: 4px;
-    padding: 20px 40px 20px 40px;
+    display: flex;
+    border-radius: 3px;
+    padding: 20px 30px;
     height: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
 
     h1 {
-      font-size: 26px;
+      font-size: 22px;
       color: $primaryColour;
+      margin: 15px 0;
     }
 
     p {
       color: $mediumGrey;
+      line-height:1.7;
+      font-size:16px;
+    }
+
+    .service-image {
+      flex-direction: column;
+      flex-grow: 1;
+      display: flex;
     }
 
     .service-text {
       margin-bottom: 20px;
+      flex-direction: column;
+      flex-grow: 0;
+      display: flex;
     }
   }
 
