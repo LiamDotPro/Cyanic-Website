@@ -5,7 +5,7 @@
         <div class="col-md-7">
           <div class="cta-text-block">
             <h3>Ready to start working together?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea laboriosam quaerat sequi? Alias pariatur quod veniam. Assumenda, doloremque, voluptatem? Esse excepturi facilis impedit iure nostrum, optio quod saepe sint.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea laboriosam quaerat sequi? Alias pariatur quod veniam.</p>
             <router-link to="/contact">
               <button type="button" class="btn btn-outline-secondary">
                 Send us a message
@@ -48,7 +48,7 @@
 
       p {
         line-height: 1.7;
-        font-size: 16px;
+        font-size: 18px;
       }
     }
 

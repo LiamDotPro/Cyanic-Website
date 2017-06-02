@@ -51,7 +51,7 @@
     text-align: left;
     color: $darkGrey;
     background: $primaryWhite;
-    border-top: #d7d9db 1px solid;
+    border-top: #efefef 1px solid;
 
     .social-icons-text {
       text-align: center;
