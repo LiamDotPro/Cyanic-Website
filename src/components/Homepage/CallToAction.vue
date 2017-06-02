@@ -1,11 +1,22 @@
 <template>
   <div class="CallToAction">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-lg-12">
-            <h1>Call to Action!</h1>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <div class="cta-text-block">
+            <h3>Ready to start working together?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea laboriosam quaerat sequi? Alias pariatur quod veniam. Assumenda, doloremque, voluptatem? Esse excepturi facilis impedit iure nostrum, optio quod saepe sint.</p>
+            <router-link to="/contact">
+              <button type="button" class="btn btn-outline-secondary">
+                Send us a message
+                <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+              </button>
+            </router-link>
           </div>
+
+        </div>
+        <div class="col-md-5 text-right hidden-xs">
+          <icon name="paper-plane" scale="15"></icon>
         </div>
       </div>
     </div>
@@ -25,18 +36,19 @@
 
 <style lang="scss" scoped>
   // Start coding!
-
   @import "../../assets/master";
 
   .CallToAction {
+    text-align: left;
+    background-color: $primaryColour;
 
-    .container-fluid {
+    .cta-text-block {
+      padding-top: 80px;
+      padding-bottom: 80px;
 
-      background-color: $secondaryColour;
-
-      .container {
-        padding-top: 100px;
-        padding-bottom: 100px;
+      p {
+        line-height: 1.7;
+        font-size: 16px;
       }
     }
 

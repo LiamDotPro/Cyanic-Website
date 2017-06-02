@@ -8,3 +8,17 @@ $lightGrey: #d7d9db;
 $mediumGrey: #5f6b82;
 $darkGrey: #c9b3c1;
 $fontFamily: 'Roboto', sans-serif;
+
+.btn-outline-secondary {
+  color: #fff;
+  background-image: none;
+  background-color: transparent;
+  border-color: #fff;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn-outline-secondary:hover {
+  background-color: $secondaryColour;
+}
