@@ -28,7 +28,7 @@
           <icon name="universal-access" scale="2"></icon>
           <h3>Accessibility</h3>
           <p>
-            We can make sure all of your customers are receiving the same experience, even if there on Internet Explorer.</p>
+            We ensure all of your customers are receiving the same experience, even if there on IE.</p>
         </div>
         <div class="col-lg">
           <icon name="line-chart" scale="2"></icon>
