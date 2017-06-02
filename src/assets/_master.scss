@@ -9,6 +9,12 @@ $mediumGrey: #5f6b82;
 $darkGrey: #c9b3c1;
 $fontFamily: 'Roboto', sans-serif;
 
+
+// global overrides for the bootstrap h tags
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 300;
+}
+
 // Outlined Button - Blue Outline
 .btn-outline-primary {
   color: $primaryColour;
