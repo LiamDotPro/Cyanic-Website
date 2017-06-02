@@ -73,7 +73,7 @@
     }
 
     .row {
-      padding: 10px 10px;
+      padding: 10px 0 10px 0;
     }
 
     .copyright-text {
