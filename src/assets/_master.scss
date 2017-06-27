@@ -55,8 +55,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .btn-outline-secondary:hover {
-  background-color: $secondaryColour;
+  background-color: #fff;
   border-color: #fff;
+  color: #027ef1;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-primary:visited {

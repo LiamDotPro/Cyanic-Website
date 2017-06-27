@@ -2,51 +2,53 @@
   <div class="hero">
     <div class="container-fluid">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-lg-6 text-left">
-            <h1>{{header}}</h1>
-            <p>
-              Were a youthful and rebellious web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
-            </p>
+        <div class="row align-items-center">
+          <div class="col-xs-6 col-lg-7 text-left">
+            <div class="hero-text-block">
+              <h1>{{header}}</h1>
+              <p>
+                Were a youthful and rebellious web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
+              </p>
 
-            <div class="hero-button">
-              <router-link to="/case-studies/method">
-                <button type="button" class="btn btn-outline-secondary">
-                  How Were Empowering Global Brands
-                  <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
-                </button>
-              </router-link>
+              <div class="hero-button">
+                <router-link to="/case-studies/method">
+                  <button type="button" class="btn btn-outline-secondary">
+                    How we Empower Brands
+                    <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+                  </button>
+                </router-link>
 
+              </div>
+
+              <div class="social-links">
+                <a href="" target="_blank">
+                  <icon name='facebook' scale="1.5"></icon>
+                </a>
+                <a href="" target="_blank">
+                  <icon name='linkedin' scale="1.5"></icon>
+                </a>
+                <a href="" target="_blank">
+                  <icon name='github' scale="1.5"></icon>
+                </a>
+                <a href="" target="_blank">
+                  <icon name='instagram' scale="1.5"></icon>
+                </a>
+                <a href="" target="_blank">
+                  <icon name='twitter' scale="1.5"></icon>
+                </a>
+              </div>
+
+              <!--<div class="hero-bottom-text">-->
+              <!--<div class="hero-bottom-card">-->
+              <!--<h3>Case Study: Method Gaming</h3>-->
+              <!--<h5>-->
+              <!--We helped Method.gg reach more than 4m people in 2017 by creating and designing a full bespoke system that is now enjoyied by millions of users annually.</h5>-->
+              <!--<router-link to="/case-studies/method">Find out more</router-link>-->
+              <!--</div>-->
+              <!--</div>-->
             </div>
-
-            <div class="social-links">
-              <a href="" target="_blank">
-                <icon name='facebook' scale="1.5"></icon>
-              </a>
-              <a href="" target="_blank">
-                <icon name='linkedin' scale="1.5"></icon>
-              </a>
-              <a href="" target="_blank">
-                <icon name='github' scale="1.5"></icon>
-              </a>
-              <a href="" target="_blank">
-                <icon name='instagram' scale="1.5"></icon>
-              </a>
-              <a href="" target="_blank">
-                <icon name='twitter' scale="1.5"></icon>
-              </a>
-            </div>
-
-            <!--<div class="hero-bottom-text">-->
-            <!--<div class="hero-bottom-card">-->
-            <!--<h3>Case Study: Method Gaming</h3>-->
-            <!--<h5>-->
-            <!--We helped Method.gg reach more than 4m people in 2017 by creating and designing a full bespoke system that is now enjoyied by millions of users annually.</h5>-->
-            <!--<router-link to="/case-studies/method">Find out more</router-link>-->
-            <!--</div>-->
-            <!--</div>-->
           </div>
-          <div class="col-xs-6 col-lg-6">
+          <div class="col-xs-6 col-lg-5">
             <img class="img-responsive" src="../../assets/img/feature-framework-img.png" alt="">
           </div>
         </div>
@@ -72,24 +74,17 @@
   @import "../../assets/master";
 
   .hero {
+    background: $primaryColour;
 
     h1 {
-      font-size: 50px;
+      font-size: 30px;
     }
 
     p {
       padding-top: 10px;
-    }
-
-    .container-fluid {
-
-      background: $primaryColour;
-
-      .container {
-        padding-top: 100px;
-        padding-bottom: 60px;
-
-      }
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 25px;
     }
 
     .hero-bottom-text {
@@ -116,9 +111,34 @@
     .social-links {
       padding: 15px 0 15px 0;
 
+      a {
+        display: inline-block;
+        padding: 0;
+        background: rgba(0, 0, 0, 0.05);
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+        border-radius: 100px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+
       svg {
-        color: $primaryWhite;
-        margin-right: 10px;
+        color: rgba(255, 255, 255, 0.8);
+        vertical-align: middle;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    .social-links a:hover {
+      background: rgba(0, 0, 0, 0.1);
+      svg {
+        color: #fff;
       }
     }
 
@@ -136,7 +156,12 @@
     }
 
     .btn-outline-secondary:hover {
-      background: $secondaryColour;
+      background: #fff;
+      color: $primaryColour;
+    }
+    .btn-outline-secondary:hover svg {
+      color: $primaryColour;
+      fill: $primaryColour;
     }
 
     .btn-outline-secondary:focus {

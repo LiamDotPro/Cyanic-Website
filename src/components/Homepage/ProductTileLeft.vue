@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg product-tile-text">
-          <h1>Connecting you with potential customers</h1>
+          <h3>Connecting you with potential customers</h3>
           <p>
             One of our core aims is to engage as many of your users as possible, creating positive user experiences which maximize your online presence. We've already helped brands reach millions of potential customers.
           </p>
@@ -13,14 +13,14 @@
           <div class="row small-card-row">
             <div class="col-md small-card">
               <icon name="wrench" scale="5"></icon>
-              <h3>Bespoke Solutions</h3>
+              <h4>Bespoke Solutions</h4>
               <p>
                 We create bespoke web experiences tailored to meet the needs of your business utilizing the best possible technology.
               </p>
             </div>
             <div class="col-md small-card">
               <icon name="heart" scale="5"></icon>
-              <h3>Client Satisfaction</h3>
+              <h4>Client Satisfaction</h4>
               <p>
                 We take your opinions seriously. As the owner or creator of a brand you can be assured we have your core principles at heart.
               </p>
@@ -32,13 +32,13 @@
           <div class="row">
             <div class="col-lg">
               <div class="metric-tile">
-                <h3>Sessions</h3>
+                <h4>Sessions</h4>
                 <p>1,051,293</p>
               </div>
             </div>
             <div class="col-lg">
               <div class="metric-tile">
-                <h3>Pageviews</h3>
+                <h4>Pageviews</h4>
                 <p>2,177,895</p>
               </div>
             </div>
@@ -79,7 +79,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
 
-    h1 {
+    h3 {
       color: $primaryColour;
     }
 
@@ -87,13 +87,14 @@
       color: $mediumGrey;
     }
 
-    h3 {
+    h4 {
       color: $primaryColour;
+      font-size: 18px;
     }
 
     .small-card {
 
-      h3 {
+      h4 {
         z-index: 2;
         position: relative;
         font-size: 20px;
@@ -111,12 +112,13 @@
         right: 0;
         z-index: 1;
         opacity: 0.7;
+        top: -10px;
       }
 
     }
 
     .product-tile-text {
-      padding-top: 100px;
+
     }
 
     .small-card-row {

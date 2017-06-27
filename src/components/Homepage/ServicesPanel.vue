@@ -56,7 +56,13 @@
   @import "../../assets/master";
 
   .Services-panel {
-    background: #eff1f2;
+    background: -webkit-gradient(linear, left top, right top, from(#027ef1), to(#0173dd));
+    background: -webkit-linear-gradient(top, #027ef1, #0173dd);
+    background: -moz-linear-gradient(top, #027ef1, #0173dd);
+    background: -o-linear-gradient(top, #027ef1, #0173dd);
+    background: -ms-linear-gradient(top, #027ef1, #0173dd);
+    background: linear-gradient(top, #027ef1, #0173dd);
+    background-color: #027ef1;
     padding-top: 50px;
     padding-bottom: 50px;
 

@@ -7,11 +7,11 @@
       <h1>{{title}}</h1>
       <p>{{desc}}</p>
     </div>
-    <router-link :to="link">
-      <button type="button" class="btn btn-service">
-        Read More
-      </button>
-    </router-link>
+    <!--<router-link :to="link">-->
+      <!--<button type="button" class="btn btn-service">-->
+        <!--Read More-->
+      <!--</button>-->
+    <!--</router-link>-->
   </div>
 </template>
 

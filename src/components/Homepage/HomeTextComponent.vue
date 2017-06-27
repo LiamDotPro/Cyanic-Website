@@ -1,12 +1,10 @@
 <template>
   <div class="home-text-component">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1>{{headerText}}</h1>
-            <h3>{{descriptionText}}</h3>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>{{headerText}}</h2>
+          <p>{{descriptionText}}</p>
         </div>
       </div>
     </div>
@@ -32,18 +30,16 @@
   @import "../../assets/master";
 
   .home-text-component {
-
-    padding-top: 50px;
-    padding-bottom: 30px;
-
     background: $primaryWhite;
+    padding: 60px;
 
-    h1 {
+    h2 {
       color: $primaryColour;
       font-size: 36px;
+      margin-top: 20px;
     }
 
-    h3 {
+    p {
       color: $mediumGrey;
       font-size: 20px;
     }

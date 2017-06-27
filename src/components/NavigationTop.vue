@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="main-header">
     <div class="container">
       <div class="NavigationTop">
         <nav class="navbar navbar-toggleable-md navbar-transparent">
@@ -10,38 +10,30 @@
           </button>
           <router-link class="navbar-brand" to="/" exact="/"><img src="../assets/img/cyanic.png"
                                                                   alt="Cyanic Web Development Logo"></router-link>
-
           <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <router-link class="nav-link" to="/home" exact="/home">Home</router-link>
-              </li>
-
-
-              <li class="nav-item">
-                <router-link class="nav-link" to="/case-studies">Case Studies</router-link>
-              </li>
-
-              <li class="nav-item">
-                <router-link class="nav-link" to="/blog">Blog</router-link>
-              </li>
-
-              <b-nav-item-dropdown right-alignment>
-
-                <!-- Using text slot -->
-                <template slot="text">
-                  <span>Services</span>
-                </template>
-
-                <b-dropdown-item to="/web">Web</b-dropdown-item>
-                <b-dropdown-item to="/seo">Seo</b-dropdown-item>
-                <b-dropdown-item to="/consultancy">Consultancy</b-dropdown-item>
-              </b-nav-item-dropdown>
-
-              <li class="nav-item">
-                <router-link class="nav-link" to="/contact">Contact</router-link>
-              </li>
-            </ul>
+            <!--<ul class="navbar-nav ml-auto">-->
+              <!--<li class="nav-item">-->
+                <!--<router-link class="nav-link" to="/home" exact="/home">Home</router-link>-->
+              <!--</li>-->
+              <!--&lt;!&ndash;<li class="nav-item">&ndash;&gt;-->
+                <!--&lt;!&ndash;<router-link class="nav-link" to="/case-studies">Case Studies</router-link>&ndash;&gt;-->
+              <!--&lt;!&ndash;</li>&ndash;&gt;-->
+              <!--&lt;!&ndash;<li class="nav-item">&ndash;&gt;-->
+                <!--&lt;!&ndash;<router-link class="nav-link" to="/blog">Blog</router-link>&ndash;&gt;-->
+              <!--&lt;!&ndash;</li>&ndash;&gt;-->
+              <!--<b-nav-item-dropdown right-alignment>-->
+                <!--&lt;!&ndash; Using text slot &ndash;&gt;-->
+                <!--<template slot="text">-->
+                  <!--<span>Services</span>-->
+                <!--</template>-->
+                <!--<b-dropdown-item to="/web">Web</b-dropdown-item>-->
+                <!--&lt;!&ndash;<b-dropdown-item to="/seo">Seo</b-dropdown-item>&ndash;&gt;-->
+                <!--&lt;!&ndash;<b-dropdown-item to="/consultancy">Consultancy</b-dropdown-item>&ndash;&gt;-->
+              <!--</b-nav-item-dropdown>-->
+              <!--<li class="nav-item">-->
+                <!--<router-link class="nav-link" to="/contact">Contact</router-link>-->
+              <!--</li>-->
+            <!--</ul>-->
 
           </div>
         </nav>
@@ -81,7 +73,10 @@
     font-family: $fontFamily;
     padding-top: 20px;
   }
-
+  .main-header {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background: #027ef1;
+  }
   nav {
     padding-left: 0;
     padding-right: 0;
