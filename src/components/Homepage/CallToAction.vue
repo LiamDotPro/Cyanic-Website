@@ -5,13 +5,14 @@
         <div class="col-md-7">
           <div class="cta-text-block">
             <h3>Ready to start working together?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea laboriosam quaerat sequi? Alias pariatur quod veniam.</p>
-            <router-link to="/contact">
+            <p>
+              We're excited to hear all the ideas you have about your next project! lets get a conversation started..</p>
+            <a href="mailto:contact@cyanic.io">
               <button type="button" class="btn btn-outline-secondary">
                 Send us a message
                 <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
               </button>
-            </router-link>
+            </a>
           </div>
 
         </div>
