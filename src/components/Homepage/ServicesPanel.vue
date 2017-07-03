@@ -23,21 +23,21 @@
             id: 1,
             image: require('../../assets/img/icon1.png'),
             title: 'Website Development',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit.',
+            desc: 'We specialise in creating websites for business and personal branding, utilising some of newest and freshest technologies.',
             link: 'web'
           },
           {
             id: 2,
             image: require('../../assets/img/icon2.png'),
             title: 'Search Engine Optimisation',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit.',
+            desc: 'We can help your website be seen by more people by creating content and further optimising your website to rank you higher in google.',
             link: 'seo'
           },
           {
             id: 3,
             image: require('../../assets/img/icon3.png'),
             title: 'Consulting',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda delectus eaque libero minus non praesentium reprehenderit.',
+            desc: 'Need to improve an existing platform or service your provide? we have the knowledge to steer your web projects in the right direction.',
             link: 'consulting'
           }
         ]
