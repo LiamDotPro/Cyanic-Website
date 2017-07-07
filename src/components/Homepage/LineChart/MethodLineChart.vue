@@ -23,8 +23,4 @@
   // Master Variable / Mixins Import
   @import "../../../assets/_master";
 
-  .method-line-chart {
-    padding-top: 100px;
-
-  }
 </style>

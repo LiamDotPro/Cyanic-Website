@@ -5,10 +5,8 @@ import NotFoundComponent from '@/components/NotFoundComponent'
 import ServicesWeb from '@/components/ServicesWeb'
 import ServicesSeo from '@/components/ServicesSeo'
 import ServicesConsultancy from '@/components/ServicesConsultancy'
-import Blog from '@/components/Blog'
-import CaseStudies from '@/components/CaseStudies'
 import Contact from '@/components/Contact'
-import Method from '@/components/Case-Studies/IndividualCaseStudies/Method'
+import Portfolio from '@/components/Portfolio'
 
 Vue.use(Router)
 
@@ -47,27 +45,15 @@ export default new Router({
 
     },
     {
-      path: '/case-studies',
-      name: 'Case Studies',
-      component: CaseStudies
-
-    },
-    {
-      path: '/blog',
-      name: 'Blog',
-      component: Blog
-
+      path: '/portfolio',
+      name: 'portfolio',
+      component: Portfolio
     },
     {
       path: '/contact',
       name: 'Contact',
       component: Contact
 
-    },
-    {
-      path: '/case-studies/method',
-      name: 'Method Case Study',
-      component: Method
     },
     {
       path: '*',
@@ -79,7 +65,7 @@ export default new Router({
     if (savedPosition) {
       return savedPosition
     } else {
-      return { x: 0, y: 0 }
+      return {x: 0, y: 0}
     }
   }
 })

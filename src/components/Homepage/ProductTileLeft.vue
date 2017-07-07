@@ -44,8 +44,6 @@
             </div>
           </div>
           <h5>Analytics kindly provided by <a href="https://method.gg">Method.gg</a>
-            to learn more the case study can be found
-            <router-link to="/case-studies/method">here</router-link>
           </h5>
         </div>
       </div>

@@ -11,7 +11,7 @@
               </p>
 
               <div class="hero-button">
-                <router-link to="/case-studies/method">
+                <router-link to="/portfolio">
                   <button type="button" class="btn btn-outline-secondary">
                     How we Empower Brands
                     <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
