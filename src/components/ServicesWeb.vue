@@ -1,13 +1,21 @@
 <template>
   <div class="services-web">
     <web-hero></web-hero>
+    <web-intro></web-intro>
+    <web-process></web-process>
   </div>
 </template>
 
 <script>
   import WebHero from './Web/WebHero'
+  import WebIntro from './Web/WebIntro'
+  import WebProcess from './Web/WebProcess'
   export default {
-    components: {WebHero},
+    components: {
+      WebProcess,
+      WebIntro,
+      WebHero
+    },
     name: 'ServicesWeb',
     data () {
       return {
