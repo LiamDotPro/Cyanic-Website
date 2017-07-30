@@ -1,12 +1,12 @@
 <template>
-  <div class="insert-component-name">
+  <div class="business">
 
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Consultancy',
+    name: 'Business',
     data () {
       return {
         msg: 'Welcome to Cyanic'
@@ -15,9 +15,11 @@
   }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style lang="scss" scoped>
   // Start coding!
+  // Master Variable / Mixins Import
+  @import "../assets/master";
 
 
 </style>

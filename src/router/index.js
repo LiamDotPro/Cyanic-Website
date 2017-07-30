@@ -2,11 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
 import NotFoundComponent from '@/components/NotFoundComponent'
-import ServicesWeb from '@/components/ServicesWeb'
-import ServicesSeo from '@/components/ServicesSeo'
-import ServicesConsultancy from '@/components/ServicesConsultancy'
 import Contact from '@/components/Contact'
 import Portfolio from '@/components/Portfolio'
+import Business from '@/components/Business'
+import PrivateInvestigation from '@/components/PrivateInvestigation'
 
 Vue.use(Router)
 
@@ -27,27 +26,19 @@ export default new Router({
 
     },
     {
-      path: '/web',
-      name: 'Web Services',
-      component: ServicesWeb
-
-    },
-    {
-      path: '/seo',
-      name: 'Search Engine Optimization',
-      component: ServicesSeo
-
-    },
-    {
-      path: '/consultancy',
-      name: 'Consultancy',
-      component: ServicesConsultancy
-
-    },
-    {
       path: '/portfolio',
       name: 'portfolio',
       component: Portfolio
+    },
+    {
+      path: '/business',
+      name: 'business',
+      component: Business
+    },
+    {
+      path: '/private-investigation',
+      name: 'business',
+      component: PrivateInvestigation
     },
     {
       path: '/contact',

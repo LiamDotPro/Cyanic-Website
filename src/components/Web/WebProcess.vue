@@ -35,7 +35,7 @@
         </div>
         <div class="col-lg-8">
           <p>
-            At this stage of the project we look to 
+            At this stage of the project we look to
           </p>
         </div>
       </div>
