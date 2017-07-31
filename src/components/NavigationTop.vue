@@ -8,18 +8,18 @@
                   aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <router-link class="navbar-brand" to="/" exact="/"><img src="../assets/img/cyanic.png"
+          <router-link class="navbar-brand" to="/"><img src="../assets/img/cyanic.png"
                                                                   alt="Cyanic Web Development Logo"></router-link>
           <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <router-link class="nav-link" to="/home" exact="/home">Home</router-link>
+                <router-link class="nav-link" to="/home">Home</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/business">Business</router-link>
               </li>
               <li class="nav-item">
-              <router-link class="nav-link" to="/private-investigation">Private Investigation</router-link>
+                <router-link class="nav-link" to="/private-investigation">Private Investigation</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/portfolio">Portfolio</router-link>

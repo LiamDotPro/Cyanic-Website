@@ -37,7 +37,7 @@ export default new Router({
     },
     {
       path: '/private-investigation',
-      name: 'business',
+      name: 'Private Investigation',
       component: PrivateInvestigation
     },
     {
