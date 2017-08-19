@@ -53,11 +53,26 @@
               <transition name="slide-fade2" appear>
                 <img class="img-fluid toplayer" src="../../assets/img/topLayer.png" alt="">
               </transition>
-              <transition  name="slide-fade1" appear>
+              <transition name="slide-fade1" appear>
                 <img class="img-fluid midlayer" src="../../assets/img/middleLayer.png" alt="">
               </transition>
               <transition name="slide-fade" appear>
                 <img class="img-fluid bottomlayer" src="../../assets/img/bottomLayer.png" alt="">
+              </transition>
+              <transition name="slide-up" appear>
+                <img class="img-fluid image-form" src="../../assets/img/insideForm.png">
+              </transition>
+              <transition name="slide-right" appear>
+                <img class="img-fluid typebar" src="../../assets/img/typeBar.png">
+              </transition>
+              <transition name="fade-in1" appear>
+                <img class="img-fluid leftForward" src="../../assets/img/wordForward.png">
+              </transition>
+              <transition name="fade-in" appear>
+                <img class="img-fluid leftForward" src="../../assets/img/wordBack.png">
+              </transition>
+              <transition name="grow-in" appear>
+                <img class="img-fluid leftForward" src="../../assets/img/formIcons.png">
               </transition>
             </div>
           </div>
@@ -89,7 +104,8 @@
   }
 
   .slide-fade-enter, .slide-fade-leave-to
-    /* .slide-fade-leave-active below version 2.1.8 */ {
+    /* .slide-fade-leave-active below version 2.1.8 */
+  {
     transform: translateX(10px);
     opacity: 0;
   }
@@ -98,8 +114,10 @@
     transition: all 1s ease;
     transition-delay: 0.5s;
   }
+
   .slide-fade1-enter, .slide-fade1-leave-to
-    /* .slide-fade-leave-active below version 2.1.8 */ {
+    /* .slide-fade-leave-active below version 2.1.8 */
+  {
     transform: translateX(10px);
     opacity: 0;
   }
@@ -110,8 +128,57 @@
   }
 
   .slide-fade2-enter, .slide-fade2-leave-to
-    /* .slide-fade-leave-active below version 2.1.8 */ {
+    /* .slide-fade-leave-active below version 2.1.8 */
+  {
     transform: translateX(10px);
+    opacity: 0;
+  }
+
+  .slide-up-enter-active {
+    transition: all 1s ease;
+    transition-delay: 1.5s;
+  }
+
+  .slide-up-enter, .slide-up-leave-to {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  .slide-right-enter-active {
+    transition: all 1s ease;
+    transition-delay: 1.8s;
+  }
+
+  .slide-right-enter, .slide-right-leave-to {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  .fade-in-enter-active {
+    transition: all 0.5s ease;
+    transition-delay: 2.3s;
+  }
+
+  .fade-in-enter, .fade-in-leave-to {
+    opacity: 0;
+  }
+
+  .fade-in1-enter-active {
+    transition: all 2s ease;
+    transition-delay: 3s;
+  }
+
+  .fade-in1-enter, .fade-in-leave-to {
+    opacity: 0;
+  }
+
+  .grow-in-enter-active {
+    transition: all 1s ease;
+    transition-delay: 3.5s;
+  }
+
+  .grow-in-enter, .grow-in-leave-to {
+    transform: scale(0);
     opacity: 0;
   }
 
@@ -216,6 +283,46 @@
       }
     }
 
+  }
+
+  .leftForward {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 40;
+  }
+
+  .rightForward {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 40;
+  }
+
+  .typebar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 40;
+  }
+
+  .image-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 40;
   }
 
   .toplayer {
