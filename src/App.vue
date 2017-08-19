@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <NavigationTop></NavigationTop>
-    <router-view></router-view>
+    <transition name="bounce"
+                enterActiveClass="bounceInLeft"
+                leaveActiveClass="bounceOutRight">
+      <router-view></router-view>
+    </transition>
     <signature-footer></signature-footer>
   </div>
 </template>
@@ -31,7 +35,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: $primaryWhite;
-    background: $lightGrey;
+    background: $primaryColour;
     font-weight: 300;
 
     button, input, optgroup, select, textarea {

@@ -44,6 +44,8 @@ Vue.component('BottomFooter', BottomFooter)
 Vue.component('NotFoundComponent', NotFoundComponent)
 Vue.component('SignatureFooter', SignatureFooter)
 
+import 'vue2-animate/dist/vue2-animate.css'
+
 // Begin routing store to our application
 import store from './store'
 

@@ -49,7 +49,17 @@
             </div>
           </div>
           <div class="col-xs-6 col-lg-5">
-            <img class="img-responsive" src="../../assets/img/feature-framework-img.png" alt="">
+            <div class="anim-box">
+              <transition name="slide-fade2" appear>
+                <img class="img-fluid toplayer" src="../../assets/img/topLayer.png" alt="">
+              </transition>
+              <transition  name="slide-fade1" appear>
+                <img class="img-fluid midlayer" src="../../assets/img/middleLayer.png" alt="">
+              </transition>
+              <transition name="slide-fade" appear>
+                <img class="img-fluid bottomlayer" src="../../assets/img/bottomLayer.png" alt="">
+              </transition>
+            </div>
           </div>
         </div>
       </div>
@@ -72,6 +82,38 @@
 <style lang="scss" scoped>
   // Start coding!
   @import "../../assets/master";
+
+  .slide-fade-enter-active {
+    transition: all 0.5s ease;
+    transition-delay: 0s;
+  }
+
+  .slide-fade-enter, .slide-fade-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+
+  .slide-fade1-enter-active {
+    transition: all 1s ease;
+    transition-delay: 0.5s;
+  }
+  .slide-fade1-enter, .slide-fade1-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+
+  .slide-fade2-enter-active {
+    transition: all 1s ease;
+    transition-delay: 1s;
+  }
+
+  .slide-fade2-enter, .slide-fade2-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
 
   .hero {
     background: $primaryColour;
@@ -175,5 +217,46 @@
     }
 
   }
+
+  .toplayer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 30;
+  }
+
+  .midlayer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 20;
+  }
+
+  .bottomlayer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 10;
+  }
+
+  .anim-box {
+    position: relative;
+    margin-top: 60px;
+    height: 475px;
+  }
+
+  .hero-text-block {
+    margin-top: 80px;
+  }
+
 
 </style>
