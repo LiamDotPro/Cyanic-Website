@@ -3,7 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg">
-          <img src="../../assets/img/phone-block.png" alt="Product tile 1">
+          <div>
+            <h2>100k</h2>
+          </div>
+          <img class="img-fluid" src="../../assets/img/mobile.png" alt="Product tile 1">
         </div>
         <div class="col-lg product-tile-text">
           <h1>We've got the right skill set to get things done</h1>
@@ -29,10 +32,10 @@
       return {
         images: [
           {
-            id: 1, name: 'VueJs', src: require('../../assets/img/tech-logos/vue.png')
+            id: 1, name: 'Vue', src: require('../../assets/img/tech-logos/vue.png')
           },
           {
-            id: 2, name: 'NodeJs', src: require('../../assets/img/tech-logos/node.png')
+            id: 2, name: 'Node', src: require('../../assets/img/tech-logos/node.png')
           },
           {
             id: 3, name: 'Socket.Io', src: require('../../assets/img/tech-logos/socketio.png')
@@ -42,6 +45,9 @@
           },
           {
             id: 5, name: 'Wordpress', src: require('../../assets/img/tech-logos/wordpress.png')
+          },
+          {
+            id: 6, name: 'And Many More..', src: require('../../assets/img/tech-logos/plusOne.png')
           }
         ]
       }
@@ -79,7 +85,7 @@
     }
 
     .product-tile-text {
-      padding-top: 100px;
+      padding-top: 160px;
     }
   }
 
