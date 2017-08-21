@@ -4,18 +4,18 @@
       <div class="row">
         <div class="col-12">
           <div class="row" v-for="services in tiles">
-            <div class="col-6">
+            <div class="col-8">
               <service-tile :title="services.title" :image="services.image"
                             :desc="services.desc" :link="services.link" :key="services.id">
               </service-tile>
             </div>
-            <div class="col-6">
+            <div class="col-4">
               <div class="line-col-horizontal"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="line-wrap col-6">
+      <div class="line-wrap col-4">
         <div class="line-col"></div>
       </div>
     </div>
@@ -31,21 +31,21 @@
         tiles: [
           {
             id: 1,
-            image: require('../../assets/img/icon1.png'),
+            image: require('../../assets/img/top-side-images/web-development/desktop-illu.png'),
             title: 'Website Development',
             desc: 'We specialise in creating websites for business and personal branding, utilising some of newest and freshest technologies.',
             link: 'web'
           },
           {
             id: 2,
-            image: require('../../assets/img/icon2.png'),
+            image: require('../../assets/img/top-side-images/web-development/desktop-illu.png'),
             title: 'Search Engine Optimisation',
             desc: 'We can help your website be seen by more people by creating content and further optimising your website to rank you higher in google.',
             link: 'seo'
           },
           {
             id: 3,
-            image: require('../../assets/img/icon3.png'),
+            image: require('../../assets/img/top-side-images/web-development/desktop-illu.png'),
             title: 'Branding & Graphical Design',
             desc: 'Need to improve an existing platform or service your provide? we have the knowledge to steer your web projects in the right direction.',
             link: 'consulting'
@@ -75,17 +75,21 @@
     overflow: hidden;
 
     .line-col-horizontal {
-      height: 2px;
+      height: 10px;
       width: 50%;
       position: absolute;
       top: 50%;
-      left:0;
-      margin-bottom: 7px;
-      border-top: 15px dotted #2090f6;
+      left: 0;
+      border-top: 10px dotted #2090f6;
+      -webkit-transform: translate(40px,-5px);
+      transform: translate(40px,-5px);
     }
 
     .line-wrap {
       position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
 
       .line-col {
         width: 2px;
@@ -94,7 +98,7 @@
         left: 50%;
         display: block;
         margin-left: 40px;
-        border-left: 15px dotted #2090f6;
+        border-left: 10px dotted #2090f6;
         margin-top: -160px;
       }
     }

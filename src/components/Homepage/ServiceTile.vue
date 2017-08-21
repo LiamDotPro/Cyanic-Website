@@ -46,7 +46,7 @@
     }
 
     .service-image {
-      display: none;
+      /*display: none;*/
     }
 
     .btn-service {
