@@ -5,7 +5,7 @@
     <HomeTextComponent></HomeTextComponent>
     <product-tile-left></product-tile-left>
     <product-tile-right></product-tile-right>
-    <icon-table></icon-table>
+    <!--<icon-table></icon-table>-->
     <CallToAction></CallToAction>
   </div>
 </template>

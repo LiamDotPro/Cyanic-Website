@@ -2,7 +2,7 @@
   <div class="CallToAction">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-7">
+        <div class="col-md-12 text-center">
           <div class="cta-text-block">
             <h3>Ready to start working together?</h3>
             <p>
@@ -16,9 +16,9 @@
           </div>
 
         </div>
-        <div class="col-md-5 text-right hidden-xs">
-          <icon name="paper-plane" scale="15"></icon>
-        </div>
+        <!--<div class="col-md-5 text-right hidden-xs">-->
+          <!--<icon name="paper-plane" scale="15"></icon>-->
+        <!--</div>-->
       </div>
     </div>
   </div>

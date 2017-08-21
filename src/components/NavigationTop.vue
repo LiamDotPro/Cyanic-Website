@@ -11,15 +11,18 @@
           <router-link class="navbar-brand" to="/"><img src="../assets/img/cyanic.png"
                                                                   alt="Cyanic Web Development Logo"></router-link>
           <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto main-links">
               <li class="nav-item">
                 <router-link class="nav-link" to="/home">Home</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/business">Business</router-link>
               </li>
+              <!--<li class="nav-item">-->
+                <!--<router-link class="nav-link" to="/private-investigation">Private Investigation</router-link>-->
+              <!--</li>-->
               <li class="nav-item">
-                <router-link class="nav-link" to="/private-investigation">Private Investigation</router-link>
+                <router-link class="nav-link" to="/esports">Esports</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
@@ -69,8 +72,12 @@
   }
 
   .main-header {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
     background: #027ef1;
+
+    .main-links {
+      margin-top: -15px;
+    }
   }
 
   nav {
@@ -79,8 +86,10 @@
   }
 
   .nav-link {
-    color: $primaryWhite;
-    opacity: 0.7;
+    color: #fff;
+    opacity: 1;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .router-link-active {

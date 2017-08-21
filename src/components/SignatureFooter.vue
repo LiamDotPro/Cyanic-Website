@@ -2,10 +2,12 @@
   <div class="signature-footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs col-lg-4 team-text">
-          <span class=""> © 2017 Cyanic Solutions </span>
+        <div class="col-5">
+
         </div>
-        <div class="col-xs col-lg-4 social-icons-text">
+      </div>
+      <div class="row">
+        <div class="col-12 social-icons-text">
           <a href="" target="_blank">
             <icon name="facebook"></icon>
           </a>
@@ -21,15 +23,9 @@
           <a href="" target="_blank">
             <icon name="twitter"></icon>
           </a>
-
         </div>
-        <div class="col-xs col-lg copyright-text float-right">
-          <div class="float-right">
-            <icon name="paint-brush" scale="0.9"></icon>
-            +
-            <icon name="code"></icon>
-            <span>The Cyanic Team</span>
-          </div>
+        <div class="col-12 text-center">
+          <span class="copyright-text"> © 2017 Cyanic Solutions </span>
         </div>
       </div>
     </div>
@@ -53,12 +49,12 @@
 
   .signature-footer {
     text-align: left;
-    color: $darkGrey;
-    background: $primaryWhite;
-
-    .container {
-      border-top: #efefef 1px solid;
-    }
+    color: #fff;
+    background: $darkBlue;
+    box-shadow: inset 0 5px 15px rgba(0,0,0,0.05);
+    padding: 80px 0;
+    text-align: left;
+    /*border-top: 1px solid #1f84e3;*/
 
     .social-icons-text {
       text-align: center;
@@ -67,7 +63,7 @@
         margin-left: 2px;
         margin-right: 2px;
         text-decoration: none;
-        color: $darkGrey
+        color: #fff;
       }
 
     }
@@ -81,9 +77,10 @@
 
     }
 
-    .team-text {
+    .copyright-text {
       font-size: 14px;
       padding-left: 0;
+      display: block;
     }
   }
 

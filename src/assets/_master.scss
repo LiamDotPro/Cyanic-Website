@@ -7,8 +7,11 @@ $primaryDark: #162030;
 $lightGrey: #d7d9db;
 $mediumGrey: #5f6b82;
 $darkGrey: #c9b3c1;
-$fontFamily: 'Roboto', sans-serif;
+$darkerBlue: #0079ea;
+$darkBlue: #0071db;
 
+//$fontFamily: 'Roboto', sans-serif;
+$fontFamily: 'Montserrat', sans-serif;
 
 // global overrides for the bootstrap h tags
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -44,9 +47,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: transparent;
   border-color: #fff;
   text-transform: uppercase;
-  padding: 0.9rem 1.4rem 0.9rem 1.5rem;
+  padding: 0.9rem 1.5rem;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
 
   svg {
     margin-left: 10px;
@@ -58,9 +62,40 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #fff;
   border-color: #fff;
   color: #027ef1;
+
+  svg {
+    color: #027ef1;
+  }
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-primary:visited {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.page-title-block {
+  padding: 25px 0;
+}
+.page-title-block h1.main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+.page-title-block h2.sub-title {
+  font-size: 1.2rem;
+
+}
+
+@mixin gradient($start-color, $end-color, $orientation) {
+  background: $start-color;
+  @if $orientation == 'vertical' {
+    background: -webkit-linear-gradient(top, $start-color, $end-color);
+    background: linear-gradient(to bottom, $start-color, $end-color);
+  } @else if $orientation == 'horizontal' {
+    background: -webkit-linear-gradient(left, $start-color, $end-color);
+    background: linear-gradient(to right, $start-color, $end-color);
+  } @else {
+    background: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+    background: radial-gradient(ellipse at center, $start-color, $end-color);
+  }
 }

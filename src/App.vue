@@ -29,11 +29,10 @@
   }
 
   #app {
-    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+    /*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');*/
     font-family: $fontFamily;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
     color: $primaryWhite;
     background: $primaryColour;
     font-weight: 300;

@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import NotFoundComponent from '@/components/NotFoundComponent'
 import Contact from '@/components/Contact'
 import Portfolio from '@/components/Portfolio'
+import Project from '@/components/Project'
 import Business from '@/components/Business'
 import PrivateInvestigation from '@/components/PrivateInvestigation'
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/portfolio',
       name: 'portfolio',
       component: Portfolio
+    },
+    {
+      path: '/project',
+      name: 'project',
+      component: Project
     },
     {
       path: '/business',

@@ -14,7 +14,7 @@
                 <router-link to="/portfolio">
                   <button type="button" class="btn btn-outline-secondary">
                     How we Empower Brands
-                    <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+                    <svgicon icon="arrow-right" width="20" height="19"></svgicon>
                   </button>
                 </router-link>
 
@@ -186,12 +186,13 @@
     background: $primaryColour;
 
     h1 {
-      font-size: 30px;
+      font-size: 40px;
+      font-weight: bold;
     }
 
     p {
       padding-top: 10px;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.7;
       margin-bottom: 25px;
     }
@@ -362,6 +363,7 @@
   }
 
   .hero-text-block {
+    padding-right: 50px;
     margin-top: 80px;
   }
 

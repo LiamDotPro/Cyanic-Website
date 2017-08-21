@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg">
-          <div>
+          <div class="image-data-overlay">
             <h2>100k</h2>
           </div>
           <img class="img-fluid" src="../../assets/img/mobile.png" alt="Product tile 1">
@@ -82,6 +82,16 @@
 
     .icon-area {
       padding-top: 20px;
+    }
+    .image-data-overlay {
+      position: absolute;
+      bottom: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      h2 {
+        font-weight: bold;
+      }
     }
 
     .product-tile-text {

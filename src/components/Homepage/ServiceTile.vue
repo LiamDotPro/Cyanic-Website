@@ -1,17 +1,13 @@
 <template>
-  <div class="Service-tile">
-    <div class="service-image">
-      <img :src="image" alt="">
+  <div class="Service-tile row">
+    <div class="service-image col-4">
+      <img :src="image" alt="" class="img-fluid">
     </div>
-    <div class="service-text">
-      <h1>{{title}}</h1>
+    <div class="service-text col-8">
+      <h2>{{title}}</h2>
       <p>{{desc}}</p>
+      <router-link :to="link" class="btn btn-service">Read More</router-link>
     </div>
-    <!--<router-link :to="link">-->
-      <!--<button type="button" class="btn btn-service">-->
-        <!--Read More-->
-      <!--</button>-->
-    <!--</router-link>-->
   </div>
 </template>
 
@@ -32,58 +28,40 @@
   @import "../../assets/master";
 
   .Service-tile {
-    text-align: center;
-    background: $primaryWhite;
-    display: flex;
-    border-radius: 3px;
-    padding: 20px 30px 34px 30px;
-    height: 100%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
+    color: #fff;
+    padding: 15px 0;
+    margin: 15px 0;
 
-    h1 {
+    h2 {
       font-size: 22px;
-      color: $primaryColour;
-      margin: 15px 0;
+      color: #fff;
+      margin: 0 0 10px 0;
+      font-weight: bold;
     }
 
     p {
-      color: $mediumGrey;
+      color: #fff;
       line-height:1.7;
       font-size:16px;
     }
 
     .service-image {
-      flex-direction: column;
-      flex-grow: 1;
-      display: flex;
+      display: none;
     }
 
-    .service-text {
-      margin-bottom: 20px;
-      flex-direction: column;
-      flex-grow: 0;
-      display: flex;
-    }
     .btn-service {
-      position: absolute;
-      bottom: 0;
-      right:0;
-      left:0;
-      display: block;
-      width:100%;
-      background-color: $primaryColour;
+      position: relative;
+      display: inline-block;
+      background-color: transparent;
       color: #fff;
-      -webkit-border-radius:0;
-      -moz-border-radius:0;
-      border-radius:0;
       text-transform: uppercase;
-      font-weight:bold;
+      font-weight: bold;
       font-size: 14px;
+      border-radius: 3px;
+      padding: 12px 30px;
+      margin-top: 0;
+      cursor: pointer;
+      border: 1px solid #fff;
     }
     .btn-service:hover,.btn-service:focus,.btn-service:visited {
       background-color: $primaryColour;
