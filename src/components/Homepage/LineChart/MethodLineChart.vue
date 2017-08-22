@@ -23,4 +23,7 @@
   // Master Variable / Mixins Import
   @import "../../../assets/_master";
 
+  .method-line-chart canvas {
+    max-height: 300px;
+  }
 </style>

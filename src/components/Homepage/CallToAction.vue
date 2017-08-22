@@ -53,6 +53,7 @@
       }
       h3 {
         font-weight: bold;
+        color: #fff;
       }
     }
 

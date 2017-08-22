@@ -22,19 +22,19 @@
 
               <div class="social-links">
                 <a href="" target="_blank">
-                  <icon name='facebook' scale="1.5"></icon>
+                  <icon name='facebook' scale="1.2"></icon>
                 </a>
                 <a href="" target="_blank">
-                  <icon name='linkedin' scale="1.5"></icon>
+                  <icon name='linkedin' scale="1.2"></icon>
                 </a>
                 <a href="" target="_blank">
-                  <icon name='github' scale="1.5"></icon>
+                  <icon name='github' scale="1.2"></icon>
                 </a>
                 <a href="" target="_blank">
-                  <icon name='instagram' scale="1.5"></icon>
+                  <icon name='instagram' scale="1.2"></icon>
                 </a>
                 <a href="" target="_blank">
-                  <icon name='twitter' scale="1.5"></icon>
+                  <icon name='twitter' scale="1.2"></icon>
                 </a>
               </div>
 
@@ -98,7 +98,7 @@
     left: 0;
     height: 250px;
     bottom: 0;
-
+    z-index: 5;
     background: url(../../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
     background-size: 100% 250px;
   }
@@ -231,7 +231,7 @@
       a {
         display: inline-block;
         padding: 0;
-        background: rgba(0, 0, 0, 0.05);
+        background: rgb(3, 119, 228);
         text-align: center;
         height: 50px;
         line-height: 50px;
@@ -244,7 +244,7 @@
       }
 
       svg {
-        color: rgba(255, 255, 255, 0.8);
+        color: rgb(205, 228, 250);
         vertical-align: middle;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
@@ -253,7 +253,7 @@
       }
     }
     .social-links a:hover {
-      background: rgba(0, 0, 0, 0.1);
+      background: #0071dd;
       svg {
         color: #fff;
       }

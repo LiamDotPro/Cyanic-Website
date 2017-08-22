@@ -1,5 +1,5 @@
 <template>
-  <div class="product-tile-left">
+  <div class="product-tile-right">
     <div class="container">
       <div class="row">
         <div class="col-lg">
@@ -20,6 +20,7 @@
         </div>
       </div>
     </div>
+    <div class="service-back-grad"></div>
   </div>
 </template>
 
@@ -61,16 +62,22 @@
   // Master Variable / Mixins Import
   @import "../../assets/master";
 
-  .product-tile-left {
-
-    background: $primaryWhite;
+  .product-tile-right {
+    position: relative;
+    background: #f6f6f6;
     text-align: left;
     padding-top: 30px;
     padding-bottom: 30px;
 
-    h2 {
-      color: $primaryColour;
-      font-weight: bold;
+    .service-back-grad {
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 100px;
+      top: 0;
+      z-index: 5;
+      background: url(../../assets/img/cyanic-light-bg-short.jpg) no-repeat top center;
+      background-size: 100% 100px;
     }
 
     p {

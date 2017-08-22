@@ -2,7 +2,7 @@
   <div class="product-tile-left">
     <div class="container">
       <div class="row">
-        <div class="col-lg product-tile-text">
+        <div class="col-6 product-tile-text">
           <h3>Connecting you with potential customers</h3>
           <p>
             One of our core aims is to engage as many of your users as possible, creating positive user experiences which maximize your online presence. We've already helped brands reach millions of potential customers.
@@ -11,14 +11,14 @@
             Our graph shows how influential a good website could be to growing your existing user base and creating brand awareness. Connecting customers can sometimes be as simple as building on your existing offerings. By implementing a news tracker we've helped hundreds of thousands of people get the news they want while creating potential leads for the business.
           </p>
           <div class="row small-card-row">
-            <div class="col-md small-card">
+            <div class="col-12 small-card">
               <icon name="wrench" scale="5"></icon>
               <h4>Bespoke Solutions</h4>
               <p>
                 We create bespoke web experiences tailored to meet the needs of your business utilizing the best possible technology.
               </p>
             </div>
-            <div class="col-md small-card">
+            <div class="col-12 small-card">
               <icon name="heart" scale="5"></icon>
               <h4>Client Satisfaction</h4>
               <p>
@@ -27,16 +27,16 @@
             </div>
           </div>
         </div>
-        <div class="col-lg linechart-div">
+        <div class="col-6 linechart-div">
           <MethodLineChart></MethodLineChart>
           <div class="row">
-            <div class="col-lg">
+            <div class="col-6">
               <div class="metric-tile">
                 <h4 class="metric-title">Sessions</h4>
                 <p class="metric-value">1,051,293</p>
               </div>
             </div>
-            <div class="col-lg">
+            <div class="col-6">
               <div class="metric-tile">
                 <h4 class="metric-title">Pageviews</h4>
                 <p class="metric-value">2,177,895</p>
@@ -75,6 +75,8 @@
     text-align: left;
     padding-top: 30px;
 
+
+
     h3 {
       color: $primaryColour;
       font-weight: bold;
@@ -85,6 +87,7 @@
     p {
       color: $mediumGrey;
       line-height: 1.7;
+      font-size: 16px;
     }
 
     h4 {
@@ -93,23 +96,27 @@
     }
 
     .small-card {
+      padding: 10px 15px;
 
       h4 {
         z-index: 2;
         position: relative;
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
       }
 
       p {
         z-index: 2;
         position: relative;
         font-size: 16px;
+        line-height: 1.7;
       }
 
       svg {
         color: #e9edf7;
         position: absolute;
-        right: 0;
+        left: -30px;
         z-index: 1;
         opacity: 0.7;
         top: -10px;
@@ -118,11 +125,7 @@
     }
 
     .product-tile-text {
-
-    }
-
-    .small-card-row {
-      padding-top: 20px;
+      padding-right: 30px;
     }
 
     .linechart-div {
@@ -143,17 +146,17 @@
     }
 
     .metric-tile {
-      padding: 25px 20px;
+      padding: 20px;
       background: #eff1f8;
       border-radius: 4px;
       box-shadow: 0 3px 0 rgba(0, 29, 56, 0.1);
 
       .metric-title {
         font-weight: bold;
-        margin-bottom: 5px;
+        margin-bottom: 0;
       }
       .metric-value {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
         line-height: 1.2;
         margin: 0;

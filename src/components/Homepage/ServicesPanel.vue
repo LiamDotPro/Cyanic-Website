@@ -1,7 +1,7 @@
 <template>
   <div class="Services-panel">
     <div class="container services-container">
-      <div class="row">
+      <div class="row service-row">
         <div class="col-12">
           <div class="row" v-for="services in tiles">
             <div class="col-8">
@@ -39,14 +39,14 @@
           },
           {
             id: 2,
-            image: require('../../assets/img/top-side-images/web-development/desktop-illu.png'),
+            image: require('../../assets/img/top-side-images/seo/seo.png'),
             title: 'Search Engine Optimisation',
             desc: 'We can help your website be seen by more people by creating content and further optimising your website to rank you higher in google.',
             link: 'seo'
           },
           {
             id: 3,
-            image: require('../../assets/img/top-side-images/web-development/desktop-illu.png'),
+            image: require('../../assets/img/top-side-images/preview.png'),
             title: 'Branding & Graphical Design',
             desc: 'Need to improve an existing platform or service your provide? we have the knowledge to steer your web projects in the right direction.',
             link: 'consulting'
@@ -67,15 +67,19 @@
   @import "../../assets/master";
 
   .Services-panel {
-    padding-top: 70px;
+    padding-top: 0;
     padding-bottom: 50px;
     background: #0377e4;
-    margin-top: 0;
+    margin-top: -200px;
     overflow: hidden;
     position: relative;
 
     .services-container {
       z-index: 25;
+    }
+
+    .service-row {
+      margin-top: 250px;
     }
 
     .line-col-horizontal {
@@ -87,17 +91,6 @@
       border-top: 10px dotted #2090f6;
       -webkit-transform: translate(40px,-5px);
       transform: translate(40px,-5px);
-    }
-
-    .service-back-grad {
-      position: absolute;
-      right: 0;
-      left: 0;
-      height: 250px;
-      top: 0;
-
-      background: url(../../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
-      background-size: 100% auto;
     }
 
     .line-wrap {
@@ -114,7 +107,7 @@
         display: block;
         margin-left: 40px;
         border-left: 10px dotted #2090f6;
-        margin-top: -160px;
+        margin-top: -270px;
       }
     }
   }
