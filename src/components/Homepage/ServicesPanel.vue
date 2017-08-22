@@ -1,6 +1,6 @@
 <template>
   <div class="Services-panel">
-    <div class="container">
+    <div class="container services-container">
       <div class="row">
         <div class="col-12">
           <div class="row" v-for="services in tiles">
@@ -19,6 +19,7 @@
         <div class="line-col"></div>
       </div>
     </div>
+    <!--<div class="service-back-grad"></div>-->
   </div>
 </template>
 
@@ -66,13 +67,16 @@
   @import "../../assets/master";
 
   .Services-panel {
-    background-color: #027ef1;
-    padding-top: 350px;
+    padding-top: 70px;
     padding-bottom: 50px;
-    background: #0079ea url(../../assets/img/cyanic-dark-background.jpg) no-repeat top center;
-    background-size: 100% auto;
-    margin-top: -200px;
+    background: #0377e4;
+    margin-top: 0;
     overflow: hidden;
+    position: relative;
+
+    .services-container {
+      z-index: 25;
+    }
 
     .line-col-horizontal {
       height: 10px;
@@ -83,6 +87,17 @@
       border-top: 10px dotted #2090f6;
       -webkit-transform: translate(40px,-5px);
       transform: translate(40px,-5px);
+    }
+
+    .service-back-grad {
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 250px;
+      top: 0;
+
+      background: url(../../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
+      background-size: 100% auto;
     }
 
     .line-wrap {

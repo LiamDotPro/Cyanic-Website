@@ -5,6 +5,8 @@
     <HomeTextComponent></HomeTextComponent>
     <product-tile-left></product-tile-left>
     <product-tile-right></product-tile-right>
+    <ThirdProductTile></ThirdProductTile>
+    <Testimonials></Testimonials>
     <!--<icon-table></icon-table>-->
     <CallToAction></CallToAction>
   </div>
@@ -18,7 +20,9 @@
   import ServicesPanel from './Homepage/ServicesPanel'
   import HomeTextComponent from './Homepage/HomeTextComponent'
   import ProductTileLeft from './Homepage/ProductTileLeft'
+  import ThirdProductTile from './Homepage/ThirdProductTile'
   import ProductTileRight from './Homepage/ProductTileRight'
+  import Testimonials from './Homepage/Testimonials'
   import IconTable from './Homepage/IconTable'
 
   export default {
@@ -29,6 +33,8 @@
       HomeTextComponent,
       ProductTileLeft,
       ProductTileRight,
+      ThirdProductTile,
+      Testimonials,
       IconTable
     },
     name: 'Homepage',

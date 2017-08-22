@@ -7,7 +7,7 @@
           <p>
             One of our core aims is to engage as many of your users as possible, creating positive user experiences which maximize your online presence. We've already helped brands reach millions of potential customers.
           </p>
-          <p class="second-text">
+          <p>
             Our graph shows how influential a good website could be to growing your existing user base and creating brand awareness. Connecting customers can sometimes be as simple as building on your existing offerings. By implementing a news tracker we've helped hundreds of thousands of people get the news they want while creating potential leads for the business.
           </p>
           <div class="row small-card-row">
@@ -32,18 +32,18 @@
           <div class="row">
             <div class="col-lg">
               <div class="metric-tile">
-                <h4>Sessions</h4>
-                <p>1,051,293</p>
+                <h4 class="metric-title">Sessions</h4>
+                <p class="metric-value">1,051,293</p>
               </div>
             </div>
             <div class="col-lg">
               <div class="metric-tile">
-                <h4>Pageviews</h4>
-                <p>2,177,895</p>
+                <h4 class="metric-title">Pageviews</h4>
+                <p class="metric-value">2,177,895</p>
               </div>
             </div>
           </div>
-          <h5>Analytics kindly provided by <a href="https://method.gg">Method.gg</a>
+          <h5 style="display: none;">Analytics kindly provided by <a href="https://method.gg">Method.gg</a>
           </h5>
         </div>
       </div>
@@ -73,16 +73,18 @@
   .product-tile-left {
     background: $primaryWhite;
     text-align: left;
-
     padding-top: 30px;
-    padding-bottom: 30px;
 
     h3 {
       color: $primaryColour;
+      font-weight: bold;
+      font-size: 1.6rem;
+      line-height: 1.2;
     }
 
     p {
       color: $mediumGrey;
+      line-height: 1.7;
     }
 
     h4 {
@@ -125,20 +127,39 @@
 
     .linechart-div {
       text-align: center;
+
       h5 {
         color: $mediumGrey;
         font-size: 14px;
       }
+
+      .method-line-chart {
+        padding: 20px;
+        background: #eff1f8;
+        border-radius: 4px;
+        margin-bottom: 25px;
+        box-shadow: 0 3px 0 rgba(0, 29, 56, 0.1);
+      }
     }
 
     .metric-tile {
-      padding: 10px 20px 10px 20px;
+      padding: 25px 20px;
+      background: #eff1f8;
+      border-radius: 4px;
+      box-shadow: 0 3px 0 rgba(0, 29, 56, 0.1);
+
+      .metric-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .metric-value {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin: 0;
+      }
     }
 
-    .second-text {
-      padding-top:25px;
-      padding-bottom: 25px;
-    }
 
   }
 

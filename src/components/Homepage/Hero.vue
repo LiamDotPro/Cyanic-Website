@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-xs-6 col-lg-7 text-left">
+          <div class="col-6 col-lg-7 text-left">
             <div class="hero-text-block">
               <h1>{{header}}</h1>
               <p>
@@ -38,17 +38,9 @@
                 </a>
               </div>
 
-              <!--<div class="hero-bottom-text">-->
-              <!--<div class="hero-bottom-card">-->
-              <!--<h3>Case Study: Method Gaming</h3>-->
-              <!--<h5>-->
-              <!--We helped Method.gg reach more than 4m people in 2017 by creating and designing a full bespoke system that is now enjoyied by millions of users annually.</h5>-->
-              <!--<router-link to="/case-studies/method">Find out more</router-link>-->
-              <!--</div>-->
-              <!--</div>-->
             </div>
           </div>
-          <div class="col-xs-6 col-lg-5">
+          <div class="col-6 col-lg-5">
             <div class="anim-box">
               <transition name="slide-fade2" appear>
                 <img class="img-fluid toplayer" src="../../assets/img/topLayer.png" alt="">
@@ -79,6 +71,7 @@
         </div>
       </div>
     </div>
+    <div class="service-back-grad"></div>
   </div>
 </template>
 
@@ -97,6 +90,18 @@
 <style lang="scss" scoped>
   // Start coding!
   @import "../../assets/master";
+
+
+  .service-back-grad {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 250px;
+    bottom: 0;
+
+    background: url(../../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
+    background-size: 100% 250px;
+  }
 
   .slide-fade-enter-active {
     transition: all 0.5s ease;
@@ -184,6 +189,8 @@
 
   .hero {
     background: $primaryColour;
+    position: relative;
+    padding-bottom: 150px;
 
     h1 {
       font-size: 40px;
@@ -365,6 +372,8 @@
   .hero-text-block {
     padding-right: 50px;
     margin-top: 80px;
+    position: relative;
+    z-index: 10;
   }
 
 

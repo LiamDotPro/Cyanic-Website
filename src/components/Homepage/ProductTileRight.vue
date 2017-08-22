@@ -9,7 +9,7 @@
           <img class="img-fluid" src="../../assets/img/mobile.png" alt="Product tile 1">
         </div>
         <div class="col-lg product-tile-text">
-          <h1>We've got the right skill set to get things done</h1>
+          <h2>We've got the right skill set to get things done</h2>
           <p>
             We have a rich set of technologies that we develop with, which gives our clients the satisfaction in knowing there getting not only a great looking product but also a product ready to tackle the real world. If your looking for older technologies we still support many older legacy systems and may be able to help, contact us below.
           </p>
@@ -68,8 +68,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 
-    h1 {
+    h2 {
       color: $primaryColour;
+      font-weight: bold;
     }
 
     p {
@@ -89,9 +90,6 @@
       left: 50%;
       transform: translateX(-50%);
 
-      h2 {
-        font-weight: bold;
-      }
     }
 
     .product-tile-text {

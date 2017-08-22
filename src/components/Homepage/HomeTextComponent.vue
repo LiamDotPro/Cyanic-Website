@@ -2,7 +2,7 @@
   <div class="home-text-component">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h2>{{headerText}}</h2>
           <p>{{descriptionText}}</p>
         </div>
@@ -35,8 +35,8 @@
 
     h2 {
       color: $primaryColour;
-      font-size: 36px;
       margin-top: 20px;
+      font-weight: bold;
     }
 
     p {

@@ -5,6 +5,7 @@ import NotFoundComponent from '@/components/NotFoundComponent'
 import Contact from '@/components/Contact'
 import Portfolio from '@/components/Portfolio'
 import Project from '@/components/Project'
+import Seo from '@/components/Seo'
 import Business from '@/components/Business'
 import PrivateInvestigation from '@/components/PrivateInvestigation'
 
@@ -35,6 +36,11 @@ export default new Router({
       path: '/project',
       name: 'project',
       component: Project
+    },
+    {
+      path: '/seo',
+      name: 'Seo',
+      component: Seo
     },
     {
       path: '/business',

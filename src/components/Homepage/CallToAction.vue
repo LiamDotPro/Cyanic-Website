@@ -10,7 +10,7 @@
             <a href="mailto:contact@cyanic.io">
               <button type="button" class="btn btn-outline-secondary">
                 Send us a message
-                <svgicon icon="arrow-right" width="20" height="19" color="#fff"></svgicon>
+                <svgicon icon="arrow-right" width="20" height="19"></svgicon>
               </button>
             </a>
           </div>
@@ -50,6 +50,9 @@
       p {
         line-height: 1.7;
         font-size: 18px;
+      }
+      h3 {
+        font-weight: bold;
       }
     }
 
