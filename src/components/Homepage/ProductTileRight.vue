@@ -1,7 +1,7 @@
 <template>
   <div class="product-tile-right">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg">
           <img class="img-fluid" src="../../assets/img/technologies.png" alt="Product tile 1">
         </div>
