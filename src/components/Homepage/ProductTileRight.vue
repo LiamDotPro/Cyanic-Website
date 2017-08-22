@@ -18,6 +18,7 @@
       </div>
     </div>
     <div class="service-back-grad"></div>
+    <div class="service-back-grad-bot"></div>
   </div>
 </template>
 
@@ -61,10 +62,10 @@
 
   .product-tile-right {
     position: relative;
-    background: #f6f6f6;
+    background: #eff1f8;
     text-align: left;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
     .service-back-grad {
       position: absolute;
@@ -74,6 +75,16 @@
       top: 0;
       z-index: 5;
       background: url(../../assets/img/cyanic-light-bg-short.jpg) no-repeat top center;
+      background-size: 100% 100px;
+    }
+    .service-back-grad-bot {
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 100px;
+      bottom: 0;
+      z-index: 5;
+      background: url(../../assets/img/cyanic-light-bg-short-bottom.jpg) no-repeat bottom center;
       background-size: 100% 100px;
     }
 
@@ -94,10 +105,6 @@
       left: 50%;
       transform: translateX(-50%);
 
-    }
-
-    .product-tile-text {
-      padding-top: 160px;
     }
   }
 

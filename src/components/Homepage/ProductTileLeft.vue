@@ -34,17 +34,17 @@
               <div class="metric-tile">
                 <h4 class="metric-title">Sessions</h4>
                 <p class="metric-value">1,051,293</p>
+                <span class="metric-note">Jan 14 - Feb 14</span>
               </div>
             </div>
             <div class="col-6">
               <div class="metric-tile">
                 <h4 class="metric-title">Pageviews</h4>
                 <p class="metric-value">2,177,895</p>
+                <span class="metric-note">Jan 14 - Feb 14</span>
               </div>
             </div>
           </div>
-          <h5 style="display: none;">Analytics kindly provided by <a href="https://method.gg">Method.gg</a>
-          </h5>
         </div>
       </div>
     </div>
@@ -75,7 +75,14 @@
     text-align: left;
     padding-top: 30px;
 
-
+    .metric-note {
+      color: #b6b9bf;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+    }
 
     h3 {
       color: $primaryColour;

@@ -36,9 +36,10 @@
   @import "../../assets/master";
 
   .ThirdProductTile {
-    background: #f6f6f6;
+    background: #fcfcfd;
     color: #5f6b82;
     padding-bottom: 125px;
+    padding-top: 60px;
 
     h3 {
       color: #027ef1;
