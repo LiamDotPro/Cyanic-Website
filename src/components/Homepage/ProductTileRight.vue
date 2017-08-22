@@ -3,10 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg">
-          <div class="image-data-overlay">
-            <h2>100k</h2>
-          </div>
-          <img class="img-fluid" src="../../assets/img/mobile.png" alt="Product tile 1">
+          <img class="img-fluid" src="../../assets/img/technologies-update.png" alt="Product tile 1">
         </div>
         <div class="col-lg product-tile-text">
           <h2>We've got the right skill set to get things done</h2>
