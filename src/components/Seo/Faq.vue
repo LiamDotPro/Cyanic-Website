@@ -2,31 +2,23 @@
   <div class="Faq">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col-12">
           <div class="testimonial-tile">
-            <a href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/profile_images/653684583985053697/KJPoBWDk_bigger.png" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">Methodgg</span>
-            <a href="" class="twitter-handle">@methodgg</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
+            <h2>Can esports/gaming websites benefit from SEO?</h2>
+            <p>For anyone reading this who are unfamiliar with “esports” it is a term referring to the competitive side of video games. With tournaments awarding prize pools up to as much of $24.7 million every year, often with a wide range of smaller yet still noticeably grand prizes for the winners happening most months it is a flourishing and growing market.</p>
+            <p>Like most owners of business and personal websites who want their website to be visited and engaged with by more users…</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12">
           <div class="testimonial-tile">
-            <a href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/profile_images/877275860126113793/xdRMM4j__400x400.jpg" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">Djarii</span>
-            <a href="" class="twitter-handle">@Djari328</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.I am the boss no questions Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
+            <h2>What results can we promise</h2>
+            <p>Honestly, with SEO we feel it takes a great deal of experience to promise great SEO results for every business that you work with to get the results they really want.</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-12">
           <div class="testimonial-tile">
-            <a href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/media/DFbwgVaW0AAYGEf.jpg:thumb" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">TinaLyra</span>
-            <a href="" class="twitter-handle">@kvestina</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
+            <h2>Reporting on the results</h2>
+            <p>We understand that if you haven’t experienced SEO and the process before it may be worrying or confusing that after the first changes have been made to the website and you search on Google for your business that it isn’t the first or even on the first page of results. Although its common knowledge amongst… </p>
           </div>
         </div>
       </div>
@@ -50,50 +42,9 @@
   // Start coding!
   @import "../../assets/master";
 
-  .Testimonials {
-    @include gradient(#1989f0, #027ef1, vertical);
+  .Faq {
+    background: $primaryWhite;
     padding-bottom: 30px;
 
-    .testimonial-tile {
-      padding: 40px 25px;
-      background: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      border-radius: 3px;
-      margin-top: -50px;
-      position: relative;
-      text-align:center;
-
-      .testimonial-avatar {
-        max-width: 50px;
-        max-height: 50px;
-        border-radius: 50%;
-        margin: 0 auto 5px auto;
-        display: block;
-      }
-      .testimonial-title {
-        display: block;
-        font-weight:bold;
-        font-size: 18px;
-        color: #027ef1;
-      }
-      .twitter-icon {
-        display: inline-block;
-        position: absolute;
-        right: 10px;
-        bottom: 0;
-        color: #a7cbea;
-      }
-      .twitter-handle {
-        text-decoration: none;
-        display: block;
-        font-size: 14px;
-        color: #a4a8b1;
-      }
-      p {
-        color: #5f6b82;
-        line-height: 1.7;
-        margin: 10px 0;
-      }
-    }
   }
 </style>
