@@ -48,7 +48,7 @@
     h3 {
       color: #027ef1;
       font-weight: bold;
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       line-height: 1.2;
     }
   }

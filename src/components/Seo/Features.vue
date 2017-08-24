@@ -22,6 +22,8 @@
         </div>
       </div>
     </div>
+    <div class="service-back-grad"></div>
+    <div class="service-back-grad-bot"></div>
   </div>
 </template>
 
@@ -41,8 +43,31 @@
   // Start coding!
   @import "../../assets/master";
 
-  .Testimonials {
-    padding-bottom: 30px;
+  .Features {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: #eff1f8;
+    position: relative;
 
+    .service-back-grad {
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 100px;
+      top: 0;
+      z-index: 5;
+      background: url(../../assets/img/cyanic-light-bg-short.jpg) no-repeat top center;
+      background-size: 100% 100px;
+    }
+    .service-back-grad-bot {
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 100px;
+      bottom: 0;
+      z-index: 5;
+      background: url(../../assets/img/cyanic-light-bg-short-bottom.jpg) no-repeat bottom center;
+      background-size: 100% 100px;
+    }
   }
 </style>
