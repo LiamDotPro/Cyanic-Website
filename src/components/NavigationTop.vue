@@ -15,12 +15,12 @@
               <li class="nav-item">
                 <router-link class="nav-link" to="/home">Home</router-link>
               </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/business">Business</router-link>
-              </li>
               <!--<li class="nav-item">-->
-                <!--<router-link class="nav-link" to="/private-investigation">Private Investigation</router-link>-->
+                <!--<router-link class="nav-link" to="/business">Business</router-link>-->
               <!--</li>-->
+              <li class="nav-item">
+                <router-link class="nav-link" to="/private-investigation">Private Investigation</router-link>
+              </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/esports">Esports</router-link>
               </li>
