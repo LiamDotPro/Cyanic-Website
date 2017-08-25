@@ -1,11 +1,7 @@
 <template>
   <div id="app">
     <NavigationTop></NavigationTop>
-    <transition name="bounce"
-                enterActiveClass="bounceInLeft"
-                leaveActiveClass="bounceOutRight">
-      <router-view></router-view>
-    </transition>
+    <router-view></router-view>
     <signature-footer></signature-footer>
   </div>
 </template>

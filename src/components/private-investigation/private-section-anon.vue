@@ -18,11 +18,9 @@
   }
 </script>
 
-
 <style lang="scss" scoped>
   // Start coding!
   // Master Variable / Mixins Import
   @import "../../assets/master";
-
 
 </style>
