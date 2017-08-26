@@ -1,28 +1,15 @@
 <template>
   <div class="web-hero">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg hero-text">
-            <h1>Website Design</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, possimus, repellat. Aliquam at autem, commodi deleniti dolore eaque eius expedita ipsa nemo, nostrum nulla praesentium, quaerat quia quibusdam recusandae voluptatum!</p>
-          </div>
-          <div class="col-lg hero-image">
-            <img :src="heroImage" alt="">
-          </div>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1>Search Engine Optimisation</h1>
+          <p>Increasing your visibility on search engines helps your business or personal website in a number of ways. Search engine optimisation (SEO) services help to format, expose and promote content to attract potential customers and general users to your website with the intention to convert these visitors to sales of your product or services, to engage them in the content of your website or to capture user data for future use (such as email marketing via a newsletter). </p>
         </div>
       </div>
     </div>
-    <div class="container-fluid hero-bottom">
-      <div class="container">
-        <div class="row hero-bottom-bar">
-          <div v-for="items in navigationItems" class="col-lg-2 nav-bar" :key="items.id">
-            <a><h5>{{items.title}}</h5></a>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </div>
 </template>
 
@@ -50,30 +37,20 @@
   @import "../../assets/master";
 
   .web-hero {
-    text-align: left;
-    background: $primaryColour;
+    padding-bottom: 150px;
+    padding-top: 150px;
 
-    .hero-text {
-      padding-top: 100px;
-      padding-bottom: 144px;
+    h1 {
+      color:#fff;
+      font-size: 40px;
+      font-weight: bold;
     }
-
-    .hero-image {
-      img {
-        position: absolute;
-        top: -10px;
-        bottom: 0;
-        right: 40px;
-        z-index: 2;
-      }
-    }
-
-    .hero-bottom {
-      background: $secondaryColour;
-      .hero-bottom-bar {
-       padding: 20px 0 20px 0;
-        background: $secondaryColour;
-      }
+    p {
+      padding-top: 10px;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+      color: #fff;
     }
   }
 

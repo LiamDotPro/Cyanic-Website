@@ -6,6 +6,7 @@ import Contact from '@/components/Contact'
 import Portfolio from '@/components/Portfolio'
 import Project from '@/components/Project'
 import Seo from '@/components/Seo'
+import Web from '@/components/Web'
 import Business from '@/components/Business'
 import PrivateInvestigation from '@/components/PrivateInvestigation'
 
@@ -41,6 +42,11 @@ export default new Router({
       path: '/seo',
       name: 'Seo',
       component: Seo
+    },
+    {
+      path: '/web',
+      name: 'Web',
+      component: Web
     },
     {
       path: '/business',

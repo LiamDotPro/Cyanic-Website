@@ -43,25 +43,6 @@
   @import "../../assets/master";
 
   .WebIntro {
-    background: #ffffff;
-    .intro-container {
-      text-align: left;
-      padding-top: 60px;
-      padding-bottom: 60px;
-
-      h1 {
-        color: $primaryColour;
-      }
-
-      h2 {
-        padding-top: 20px;
-        color: $darkGrey;
-      }
-
-      p {
-        color: $mediumGrey;
-      }
-
-    }
+    background: $primaryWhite;
   }
 </style>

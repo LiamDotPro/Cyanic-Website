@@ -1,0 +1,50 @@
+<template>
+  <div class="Web">
+    <WebHero></WebHero>
+    <WebIntro></WebIntro>
+    <WebFeatures></WebFeatures>
+  </div>
+</template>
+
+
+<script>
+  // You can follow the same layout for importing local components
+  import WebHero from './Web/WebHero'
+  import WebIntro from './Web/WebIntro'
+  import WebFeatures from './Web/WebFeatures'
+
+  export default {
+    components: {
+      WebHero,
+      WebIntro,
+      WebFeatures
+    },
+    name: 'Web',
+    data () {
+      return {}
+    }
+  }
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="scss" scoped>
+
+  .Web {
+    p {
+      line-height: 1.7;
+    }
+    h2 {
+      color: #027ef1;
+      font-weight: bold;
+      font-size: 1.9rem;
+      line-height: 1.2;
+    }
+    h3 {
+      color: #027ef1;
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+  }
+
+</style>
