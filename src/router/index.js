@@ -39,6 +39,11 @@ export default new Router({
       component: Project
     },
     {
+      path: '/project/:id',
+      name: 'project catch',
+      component: Project
+    },
+    {
       path: '/seo',
       name: 'Seo',
       component: Seo

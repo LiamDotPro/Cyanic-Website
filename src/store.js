@@ -25,7 +25,19 @@ const actions = {
   }
 }
 
-const getters = {}
+const getters = {
+  getProject: (state, getters) => (str) => {
+    let outArr = state.projects.filter((el) => {
+      return el.pagelink === str
+    })
+
+    if (outArr.length > 0) {
+      return outArr[0]
+    } else {
+      return 'Article not found'
+    }
+  }
+}
 
 export default new Vuex.Store({
   state,

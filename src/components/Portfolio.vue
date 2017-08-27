@@ -10,45 +10,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-md-6">
+        <div v-for="project in getProjects" class="col-sm-6 col-md-6">
           <div class="portfolio-tile">
-            <router-link class="project-link" to="/project">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </router-link>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="portfolio-tile">
-            <router-link class="project-link" to="/project">
-              <img class="img-fluid" src="../assets/img/portfolio/djarii/thumbnail.jpg" alt="">
-            </router-link>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="portfolio-tile">
-            <router-link class="project-link" to="/project">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </router-link>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="portfolio-tile">
-            <router-link class="project-link" to="/project">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </router-link>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="portfolio-tile">
-            <router-link class="project-link" to="/project">
-              <img class="img-fluid" src="../assets/img/portfolio/djarii/thumbnail.jpg" alt="">
-            </router-link>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="portfolio-tile">
-            <router-link class="project-link" to="/project">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+            <router-link class="project-link" :to="'/project' + project.pagelink">
+              <img class="img-fluid" :src="project.tileimage" alt="">
             </router-link>
           </div>
         </div>
@@ -62,44 +27,12 @@
     name: 'Portfolio',
     data () {
       return {
-        msg: 'Welcome to Cyanic',
-        projects: [
-          {
-            name: 'Method',
-            images: [],
-            tagline: 'Method is a widely known professional esports organisation with a very strong history in World of Warcraft. We worked with Method to create a bespoke that was representative of the quality of their brand. The website was first completed in September 2016, since which it has had millions of pageviews.',
-            url: 'http://www.method.gg',
-            pageLink: '/method'
-          },
-          {name: 'Djarii', tileImage: '', images: [], tagline: '', url: 'http://www.method.gg', pageLink: '/djarii'},
-          {
-            name: 'Project X',
-            tileImage: '',
-            images: [],
-            tagline: '',
-            url: 'http://projectx.gg',
-            pageLink: '/project-x'
-          },
-          {
-            name: 'PR Investigations',
-            tileImage: '',
-            images: [],
-            tagline: '',
-            url: 'http://projectx.gg',
-            pageLink: '/pr-investigations'
-          },
-          {
-            name: 'Djarii Social Media',
-            tileImage: '',
-            images: [],
-            tagline: '',
-            url: 'http://projectx.gg',
-            pageLink: '/pr-investigations'
-          }
-        ],
-        logos: [
-          {}
-        ]
+        msg: 'Welcome to Cyanic'
+      }
+    },
+    computed: {
+      getProjects: function () {
+        return this.$store.state.projects
       }
     }
   }

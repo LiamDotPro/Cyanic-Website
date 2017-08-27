@@ -4,63 +4,75 @@
       <div class="row">
         <div class="col">
           <div class="page-title-block">
-            <h1 class="main-title">Method</h1>
-            <p class="description">Method is a widely known professional esports organisation with a very strong history in World of Warcraft. We worked with Method to create a bespoke that was representative of the quality of their brand. The website was first completed in September 2016, since which it has had millions of pageviews.</p>
-            <a href="https://method.gg" class="project-url"><icon name="link" scale="1"></icon> www.method.gg</a>
+            <h1 class="main-title">{{getProjectData.name}}</h1>
+            <p class="description">
+              {{ getProjectData.tagline }}
+            </p>
+            <a :href="getProjectData.url" class="project-url">
+              <icon name="link" scale="1"></icon>
+              {{ getProjectData.url.replace('http://', '') }}</a>
           </div>
         </div>
       </div>
     </div>
 
-  <div class="project-images">
-    <div class="section-gradient"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12">
-          <div class="portfolio-tile">
-            <div class="image-label">Home Page</div>
-            <img class="img-fluid" src="../assets/img/portfolio/method/gallery/1.jpg" alt="">
+    <div class="project-images">
+      <div class="section-gradient"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <div class="portfolio-tile">
+              <div class="image-label">Home Page</div>
+              <img class="img-fluid" src="../assets/img/portfolio/method/gallery/1.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-          <div class="portfolio-tile">
-            <div class="image-label">Raid Progress Page</div>
-            <img class="img-fluid" src="../assets/img/portfolio/method/gallery/2.jpg" alt="">
+          <div class="col-sm-12 col-md-12">
+            <div class="portfolio-tile">
+              <div class="image-label">Raid Progress Page</div>
+              <img class="img-fluid" src="../assets/img/portfolio/method/gallery/2.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-          <div class="portfolio-tile">
-            <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+          <div class="col-sm-12 col-md-12">
+            <div class="portfolio-tile">
+              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-          <div class="portfolio-tile">
-            <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+          <div class="col-sm-12 col-md-12">
+            <div class="portfolio-tile">
+              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-          <div class="portfolio-tile">
-            <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+          <div class="col-sm-12 col-md-12">
+            <div class="portfolio-tile">
+              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-          <div class="portfolio-tile">
-            <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+          <div class="col-sm-12 col-md-12">
+            <div class="portfolio-tile">
+              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
   </div>
 </template>
 
 <script>
+  /**
+   * @todo Make the images load after changing up the api.
+   */
   export default {
     name: 'Project',
     data () {
       return {
-        msg: 'Welcome to Cyanic'
+        param: this.$route.params.id
+      }
+    },
+    computed: {
+      getProjectData: function () {
+        return this.$store.getters.getProject('/' + this.param)
       }
     }
   }
