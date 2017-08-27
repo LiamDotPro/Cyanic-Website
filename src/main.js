@@ -32,6 +32,11 @@ Vue.use(BootstrapVue)
 // Register Vue-Awesome Global Icon
 Vue.component('icon', Icon)
 
+// Use vue resource management
+import VueResource from 'vue-resource'
+
+Vue.use(VueResource)
+
 // components below!
 import NavigationTop from './components/NavigationTop'
 import BottomFooter from './components/BottomFooter'

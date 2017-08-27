@@ -8,6 +8,19 @@
 
 <script>
 
+  export default {
+    name: 'app',
+    data () {
+      return {
+        status: this.$store.state.status
+      }
+    },
+    created: function () {
+      this.$store.dispatch('LOAD_PROJECTS')
+    },
+    computed: {}
+  }
+
 </script>
 
 <style lang="scss">

@@ -7,11 +7,23 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const state = {}
+const state = {
+  projects: []
+}
 
-const mutations = {}
+const mutations = {
+  SET_PROJECTS (state, obj) {
+    state.projects = obj
+  }
+}
 
-const actions = {}
+const actions = {
+  LOAD_PROJECTS: ({commit}) => {
+    Vue.http.get('http://localhost:2000/projects').then(response => {
+      commit('SET_PROJECTS', response.body)
+    })
+  }
+}
 
 const getters = {}
 
