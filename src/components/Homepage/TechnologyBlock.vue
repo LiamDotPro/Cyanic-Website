@@ -25,7 +25,14 @@
   @import "../../assets/master";
 
   .tech-block {
+    span {
+      display: block;
 
+      img {
+        max-width: 65px;
+        display: block;
+      }
+    }
   }
 
 </style>

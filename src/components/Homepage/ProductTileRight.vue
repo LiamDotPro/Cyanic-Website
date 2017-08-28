@@ -64,8 +64,8 @@
     position: relative;
     background: #eff1f8;
     text-align: left;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 
     .service-back-grad {
       position: absolute;
