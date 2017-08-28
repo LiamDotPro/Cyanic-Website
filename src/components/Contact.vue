@@ -4,7 +4,8 @@
       <div class="row align-items-center">
         <div class="col">
           <h1>Search Engine Optimisation</h1>
-          <p>Increasing your visibility on search engines helps your business or personal website in a number of ways.</p>
+          <p>
+            Increasing your visibility on search engines helps your business or personal website in a number of ways.</p>
         </div>
       </div>
     </div>
@@ -40,46 +41,37 @@
         <div class="row">
           <div class="col">
 
-            <form action="/confirmation-full" method="post">
+            <form @submit.prevent="onSubmit" method="post">
               <div class="form-group">
                 <label>Full Name: </label>
-                <input name="name" required="" type="text" class="form-control">
-              </div>
-
-              <div class="form-group">
-                <label>Subject: </label>
-                <input name="subject" required="" type="text" class="form-control">
+                <input v-model="name" name="name" required="" type="text" class="form-control">
               </div>
 
               <div class="form-group">
                 <label>Email Address: </label>
-                <input name="email" required="" type="text" class="form-control">
+                <input v-model="email" name="email" required="" type="text" class="form-control">
               </div>
 
               <div class="form-group">
-                <label for="exampleSelect1">Reason for getting in contact</label>
-                <select class="form-control" id="exampleSelect1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                <label for="reasonSelect">Reason for getting in contact</label>
+                <select v-model="subject" class="form-control" id="reasonSelect">
+                  <option>Web Development & Design</option>
+                  <option>Search Engine Optimization</option>
+                  <option>Twitch Design</option>
+                  <option>Social Media</option>
+                  <option>Sponsorship</option>
                 </select>
               </div>
 
               <div class="form-group">
-                <label>Phone: </label>
-                <input name="phone" required="" type="text" class="form-control">
+                <label>Message</label>
+                <textarea class="form-control" name="message" required=""></textarea>
               </div>
 
-              <div class="form-group">
-                <label>Message</label>
-                <textarea class="form-control" name="message" required="" ></textarea>
-              </div>
 
               <button class="btn btn-send" type="submit">Submit</button>
             </form>
-
+            {{getName}}
           </div>
         </div>
       </div>
@@ -93,7 +85,23 @@
     name: 'Contact',
     data () {
       return {
-        msg: 'Welcome to Cyanic'
+        msg: 'Welcome to Cyanic',
+        name: '',
+        subject: '',
+        email: ''
+      }
+    },
+    methods: {
+      onSubmit: function (e, data) {
+        console.log(e)
+        console.log(data)
+        this.$http.post('http://localhost:1337/contact', []).then((res) => {
+        });
+      }
+    },
+    computed: {
+      getName: function () {
+        return this.name
       }
     }
   }
@@ -104,23 +112,24 @@
   // Start coding!
 
   .contact-hero {
-      padding-bottom: 0;
-      padding-top: 150px;
+    padding-bottom: 0;
+    padding-top: 150px;
 
-      h1 {
-        color:#fff;
-        font-size: 40px;
-        font-weight: bold;
-      }
-      p {
-        padding-top: 10px;
-        font-size: 16px;
-        line-height: 1.7;
-        margin-bottom: 25px;
-        color: #fff;
-      }
+    h1 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    p {
+      padding-top: 10px;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 25px;
+      color: #fff;
+    }
 
   }
+
   .contact-info-block {
     padding-bottom: 50px;
     padding-top: 50px;
