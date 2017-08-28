@@ -8,9 +8,10 @@
             <p class="description">
               {{ getProjectData.tagline }}
             </p>
-            <a :href="getProjectData.url" class="project-url">
+            <a v-if="getProjectData.url !== null && getProjectData.url !== ''" :href="getProjectData.url" class="project-url">
               <icon name="link" scale="1"></icon>
-              {{ getProjectData.url.replace('http://', '') }}</a>
+              {{ getProjectData.url.replace('http://', '') }}
+            </a>
           </div>
         </div>
       </div>
@@ -60,6 +61,7 @@
 </template>
 
 <script>
+
   /**
    * @todo Make the images load after changing up the api.
    */
@@ -76,6 +78,7 @@
       }
     }
   }
+
 </script>
 
 
