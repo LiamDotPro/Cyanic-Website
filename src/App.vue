@@ -2,6 +2,7 @@
   <div id="app">
     <NavigationTop></NavigationTop>
     <router-view></router-view>
+    <CallToAction></CallToAction>
     <signature-footer></signature-footer>
   </div>
 </template>

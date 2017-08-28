@@ -33,7 +33,7 @@
 
 <style lang="scss" scoped>
   // Start coding!
-  @import "../../assets/master";
+  @import "../assets/master";
 
   .CallToAction {
     text-align: left;

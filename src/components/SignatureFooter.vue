@@ -11,15 +11,15 @@
           <a href="" target="_blank">
             <icon name="facebook"></icon>
           </a>
-          <a href="" target="_blank">
-            <icon name="linkedin"></icon>
-          </a>
-          <a href="" target="_blank">
-            <icon name="github"></icon>
-          </a>
-          <a href="" target="_blank">
-            <icon name="instagram"></icon>
-          </a>
+          <!--<a href="" target="_blank">-->
+            <!--<icon name="linkedin"></icon>-->
+          <!--</a>-->
+          <!--<a href="" target="_blank">-->
+            <!--<icon name="github"></icon>-->
+          <!--</a>-->
+          <!--<a href="" target="_blank">-->
+            <!--<icon name="instagram"></icon>-->
+          <!--</a>-->
           <a href="" target="_blank">
             <icon name="twitter"></icon>
           </a>

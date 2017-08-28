@@ -41,12 +41,14 @@ Vue.use(VueResource)
 import NavigationTop from './components/NavigationTop'
 import BottomFooter from './components/BottomFooter'
 import NotFoundComponent from './components/NotFoundComponent'
+import CallToAction from './components/CallToAction'
 import SignatureFooter from './components/SignatureFooter'
 
 // Use Components Statements global components
 Vue.component('NavigationTop', NavigationTop)
 Vue.component('BottomFooter', BottomFooter)
 Vue.component('NotFoundComponent', NotFoundComponent)
+Vue.component('CallToAction', CallToAction)
 Vue.component('SignatureFooter', SignatureFooter)
 
 import 'vue2-animate/dist/vue2-animate.css'
@@ -64,6 +66,7 @@ new Vue({
   components: {
     App,
     NavigationTop,
+    CallToAction,
     BottomFooter
   }
 })

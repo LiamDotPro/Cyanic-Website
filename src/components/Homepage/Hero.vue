@@ -7,7 +7,7 @@
             <div class="hero-text-block">
               <h1>{{header}}</h1>
               <p>
-                Were a youthful and rebellious web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
+                Were a youthful and passionate web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
               </p>
 
               <div class="hero-button">
@@ -24,15 +24,15 @@
                 <a href="" target="_blank">
                   <icon name='facebook' scale="1.2"></icon>
                 </a>
-                <a href="" target="_blank">
-                  <icon name='linkedin' scale="1.2"></icon>
-                </a>
-                <a href="" target="_blank">
-                  <icon name='github' scale="1.2"></icon>
-                </a>
-                <a href="" target="_blank">
-                  <icon name='instagram' scale="1.2"></icon>
-                </a>
+                <!--<a href="" target="_blank">-->
+                  <!--<icon name='linkedin' scale="1.2"></icon>-->
+                <!--</a>-->
+                <!--<a href="" target="_blank">-->
+                  <!--<icon name='github' scale="1.2"></icon>-->
+                <!--</a>-->
+                <!--<a href="" target="_blank">-->
+                  <!--<icon name='instagram' scale="1.2"></icon>-->
+                <!--</a>-->
                 <a href="" target="_blank">
                   <icon name='twitter' scale="1.2"></icon>
                 </a>

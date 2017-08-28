@@ -4,31 +4,15 @@
       <div class="row align-items-center">
         <div class="col">
           <div class="testimonial-tile">
-            <a href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/profile_images/653684583985053697/KJPoBWDk_bigger.png" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Methodgg</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
+            <ul class="list-unstyled">
+              <li></li>
+            </ul>
             <a href="" class="twitter-handle">@methodgg</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
           </div>
         </div>
-        <div class="col">
-          <div class="testimonial-tile">
-            <a href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/profile_images/877275860126113793/xdRMM4j__400x400.jpg" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">Djarii</span>
-            <a href="" class="twitter-handle">@Djari328</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.I am the boss no questions Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="testimonial-tile">
-            <a href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/media/DFbwgVaW0AAYGEf.jpg:thumb" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">TinaLyra</span>
-            <a href="" class="twitter-handle">@kvestina</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
