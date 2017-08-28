@@ -84,7 +84,7 @@
 
     .line-col-horizontal {
       height: 10px;
-      width: 50%;
+      width: 40%;
       position: absolute;
       top: 50%;
       left: 0;
