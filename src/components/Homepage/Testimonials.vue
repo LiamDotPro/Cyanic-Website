@@ -4,17 +4,8 @@
       <div class="row align-items-center">
         <div class="col">
           <div class="testimonial-tile">
-            <a target="_blank" href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/profile_images/653684583985053697/KJPoBWDk_bigger.png" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">Methodgg</span>
-            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle">@methodgg</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
-          </div>
-        </div>
-        <div class="col">
-          <div class="testimonial-tile">
             <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/profile_images/877275860126113793/xdRMM4j__400x400.jpg" alt="" class="img-fluid testimonial-avatar">
+            <img src="../../assets/img/testimonials/djarii_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Djarii</span>
             <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle">@Djari328</a>
             <p>When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>
@@ -22,8 +13,17 @@
         </div>
         <div class="col">
           <div class="testimonial-tile">
+            <a target="_blank" href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
+            <img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
+            <span class="testimonial-title">Methodgg</span>
+            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle">@methodgg</a>
+            <p>Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="testimonial-tile">
             <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
-            <img src="https://pbs.twimg.com/media/DFbwgVaW0AAYGEf.jpg:thumb" alt="" class="img-fluid testimonial-avatar">
+            <img src="../../assets/img/testimonials/tinalyra.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">TinaLyra</span>
             <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle">@kvestina</a>
             <p>It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.</p>

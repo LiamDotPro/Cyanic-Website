@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col">
-          <h1>Search Engine Optimisation</h1>
+          <h1>Website Design & Development</h1>
           <p>Increasing your visibility on search engines helps your business or personal website in a number of ways. Search engine optimisation (SEO) services help to format, expose and promote content to attract potential customers and general users to your website with the intention to convert these visitors to sales of your product or services, to engage them in the content of your website or to capture user data for future use (such as email marketing via a newsletter). </p>
         </div>
       </div>
