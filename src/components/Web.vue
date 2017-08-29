@@ -3,6 +3,8 @@
     <WebHero></WebHero>
     <WebIntro></WebIntro>
     <WebFeatures></WebFeatures>
+    <WebCase></WebCase>
+    <WebPackage></WebPackage>
   </div>
 </template>
 
@@ -12,12 +14,16 @@
   import WebHero from './Web/WebHero'
   import WebIntro from './Web/WebIntro'
   import WebFeatures from './Web/WebFeatures'
+  import WebCase from './Web/WebCase'
+  import WebPackage from './Web/WebPackage'
 
   export default {
     components: {
       WebHero,
       WebIntro,
-      WebFeatures
+      WebFeatures,
+      WebCase,
+      WebPackage
     },
     name: 'Web',
     data () {
