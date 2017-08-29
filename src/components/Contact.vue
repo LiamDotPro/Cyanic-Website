@@ -65,13 +65,12 @@
 
               <div class="form-group">
                 <label>Message</label>
-                <textarea class="form-control" name="message" required=""></textarea>
+                <textarea v-model="msg" class="form-control" name="message" required=""></textarea>
               </div>
-
 
               <button class="btn btn-send" type="submit">Submit</button>
             </form>
-            {{getName}}
+
           </div>
         </div>
       </div>
@@ -85,7 +84,7 @@
     name: 'Contact',
     data () {
       return {
-        msg: 'Welcome to Cyanic',
+        msg: '',
         name: '',
         subject: '',
         email: ''
@@ -93,10 +92,16 @@
     },
     methods: {
       onSubmit: function (e, data) {
-        console.log(e)
-        console.log(data)
-        this.$http.post('http://localhost:1337/contact', []).then((res) => {
-        });
+        this.$http.post('http://localhost:1337/contact', {
+          subject: this.subject,
+          name: this.name,
+          email: this.email,
+          message: this.msg
+        }).then((res) => {
+          if (res === 'success') {
+          } else {
+          }
+        })
       }
     },
     computed: {
