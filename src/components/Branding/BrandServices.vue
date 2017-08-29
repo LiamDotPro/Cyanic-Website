@@ -76,7 +76,7 @@
     .branding-tile {
       /*background: #eff1f8;*/
       /*margin-bottom: 30px;*/
-      padding: 50px 0;
+      padding: 20px 0;
     }
   }
 </style>

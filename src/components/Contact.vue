@@ -1,42 +1,45 @@
 <template>
   <div class="contact">
-    <div class="container contact-hero">
+
+    <div class="contact-hero">
+    <div class="container">
       <div class="row align-items-center">
         <div class="col">
-          <h1>Search Engine Optimisation</h1>
-          <p>
-            Increasing your visibility on search engines helps your business or personal website in a number of ways.</p>
+          <h1>Get in contact</h1>
+          <p>Increasing your visibility on search engines helps your business or personal website in a number of ways.</p>
         </div>
       </div>
     </div>
-
-    <div class="contact-info-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <div class="contact-info-tile">
-              <h2>General Email</h2>
-              <p>contact@cyanic.io</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="contact-info-tile">
-              <h2>General Email</h2>
-              <p>contact@cyanic.io</p>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="contact-info-tile">
-              <h2>General Email</h2>
-              <p>contact@cyanic.io</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="service-back-grad"></div>
+    <div class="service-back-grad"></div>
     </div>
+    <!--<div class="contact-info-block">-->
+      <!--<div class="container">-->
+        <!--<div class="row">-->
+          <!--<div class="col-4">-->
+            <!--<div class="contact-info-tile">-->
+              <!--<h2>General Email</h2>-->
+              <!--<p>contact@cyanic.io</p>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="col-4">-->
+            <!--<div class="contact-info-tile">-->
+              <!--<h2>Twitter</h2>-->
+              <!--<p>contact@cyanic.io</p>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="col-4">-->
+            <!--<div class="contact-info-tile">-->
+              <!--<h2>Twitter</h2>-->
+              <!--<p>@cyanicio</p>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!---->
+    <!--</div>-->
 
     <div class="contact-form">
+
       <div class="container">
         <div class="row">
           <div class="col">
@@ -117,8 +120,9 @@
   // Start coding!
 
   .contact-hero {
-    padding-bottom: 0;
+    padding-bottom: 100px;
     padding-top: 150px;
+    position: relative;
 
     h1 {
       color: #fff;
@@ -133,6 +137,21 @@
       color: #fff;
     }
 
+    .container {
+      position: relative;
+      z-index: 25;
+    }
+    .service-back-grad {
+      position: absolute;
+      right: 0;
+      left: 0;
+      height: 150px;
+      bottom: 0;
+      z-index: 5;
+      background: url(../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
+      background-size: 100% 150px;
+    }
+
   }
 
   .contact-info-block {
@@ -144,33 +163,55 @@
       position: relative;
       z-index: 25;
     }
-    .service-back-grad {
-      position: absolute;
-      right: 0;
-      left: 0;
-      height: 250px;
-      bottom: 0;
-      z-index: 5;
-      background: url(../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
-      background-size: 100% 250px;
-    }
+
   }
 
+
+
   .contact-form {
-    padding: 100px 15px;
+    padding: 80px 15px 100px 15px;
     background: #0377e4;
     color: #fff;
+    position: relative;
+
+
+    .btn-send {
+      background: #3193ef;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      font-weight: bold;
+      text-transform: uppercase;
+      padding:1.15rem 3rem;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 14px;
+    }
 
     form {
 
       .form-control {
         padding: 1rem;
-        background-color: rgba(255, 255, 255, 0.2);
-        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        min-height: 56px;
+        color: #fff;
+
+        option {
+          color: #fff;
+          background: rgb(2, 95, 182);
+          box-shadow: 0 0 0 rgb(2, 95, 182);
+          border: 1px solid rgb(2, 95, 182);
+        }
+
+      }
+      textarea.form-control {
+        min-height: 150px;
       }
       label {
         font-weight: bold;
         margin-bottom: 3px;
+        font-size: 14px;
       }
     }
   }

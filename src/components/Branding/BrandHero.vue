@@ -3,11 +3,15 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-9">
+        <div class="col-8">
           <h1>Branding</h1>
           <p>Your branding is important to get right as it's often the first thing that a person will use to decide if they want to engage with you further. When they come into contact with your brand they will make assumptions as to how professional, reliable or high quality your respective product, service or content is from their perception of your branding. It’s because of this that getting your branding right is so important, we’re here to help. Below are some of the areas that we have experience delivering to clients ranging from personal brands with large audiences of monthly viewers to businesses pitching for considerable investment.</p>
         </div>
-        <div class="col-3"></div>
+        <div class="col-4">
+          <div class="image-wrap">
+            <img src="../../assets/img/top-side-images/preview.png" alt="" class="img-fluid">
+          </div>
+        </div>
       </div>
     </div>
     <div class="service-back-grad"></div>

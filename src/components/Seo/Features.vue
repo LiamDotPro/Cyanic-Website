@@ -1,7 +1,7 @@
 <template>
   <div class="Features">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row">
         <div class="col-6">
           <div class="testimonial-tile">
             <h3>Higher Visibility</h3>
@@ -18,17 +18,17 @@
         </div>
         <div class="col-6">
           <div class="testimonial-tile">
-            <h3>Improved Website</h3>
+            <h3>Generating New Leads</h3>
             <p>
-              A factor of ranking in a search engine is the loading speed of the pages on your website. Slow websites will often be less prefered by users if an alternative is available. If the website is too slow to load content users will often abandon that website all together, leaving a negative feeling towards that brand going forward, potentially being spread wider through negative word of mouth as a result of their dissatisfaction. With our business packages we include the work needed to keep the controllable aspect of your website’s page load speed fast, ensuring the users see the great content your website is providing.
-            </p>
+              Ultimately generating new leads for a lot of web businesses lies at the heart of why one might choose to take out SEO services and we understand that the bottom line is important. While we can’t promise that we can guarantee you new leads, we can put you in the best position to be able to have the chance to connect. We find that if the businesses meets the need of the consumer deeply then as long as there getting new traffic, generating new leads ends up being package and parcel. We are also able to offer our own insight into how we think this process will happen and advise on B-B selling and B-C Service monetization on your web platform alongside insight into UI/UX techniques that will really benefit your services / products.            </p>
           </div>
         </div>
         <div class="col-6">
           <div class="testimonial-tile">
-            <h3>Generating New Leads</h3>
+            <h3>Improved Website</h3>
             <p>
-              Ultimately generating new leads for a lot of web businesses lies at the heart of why one might choose to take out SEO services and we understand that the bottom line is important. While we can’t promise that we can guarantee you new leads, we can put you in the best position to be able to have the chance to connect. We find that if the businesses meets the need of the consumer deeply then as long as there getting new traffic, generating new leads ends up being package and parcel. We are also able to offer our own insight into how we think this process will happen and advise on B-B selling and B-C Service monetization on your web platform alongside insight into UI/UX techniques that will really benefit your services / products.            </p>
+              A factor of ranking in a search engine is the loading speed of the pages on your website. Slow websites will often be less prefered by users if an alternative is available. If the website is too slow to load content users will often abandon that website all together, leaving a negative feeling towards that brand going forward, potentially being spread wider through negative word of mouth as a result of their dissatisfaction. With our business packages we include the work needed to keep the controllable aspect of your website’s page load speed fast, ensuring the users see the great content your website is providing.
+            </p>
           </div>
         </div>
         <div class="col-6">

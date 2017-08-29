@@ -3,11 +3,15 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-9">
+        <div class="col-8">
           <h1>Website Design & Development</h1>
           <p>Increasing your visibility on search engines helps your business or personal website in a number of ways. Search engine optimisation (SEO) services help to format, expose and promote content to attract potential customers and general users to your website with the intention to convert these visitors to sales of your product or services, to engage them in the content of your website or to capture user data for future use (such as email marketing via a newsletter). </p>
         </div>
-        <div class="col-3"></div>
+        <div class="col-4">
+          <div class="image-wrap">
+            <img src="../../assets/img/top-side-images/web-development/desktop-illu.png" alt="" class="img-fluid">
+          </div>
+        </div>
       </div>
     </div>
     <div class="service-back-grad"></div>

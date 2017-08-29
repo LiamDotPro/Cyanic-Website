@@ -49,7 +49,7 @@
             image: require('../../assets/img/top-side-images/preview.png'),
             title: 'Branding & Graphical Design',
             desc: 'Need to improve an existing platform or service you provide? we have the knowledge to steer your web projects in the right direction.',
-            link: 'consulting'
+            link: 'branding'
           }
         ]
       }

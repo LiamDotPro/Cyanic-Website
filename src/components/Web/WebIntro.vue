@@ -7,7 +7,7 @@
           <p>We currently offer our services exclusively online as many of our clients and businesses are also mostly online, though this may not be the same in the future. We have plans to expand locally providing Web Development in Derby and Reading offering our services to local businesses to extend our existing offerings and cement the cyanic brand within these communities. Though we will always offer the same existing services that our clients love online so everyone plays from an even playing field.</p>
 
 
-          <h3>Our process and approach</h3>
+          <h2>Our process and approach</h2>
           <h3>Specification gathering</h3>
           <p>Firstly and we find most importantly we talk with our client to identify their vision for their website, from visual design features to core functionality and required visitor interactivity. During our initial discussion we will analyse the specifications of the project and propose multiple options for the approach we take with the delivered website.</p>
 
@@ -63,5 +63,6 @@
 
   .WebIntro {
     background: $primaryWhite;
+    padding: 60px 0 0 0;
   }
 </style>

@@ -3,9 +3,6 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-3">
-
-        </div>
         <div class="col">
           <h2>Where do we offer our SEO Services?</h2>
           <p>
@@ -14,6 +11,9 @@
           <p>
             However, if locally there are a lot of businesses competing for similar or the same keywords you can still help rise above those who are less engaged or that have neglected the search engine optimisation of their website. Although we are not against it we don’t visit every client’s physical business locations, we instead work with clients remotely (via the most convenient form of communication for them) as we are a small team and want all clients to benefit from our cost efficiency.
           </p>
+        </div>
+        <div class="col-lg-3">
+
         </div>
       </div>
       <div class="row align-items-center">
@@ -77,6 +77,6 @@
 
   .Description {
     background: $primaryWhite;
-
+    padding: 80px 0 0 0;
   }
 </style>
