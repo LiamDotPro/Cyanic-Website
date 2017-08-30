@@ -8,7 +8,8 @@
             <p class="description">
               {{ getProjectData.tagline }}
             </p>
-            <a v-if="getProjectData.url !== null && getProjectData.url !== ''" :href="getProjectData.url" class="project-url">
+            <a v-if="getProjectData.url !== null && getProjectData.url !== ''" :href="getProjectData.url"
+               class="project-url">
               <icon name="link" scale="1"></icon>
               {{ getProjectData.url.replace('http://', '') }}
             </a>
@@ -21,42 +22,17 @@
       <div class="section-gradient"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12">
+
+          <div class="col-sm-12 col-md-12" v-for="image in getProjectData.images.images">
             <div class="portfolio-tile">
-              <div class="image-label">Home Page</div>
-              <img class="img-fluid" src="../assets/img/portfolio/method/gallery/1.jpg" alt="">
+              <!--<div class="image-label">Home Page</div>-->
+              <img class="img-fluid" :src="image" alt="">
             </div>
           </div>
-          <div class="col-sm-12 col-md-12">
-            <div class="portfolio-tile">
-              <div class="image-label">Raid Progress Page</div>
-              <img class="img-fluid" src="../assets/img/portfolio/method/gallery/2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12">
-            <div class="portfolio-tile">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12">
-            <div class="portfolio-tile">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12">
-            <div class="portfolio-tile">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12">
-            <div class="portfolio-tile">
-              <img class="img-fluid" src="../assets/img/portfolio/method/thumbnail.jpg" alt="">
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
