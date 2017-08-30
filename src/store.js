@@ -8,12 +8,16 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  projects: []
+  projects: [],
+  emailed: false
 }
 
 const mutations = {
   SET_PROJECTS (state, obj) {
     state.projects = obj
+  },
+  SET_EMAIL_STATUS (state, bool) {
+    state.emailed = bool
   }
 }
 
@@ -22,6 +26,9 @@ const actions = {
     Vue.http.get('http://109.74.195.166:1337/projects').then(response => {
       commit('SET_PROJECTS', response.body)
     })
+  },
+  UPDATE_EMAIL_STATUS: ({commit}) => {
+    commit('SET_EMAIL_STATUS', true)
   }
 }
 

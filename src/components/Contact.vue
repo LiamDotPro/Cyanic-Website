@@ -2,41 +2,18 @@
   <div class="contact">
 
     <div class="contact-hero">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col">
-          <h1>Get in contact</h1>
-          <p>Increasing your visibility on search engines helps your business or personal website in a number of ways.</p>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <h1>Get in contact</h1>
+            <p>
+              We’d love to hear from you! If you have any questions, feedback or interest in working with us on a project we welcome your messages and look forward to you getting in contact. To initially get in contact you can fill in the form below or send us a message via Twitter from which we can provide a more convenient or direct contact method.
+            </p>
+          </div>
         </div>
       </div>
+      <div class="service-back-grad"></div>
     </div>
-    <div class="service-back-grad"></div>
-    </div>
-    <!--<div class="contact-info-block">-->
-      <!--<div class="container">-->
-        <!--<div class="row">-->
-          <!--<div class="col-4">-->
-            <!--<div class="contact-info-tile">-->
-              <!--<h2>General Email</h2>-->
-              <!--<p>contact@cyanic.io</p>-->
-            <!--</div>-->
-          <!--</div>-->
-          <!--<div class="col-4">-->
-            <!--<div class="contact-info-tile">-->
-              <!--<h2>Twitter</h2>-->
-              <!--<p>contact@cyanic.io</p>-->
-            <!--</div>-->
-          <!--</div>-->
-          <!--<div class="col-4">-->
-            <!--<div class="contact-info-tile">-->
-              <!--<h2>Twitter</h2>-->
-              <!--<p>@cyanicio</p>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-      <!---->
-    <!--</div>-->
 
     <div class="contact-form">
 
@@ -44,7 +21,7 @@
         <div class="row">
           <div class="col">
 
-            <form @submit.prevent="onSubmit" method="post">
+            <form v-show="!getEmailedState" @submit.prevent="onSubmit" method="post">
               <div class="form-group">
                 <label>Full Name: </label>
                 <input v-model="name" name="name" required="" type="text" class="form-control">
@@ -57,7 +34,7 @@
 
               <div class="form-group">
                 <label for="reasonSelect">Reason for getting in contact</label>
-                <select v-model="subject" class="form-control" id="reasonSelect">
+                <select v-model="subject" class="form-control" id="reasonSelect" required>
                   <option>Web Development & Design</option>
                   <option>Search Engine Optimization</option>
                   <option>Twitch Design</option>
@@ -95,21 +72,30 @@
     },
     methods: {
       onSubmit: function (e, data) {
-        this.$http.post('http://109.74.195.166:1337/contact', {
-          subject: this.subject,
-          name: this.name,
-          email: this.email,
-          message: this.msg
-        }).then((res) => {
-          if (res === 'success') {
-          } else {
-          }
-        })
+        if (!this.$store.state.emailed) {
+          this.$http.post('http://109.74.195.166:1337/contact', {
+            subject: this.subject,
+            name: this.name,
+            email: this.email,
+            message: this.msg
+          }).then((res) => {
+            if (res.body === 'success') {
+              this.name = ''
+              this.email = ''
+              this.msg = ''
+              this.$store.dispatch('UPDATE_EMAIL_STATUS')
+            } else {
+            }
+          })
+        }
       }
     },
     computed: {
       getName: function () {
         return this.name
+      },
+      getEmailedState: function () {
+        return this.$store.state.emailed
       }
     }
   }
@@ -166,23 +152,20 @@
 
   }
 
-
-
   .contact-form {
     padding: 80px 15px 100px 15px;
     background: #0377e4;
     color: #fff;
     position: relative;
 
-
     .btn-send {
       background: #3193ef;
       border: 1px solid rgba(255, 255, 255, 0.1);
       color: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       font-weight: bold;
       text-transform: uppercase;
-      padding:1.15rem 3rem;
+      padding: 1.15rem 3rem;
       margin-top: 20px;
       cursor: pointer;
       font-size: 14px;
