@@ -32,7 +32,7 @@
               </div>
 
               <div class="form-group">
-                <label for="reasonSelect">Reason for getting in contact</label>
+                <label for="reasonSelect">Reason for getting in contact:</label>
                 <select v-model="subject" class="form-control" id="reasonSelect" required>
                   <option>Web Development & Design</option>
                   <option>Search Engine Optimization</option>
@@ -43,7 +43,7 @@
               </div>
 
               <div class="form-group">
-                <label>Message</label>
+                <label>Message:</label>
                 <textarea v-model="msg" class="form-control" name="message" required=""></textarea>
               </div>
 
@@ -215,7 +215,7 @@
       label {
         font-weight: bold;
         margin-bottom: 3px;
-        font-size: 14px;
+        font-size: 16px;
       }
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="ThirdProductTile">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-8 product-tile-text">
           <h3>Our Approach</h3>
           <p>
@@ -12,7 +12,7 @@
           </p>
         </div>
         <div class="col-4">
-          <img src="../../assets/img/kanban.png" class="img-fluid" alt="">
+          <img src="../../assets/img/kanban.jpg" class="img-fluid illustration-side" alt="">
         </div>
       </div>
     </div>
@@ -46,6 +46,10 @@
 
     h3 {
       color: #027ef1;
+    }
+
+    .illustration-side {
+      margin-top: 45px;
     }
 
   }

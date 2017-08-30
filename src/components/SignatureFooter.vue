@@ -8,19 +8,13 @@
       </div>
       <div class="row">
         <div class="col-12 social-icons-text">
-          <a href="" target="_blank">
+          <a href="http://facebook.com/cyanic.io" target="_blank">
             <icon name="facebook"></icon>
           </a>
-          <!--<a href="" target="_blank">-->
-            <!--<icon name="linkedin"></icon>-->
-          <!--</a>-->
-          <!--<a href="" target="_blank">-->
-            <!--<icon name="github"></icon>-->
-          <!--</a>-->
-          <!--<a href="" target="_blank">-->
-            <!--<icon name="instagram"></icon>-->
-          <!--</a>-->
-          <a href="" target="_blank">
+          <a href="https://github.com/DualityMedia" target="_blank">
+            <icon name="github"></icon>
+          </a>
+          <a href="http://twitter.com/cyanicio" target="_blank">
             <icon name="twitter"></icon>
           </a>
         </div>

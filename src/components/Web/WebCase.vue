@@ -4,11 +4,17 @@
         <div class="row">
           <div class="col">
             <h2>Case Study: Method</h2>
+            <a href="https://method.gg" target="_blank">www.method.gg</a>
+          </div>
+          <div class="col text-right"><img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid case-avatar"></div>
+        </div>
+        <div class="row">
+          <div class="col">
             <h3>Introduction</h3>
             <p>Method, from its beginnings over 11 years ago as a World of Warcraft guild, is a professional gaming and esports organisation. Method has a long standing and established place in the gaming scene with a large and loyal fan base that has been built up over the years. With a growing involvement in a range of gaming and esports scenes Method are expanding both in size and brand awareness. As such, the work we produced originally and the ongoing work we complete is required to adapt to support the changing goals and objectives of their website.</p>
             <h3>Deliverables</h3>
             <p>Over the year we have worked with Method, we have delivered a variety of different systems that have offered unique functionality and made for purpose hubs of information to make the viewing and administration experience as smooth as possible. Shortly before we started the Method website we had been working on a bespoke content management system that had been designed specifically to fill part of the void of esports management systems.</p>
-              <p>Live views of these systems can be seen on the Method project page</p>
+            <p>Live views of these systems can be seen on the <router-link to="/project/method">Method project page</router-link></p>
 
             <h3>Results</h3>
             <p>All-in-all for the size that the project has grown to since the start of the project we have had minimal interruption to service, minor bugs that arose as a result of unusual circumstances and surprising little user training/questions about how to use the admin panel. We have maintained high availability for contact with the client and emergency support which allowed us to fix any issues they did have quickly and with minimal interruption.</p>
@@ -43,8 +49,20 @@
     background: $primaryWhite;
     padding-bottom: 120px;
     padding-top: 60px;
-  }
-  .CaseStudy {
 
+    h2 {
+      margin-bottom: 5px;
+    }
   }
+
+
+  .case-avatar {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin: 0 0 0 auto;
+    display: block;
+  }
+
+
 </style>

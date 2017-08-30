@@ -2,15 +2,12 @@
   <div class="product-tile-right">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg">
-          <img class="img-fluid" src="../../assets/img/technologies.png" alt="Product tile 1">
-        </div>
         <div class="col-lg product-tile-text">
           <h2>We've got the right skill set to get things done</h2>
           <p>
             We have a rich set of technologies that we develop with, which gives our clients the satisfaction in knowing there getting not only a great looking product but also a product ready to tackle the real world. If your looking for older technologies we still support many older legacy systems and may be able to help, contact us below.
           </p>
-          <div class="row icon-area">
+          <div class="row icon-area justify-content-center">
             <technology-block v-for="tech in images" :name="tech.name" :src="tech.src"
                               :key="tech.id"></technology-block>
           </div>
@@ -63,9 +60,9 @@
   .product-tile-right {
     position: relative;
     background: #eff1f8;
-    text-align: left;
-    padding-top: 160px;
-    padding-bottom: 160px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     .service-back-grad {
       position: absolute;

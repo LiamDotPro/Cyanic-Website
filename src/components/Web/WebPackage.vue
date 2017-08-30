@@ -6,11 +6,12 @@
           <div class="support-package">
             <div class="row">
               <div class="col-2">
-                <icon class="package-icon" scale="5" name="wrench"></icon>
+                <img src="../../assets/icons/seo/wrenches.png" alt="" class="img-fluid">
               </div>
               <div class="col-10 text-left">
                 <h3>For information regarding website support and maintenance</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales  nisl in ligula finibus suscipit. Mauris sodales eros vel!</p>
+                <p>For several of our previous projects we have devised support plans that include out of regular business hours contact, support for content creation on a large news platform and maintaining the availability of websites during high volumes of traffic.</p>
+                <p>As standard with our projects we include support for bugs and issues that may occur shortly after a project is launched. However, this included support only covers issues with the product. If you want to feel confident that someone is there to taking care of your website beyond the initial level of support we can discuss a price for an ongoing support package that is tailored to your needs. If this is something you would like to know more about, <router-link to="/contact">get in contact</router-link>.</p>
               </div>
             </div>
           </div>
@@ -39,6 +40,10 @@
   .WebPackage {
     @include gradient(#1989f0, #027ef1, vertical);
     padding-bottom: 30px;
+
+    h3 {
+      margin-top: 0;
+    }
 
     .support-package {
       padding: 60px 25px;

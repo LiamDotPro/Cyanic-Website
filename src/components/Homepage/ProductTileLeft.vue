@@ -74,6 +74,7 @@
     background: $primaryWhite;
     text-align: left;
     padding-top: 30px;
+    padding-bottom: 60px;
     position: relative;
     z-index: 100;
 

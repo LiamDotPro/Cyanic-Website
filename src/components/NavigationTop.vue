@@ -82,7 +82,7 @@
     background: #027ef1;
 
     .main-links {
-      margin-top: -15px;
+      margin-top: -10px;
     }
   }
 
@@ -96,6 +96,11 @@
     opacity: 1;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
+  }
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:visited {
+    color: #fff;
   }
 
   .router-link-active {
@@ -124,6 +129,12 @@
       color: white !important;
     }
 
+  }
+
+  .navbar-brand {
+    img {
+      max-height: 60px;
+    }
   }
 
 </style>

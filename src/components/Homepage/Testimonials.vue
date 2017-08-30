@@ -4,28 +4,25 @@
       <div class="row align-items-center">
         <div class="col">
           <div class="testimonial-tile">
-            <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
             <img src="../../assets/img/testimonials/djarii_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Djarii</span>
-            <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle">@Djari328</a>
+            <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle"><icon name="twitter" scale="1"></icon> @Djari328</a>
             <p>When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>
           </div>
         </div>
         <div class="col">
           <div class="testimonial-tile">
-            <a target="_blank" href="#" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
             <img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Methodgg</span>
-            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle">@methodgg</a>
+            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle"><icon name="twitter" scale="1"></icon> @methodgg</a>
             <p>Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>
           </div>
         </div>
         <div class="col">
           <div class="testimonial-tile">
-            <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-icon"><icon name="twitter" scale="1.8"></icon></a>
             <img src="../../assets/img/testimonials/tinalyra.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">TinaLyra</span>
-            <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle">@kvestina</a>
+            <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle"><icon name="twitter" scale="1"></icon> @kvestina</a>
             <p>It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.</p>
           </div>
         </div>
@@ -62,6 +59,12 @@
       margin-top: -50px;
       position: relative;
       text-align:center;
+      min-height: 340px;
+
+      a {
+        border: none;
+        padding:0;
+      }
 
       .testimonial-avatar {
         max-width: 50px;
@@ -88,6 +91,11 @@
         display: block;
         font-size: 14px;
         color: #a4a8b1;
+        vertical-align: middle;
+
+        svg {
+          vertical-align: middle;
+        }
       }
       p {
         color: #5f6b82;

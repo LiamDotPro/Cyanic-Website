@@ -120,15 +120,15 @@
     padding: 80px 0 40px 0;
 
     .service-row {
-      padding: 45px 35px;
-      margin-bottom: 30px;
+       padding: 45px 35px;
+       margin-bottom: 30px;
 
-      h2 {
-        margin-bottom: 10px;
-        border-bottom: none;
-        padding-bottom: 0;
-      }
-    }
+       h2 {
+         margin-bottom: 10px;
+         border-bottom: none;
+         padding-bottom: 0;
+       }
+     }
     .service-row-boxed {
       background-color: #fff;
       box-shadow: 0 0 15px 0 rgba(59, 60, 118, 0.1);

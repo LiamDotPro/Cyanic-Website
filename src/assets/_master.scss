@@ -19,6 +19,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 300;
 }
 
+a {
+  color: $primaryColour;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted $primaryColour;
+  text-decoration: none;
+}
+a:hover,a:focus {
+  color: $primaryColour;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted $primaryColour;
+  text-decoration: none;
+}
+
 // Outlined Button - Blue Outline
 .btn-outline-primary {
   color: $primaryColour;
@@ -128,8 +141,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   h2 {
     color: #027ef1;
-    font-weight: normal;
-    font-size: 1.7rem;
+    font-weight: bold;
+    font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 30px;
   }

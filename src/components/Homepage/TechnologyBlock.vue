@@ -1,5 +1,5 @@
 <template>
-  <div class="col-lg-2">
+  <div class="col-lg-1">
     <div class="tech-block">
       <b-tooltip :content="name" :popover-style="{backGround: '#ffffff'}" placement="bottom">
         <img ref="image" class="img-fluid" :src="src">

@@ -1,7 +1,7 @@
 <template>
   <div class="Faq">
     <div class="container">
-      <div class="row service-row service-row-boxed row-report align-items-center">
+      <div class="row service-row service-row-boxed row-report-second align-items-center">
         <div class="col-10">
           <div class="testimonial-tile">
             <h2>What results can we promise</h2>
@@ -114,6 +114,9 @@
     }
     .row-report {
       background: #fff url(../../assets/img/services/report-background.jpg) no-repeat right bottom;
+    }
+    .row-report-second {
+      background: #fff url(../../assets/img/services/report-background2.jpg) no-repeat right bottom;
     }
     .seo-features {
       padding-top: 60px;

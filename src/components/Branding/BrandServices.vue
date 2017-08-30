@@ -1,7 +1,7 @@
 <template>
   <div class="BrandServices">
     <div class="container">
-      <div class="row branding-tile align-items-center">
+      <div class="row service-row service-row-boxed align-items-center">
         <div class="col-8">
           <h2>Logo Design</h2>
           <p>Your logo is something that makes your branding unique and noticeable, a good logo can often make the difference between someone remembering you and potentially engaging with your offerings. Logo’s come in all different styles, sizes, colours and vary in complexity but they are often the heart and soul of a brand which is why it’s important that your logo radiates you. We have constructed logos for lots of different companies and individuals all looking for something that makes them memorable, if you have something quirky and different rest assured that we have the correct toolset to make that vision a reality.</p>
@@ -10,7 +10,7 @@
           <img src="../../assets/img/services/logo-design.jpg" alt="">
         </div>
       </div>
-      <div class="row branding-tile align-items-center">
+      <div class="row service-row service-row-boxed align-items-center">
         <div class="col-4">
           <img src="../../assets/img/services/social-designs.jpg" alt="">
         </div>
@@ -19,7 +19,7 @@
           <p>We have a vast amount of experience working with social media platforms and have a keen eye for where you may be able to improve on your existing branding. Alternatively, if you’re looking to create new branding across multiple platforms we can provide insight and cohesive designs that will make you stand out. Furthermore, we can also design sets of content posts such as infographics and lively images that will engage your users in the topics you like to discuss.</p>
         </div>
     </div>
-    <div class="row branding-tile align-items-center">
+    <div class="row service-row service-row-boxed align-items-center">
         <div class="col-8">
           <h2>Twitch Packages</h2>
           <p>Twitch is an ever-growing platform where you’re continually competing for the limelight, with our twitch package you can be sure all your online branding is appealing and modern. Furthermore, good consistent branding that matches all your social media makes the flow to conversion from external platforms simpler and faster. We’ll take care of your header, offline screen, panels and profile picture meet your high standards.</p>
@@ -28,7 +28,7 @@
             <img src="../../assets/img/services/twitch-icon.jpg" alt="">
           </div>
   </div>
-      <div class="row branding-tile align-items-center">
+      <div class="row service-row service-row-boxed align-items-center">
         <div class="col-4">
           <img src="../../assets/img/services/branded-documents.jpg" alt="">
         </div>
@@ -73,10 +73,27 @@
       color: #5f6b82;
       font-size: 16px;
     }
-    .branding-tile {
-      /*background: #eff1f8;*/
-      /*margin-bottom: 30px;*/
-      padding: 20px 0;
+
+    .service-row {
+      padding: 45px 35px;
+      margin-bottom: 30px;
+
+      h2 {
+        margin-bottom: 10px;
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+    .service-row-boxed {
+      background-color: #fff;
+      box-shadow: 0 0 15px 0 rgba(59, 60, 118, 0.1);
+      padding: 45px 35px;
+
+      h2 {
+        margin-bottom: 10px;
+        border-bottom: none;
+        padding-bottom: 0;
+      }
     }
   }
 </style>

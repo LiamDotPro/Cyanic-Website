@@ -21,20 +21,14 @@
               </div>
 
               <div class="social-links">
-                <a href="" target="_blank">
-                  <icon name='facebook' scale="1.2"></icon>
+                <a href="http://facebook.com/cyanic.io" target="_blank">
+                  <icon name="facebook" scale="1.2"></icon>
                 </a>
-                <!--<a href="" target="_blank">-->
-                  <!--<icon name='linkedin' scale="1.2"></icon>-->
-                <!--</a>-->
-                <!--<a href="" target="_blank">-->
-                  <!--<icon name='github' scale="1.2"></icon>-->
-                <!--</a>-->
-                <!--<a href="" target="_blank">-->
-                  <!--<icon name='instagram' scale="1.2"></icon>-->
-                <!--</a>-->
-                <a href="" target="_blank">
-                  <icon name='twitter' scale="1.2"></icon>
+                <a href="https://github.com/DualityMedia" target="_blank">
+                  <icon name="github" scale="1.2"></icon>
+                </a>
+                <a href="http://twitter.com/cyanicio" target="_blank">
+                  <icon name="twitter" scale="1.2"></icon>
                 </a>
               </div>
 

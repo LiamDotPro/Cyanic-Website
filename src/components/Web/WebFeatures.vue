@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Features</h2>
+          <h2>Our Website Design & Development Features</h2>
         </div>
       </div>
       <div class="row">
@@ -34,8 +34,8 @@
         <div class="col-6">
           <div class="testimonial-tile">
             <h3>We use newer technology</h3>
-            <p>Although we still work predominantly with the more well known website design languages HTML, CSS, PHP and jQuery we also utilise newer technologies such as vue.js for projects that will really benefit from it. A great example of this was the Djarii.tv project that through conversation with the client built as a single page application using vue.js and node.js. This allowed us to achieve very impressive load speeds, streamlined content delivery and opportunity to include real-time aspects to the website (such as the social counters).</p>
-            <p>Specifically for projects that heavily utilise popular platforms such as social media the use of new technology enabled us to more effectively interact with information they made available via their API. Working in this way allows us to produce more unique experiences for our client’s websites helping them to be more memorable and integrated with the preferred platform of their audience. We achieved this with a Twitch.tv subscriber only section on the Djarii.tv project that created an exclusive space for the fans that support her, with more streamers showing an interest in working with us on something similar for their own websites.</p>
+            <p>Although we still work predominantly with the more well known website design languages HTML, CSS, PHP and jQuery we also utilise newer technologies such as vue.js for projects that will really benefit from it. A great example of this was the <router-link to="/project/djarii">Djarii.tv project</router-link> that through conversation with the client built as a single page application using vue.js and node.js. This allowed us to achieve very impressive load speeds, streamlined content delivery and opportunity to include real-time aspects to the website (such as the social counters).</p>
+            <p>Specifically for projects that heavily utilise popular platforms such as social media the use of new technology enabled us to more effectively interact with information they made available via their API. Working in this way allows us to produce more unique experiences for our client’s websites helping them to be more memorable and integrated with the preferred platform of their audience. We achieved this with a Twitch.tv subscriber only section on the <router-link to="/project/djarii">Djarii.tv project</router-link> that created an exclusive space for the fans that support her, with more streamers showing an interest in working with us on something similar for their own websites.</p>
           </div>
         </div>
         <div class="col-6">
