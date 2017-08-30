@@ -2,7 +2,7 @@
   <div class="product-tile-right">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg product-tile-text">
+        <div class="col product-tile-text">
           <h2>We've got the right skill set to get things done</h2>
           <p>
             We have a rich set of technologies that we develop with, which gives our clients the satisfaction in knowing there getting not only a great looking product but also a product ready to tackle the real world. If your looking for older technologies we still support many older legacy systems and may be able to help, contact us below.
@@ -103,6 +103,35 @@
       transform: translateX(-50%);
 
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+    .product-tile-right .tech-block {
+      text-align: center;
+      display: block;
+      margin-bottom: 15px;
+
+      img {
+        margin: 0 auto 20px auto;
+        display: block;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+
   }
 
 </style>

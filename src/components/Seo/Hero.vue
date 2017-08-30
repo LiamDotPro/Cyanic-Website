@@ -3,11 +3,11 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <h1>Search Engine Optimisation</h1>
           <p>Increasing your visibility on search engines helps your business or personal website in a number of ways. Search engine optimisation (SEO) services help to format, expose and promote content to attract potential customers and general users to your website with the intention to convert these visitors to sales of your product or services, to engage them in the content of your website or to capture user data for future use (such as email marketing via a newsletter). </p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 hidden-md-down">
           <div class="image-wrap">
             <img src="../../assets/img/top-side-images/seo/seo.png" alt="" class="img-fluid">
           </div>
@@ -61,5 +61,35 @@
       background: url(../../assets/img/cyanic-blue-bg-short-bottom.jpg) no-repeat bottom center;
       background-size: 100% 100px;
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+    .hidden-md-down {
+      display: block;
+    }
+    .Description-Hero {
+      padding-bottom: 40px;
+      padding-top: 100px;
+      text-align: center;
+    }
+    .Description-Hero .service-back-grad {
+      display: none;
+    }
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
   }
 </style>

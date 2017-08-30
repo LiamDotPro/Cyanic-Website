@@ -2,7 +2,7 @@
   <div class="product-tile-left">
     <div class="container">
       <div class="row">
-        <div class="col-6 product-tile-text">
+        <div class="col-lg-6 product-tile-text">
           <h3>Connecting you with potential customers</h3>
           <p>
             One of our core aims is to engage as many of your users as possible, creating positive user experiences which maximize your online presence. We've already helped brands reach millions of potential customers.
@@ -27,17 +27,17 @@
             </div>
           </div>
         </div>
-        <div class="col-6 linechart-div">
+        <div class="col-lg-6 linechart-div">
           <MethodLineChart></MethodLineChart>
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-6">
               <div class="metric-tile">
                 <h4 class="metric-title">Sessions</h4>
                 <p class="metric-value">1,051,293</p>
                 <span class="metric-note">Jan 14 - Feb 14</span>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <div class="metric-tile">
                 <h4 class="metric-title">Pageviews</h4>
                 <p class="metric-value">2,177,895</p>
@@ -176,4 +176,41 @@
 
   }
 
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+    .product-tile-left .linechart-div .method-line-chart {
+      margin-top: 25px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .product-tile-left {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .product-tile-left .product-tile-text {
+      padding-right: 15px;
+    }
+    .product-tile-left .small-card svg {
+      display: none;
+    }
+    .product-tile-left .metric-tile {
+      margin-bottom: 15px;
+    }
+    .product-tile-left .linechart-div .method-line-chart {
+      margin-bottom: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 </style>

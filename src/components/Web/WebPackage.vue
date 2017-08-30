@@ -5,10 +5,10 @@
         <div class="col">
           <div class="support-package">
             <div class="row">
-              <div class="col-2">
+              <div class="col-lg-2 hidden-md-down">
                 <img src="../../assets/icons/seo/wrenches.png" alt="" class="img-fluid">
               </div>
-              <div class="col-10 text-left">
+              <div class="col-lg-10">
                 <h3>For information regarding website support and maintenance</h3>
                 <p>For several of our previous projects we have devised support plans that include out of regular business hours contact, support for content creation on a large news platform and maintaining the availability of websites during high volumes of traffic.</p>
                 <p>As standard with our projects we include support for bugs and issues that may occur shortly after a project is launched. However, this included support only covers issues with the product. If you want to feel confident that someone is there to taking care of your website beyond the initial level of support we can discuss a price for an ongoing support package that is tailored to your needs. If this is something you would like to know more about, <router-link to="/contact">get in contact</router-link>.</p>
@@ -46,13 +46,12 @@
     }
 
     .support-package {
-      padding: 60px 25px;
+      padding: 60px 60px 60px 25px;
       background: #fff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       border-radius: 3px;
       margin-top: -50px;
       position: relative;
-      text-align:center;
 
       .package-icon {
         color: #027ef1;
@@ -63,5 +62,34 @@
         margin: 5px 0 0 0;
       }
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .WebPackage .support-package {
+      text-align: center;
+      padding: 50px 45px;
+    }
+  }
+
+  @media (max-width: 757px) {
+    .WebPackage .support-package {
+      text-align: center;
+      padding: 40px 30px;
+    }
+    .hidden-md-down {
+      display: block;
+    }
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
   }
 </style>

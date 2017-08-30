@@ -1,11 +1,11 @@
 <template>
   <div class="Service-tile row">
-    <div class="service-image col-4">
+    <div class="service-image col-sm-4">
       <div class="image-wrap">
         <img :src="image" alt="" class="img-fluid">
       </div>
     </div>
-    <div class="service-text col-8">
+    <div class="service-text col-sm-8">
       <h2>{{title}}</h2>
       <p>{{desc}}</p>
       <router-link :to="link" class="btn btn-service">Read More</router-link>
@@ -91,6 +91,35 @@
       background-color: $primaryColour;
       color: #fff;
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+
+    .Service-tile {
+      text-align: center;
+    }
+    .service-image {
+      margin-bottom: 20px;
+    }
+    .Service-tile .service-image .image-wrap {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 480px) {
+
   }
 
 </style>

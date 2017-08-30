@@ -2,7 +2,7 @@
   <div class="Faq">
     <div class="container">
       <div class="row service-row service-row-boxed row-report-second align-items-center">
-        <div class="col-10">
+        <div class="col-md-10">
           <div class="testimonial-tile">
             <h2>What results can we promise</h2>
             <p>
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="row service-row service-row-boxed row-report align-items-center">
-        <div class="col-10">
+        <div class="col-md-10">
           <div class="testimonial-tile">
             <h2>Reporting on the results</h2>
             <p>
@@ -30,7 +30,7 @@
         </div>
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6">
             <div class="feature-tile">
               <h3>You have the control</h3>
               <p>
@@ -38,7 +38,7 @@
               </p>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-lg-6">
             <div class="feature-tile">
               <h3>Page Load Speed</h3>
               <p>
@@ -48,7 +48,7 @@
           </div>
         </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
               <div class="feature-tile">
                 <h3>Transparency</h3>
                 <p>
@@ -56,7 +56,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
               <div class="feature-tile">
                 <h3>Not locked in with long contracts</h3>
                 <p>
@@ -135,5 +135,28 @@
         }
       }
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .Faq .row-report-second,
+    .Faq .row-report {
+      background-position: right -10% bottom;
+    }
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
   }
 </style>

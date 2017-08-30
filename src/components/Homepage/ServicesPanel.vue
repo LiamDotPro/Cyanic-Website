@@ -4,22 +4,21 @@
       <div class="row service-row">
         <div class="col-12">
           <div class="row" v-for="services in tiles">
-            <div class="col-8">
+            <div class="col-lg-8">
               <service-tile :title="services.title" :image="services.image"
                             :desc="services.desc" :link="services.link" :key="services.id">
               </service-tile>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 hidden-md-down">
               <div class="line-col-horizontal"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="line-wrap col-4">
+      <div class="line-wrap col-4 hidden-md-down">
         <div class="line-col"></div>
       </div>
     </div>
-    <!--<div class="service-back-grad"></div>-->
   </div>
 </template>
 
@@ -111,4 +110,35 @@
       }
     }
   }
+
+
+
+  @media (max-width: 1199px) {
+    .Services-panel {
+      margin-top: -100px;
+    }
+    .Services-panel .line-wrap .line-col,
+    .Services-panel .line-col-horizontal {
+      border-color: #027ef0;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .Services-panel .service-row {
+      margin-top: 150px;
+    }
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
+  }
+
 </style>

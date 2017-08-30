@@ -45,4 +45,29 @@
     }
   }
 
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .home-text-component p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+
+    .home-text-component {
+      text-align: center;
+      padding: 60px 0 30px 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 </style>

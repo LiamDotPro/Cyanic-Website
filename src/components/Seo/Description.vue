@@ -12,12 +12,12 @@
             However, if locally there are a lot of businesses competing for similar or the same keywords you can still help rise above those who are less engaged or that have neglected the search engine optimisation of their website. Although we are not against it we don’t visit every client’s physical business locations, we instead work with clients remotely (via the most convenient form of communication for them) as we are a small team and want all clients to benefit from our cost efficiency.
           </p>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4 hidden-md-down text-center">
           <img class="img-fluid" src="../../assets/icons/seo/flag.png" alt="Cyanic SEO Derby and SEO Reading location">
         </div>
       </div>
       <div class="row service-row align-items-center">
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4 hidden-md-down text-center">
           <img class="img-fluid hidden-sm-down" src="../../assets/icons/seo/seoApproach.png" alt="Cyanic SEO Derby and SEO Reading Approach">
           <img class="img-fluid hidden-sm-up" src="../../assets/icons/seo/seoApproach-mobile.png" alt="Cyanic SEO Derby and SEO Reading Approach">
         </div>
@@ -44,38 +44,38 @@
           </div>
 
           <div class="row process-row">
-            <div class="col-lg-1 process-col-line">
+            <div class="col-lg-1 col-md-2 hidden-sm-down process-col-line">
               <div class="step-icon-block"><icon class="step-icon" name="cog" scale="2"></icon></div>
             </div>
-            <div class="col-lg-11">
+            <div class="col-lg-11 col-md-10">
               <h3>Initial Setup</h3>
               <p>Every website (that hasn’t had SEO work done before) starts off by enabling and installing tools to monitor / identify the current state and going forward the progress of the website’s keyword ranking. These tools allow a clearer view of how the changes made to the website have impacted the SEO as well as the subsequent benefits of doing so (e.g. increased visitors). With this we are also more than willing to help the website owners become familiar with using these tools to give them the ability to review the site themselves during and after we are working on it with them. </p>
             </div>
           </div>
           <div class="row process-row">
-            <div class="col-lg-1 process-col-line">
+            <div class="col-lg-1 col-md-2 hidden-sm-down process-col-line">
               <div class="step-icon-block"><icon class="step-icon" name="briefcase" scale="2"></icon></div>
             </div>
-            <div class="col-lg-11">
+            <div class="col-lg-11 col-md-10">
               <h3>Understanding your business and identifying keywords</h3>
               <p>We often carry out research into a plethora of different keywords that might be used as part of your campaign, this includes finding keywords which might be deemed as ‘quick wins’ which bolster your impressions and engagement. This also allows us to lay the foundations towards ranking highly for more competitive areas as understanding how the viewership is spread out is a key part of understand how to get the most out of your written content. Strategizing around not only what you offer now but towards new and innovative areas that are rising can really pay dividends towards your overall objective as a company which is what makes our seo services more unique and better. Doing this allows us to stay sharp and ahead of the competition and provides out clients with different avenues to make the online presence even more successful.</p>
             </div>
           </div>
           <div class="row process-row">
-            <div class="col-lg-1 process-col-line">
+            <div class="col-lg-1 col-md-2 hidden-sm-down process-col-line">
               <div class="step-icon-block"><icon class="step-icon" name="th-large" scale="2"></icon></div>
             </div>
-            <div class="col-lg-11">
+            <div class="col-lg-11 col-md-10">
               <h3>Optimization of page layout</h3>
               <p>
                 An important part of seo is to get all of the page content correct and also apply appropriate structure to the related content which will make it more likely to register with google. This is done through various methods which often change in accordance with the google algorithm, though we find it to be a mixture of providing formatting appropriate for real people alongside optimization. This is because ultimately even if your website ranks the top for a keyword if the pages fails at converting users then it might as well have not been optimised in the first place.</p>
             </div>
           </div>
           <div class="row process-row">
-            <div class="col-lg-1 process-col-line">
+            <div class="col-lg-1 col-md-2 hidden-sm-down process-col-line">
               <div class="step-icon-block"><icon class="step-icon" name="align-left" scale="2"></icon></div>
             </div>
-            <div class="col-lg-11">
+            <div class="col-lg-11 col-md-10">
               <h3>Analysis, suggestion and implementation of content</h3>
               <p>
                 Content is king for all websites, having a better set of content even if it’s less optimised could be the bridge between converting a larger percentage of the potential customers/clients viewing your website. We’ve previously made small changes and added new features to websites that don’t overall change the website very much but the engagement with those new features has brought in a lot of new traffic providing leads for our clients. An example of this is presented on the homepage with the news tracker for method which brought in many new users alongside new agreements being for advertising and collaboration deals. We played a key role within the analysis and suggestion of changes as well as ultimately delivering the feature sets to the client which lead to this success.</p>
@@ -83,10 +83,10 @@
             </div>
           </div>
           <div class="row process-row">
-            <div class="col-lg-1">
+            <div class="col-lg-1 col-md-2 hidden-sm-down">
               <div class="step-icon-block"><icon class="step-icon" name="search" scale="2"></icon></div>
             </div>
-            <div class="col-lg-11">
+            <div class="col-lg-11 col-md-10">
               <h3>Reviewing & reporting impact of changes</h3>
               <p>
                 We use some of the most modern tools and techniques to help analyse and improve various aspect of your website. For the client this generically means providing reporting which shows how our service has impacted their rankings and what direction the project is moving in, all the reporting is as simple or complex as is required to make it consumable for the client. We have found that tailoring the reporting has meant that clients don’t feel like they're paying for something that they find hard to understand or don’t see the benefit of.</p>
@@ -184,4 +184,27 @@
     }
 
   }
+
+
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
+  }
+
 </style>

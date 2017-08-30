@@ -1,13 +1,13 @@
 <template>
-  <div class="web-hero">
+  <div class="brand-hero">
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <h1>Branding</h1>
           <p>Your branding is important to get right as it's often the first thing that a person will use to decide if they want to engage with you further. When they come into contact with your brand they will make assumptions as to how professional, reliable or high quality your respective product, service or content is from their perception of your branding. It’s because of this that getting your branding right is so important, we’re here to help. Below are some of the areas that we have experience delivering to clients ranging from personal brands with large audiences of monthly viewers to businesses pitching for considerable investment.</p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 hidden-md-down">
           <div class="image-wrap">
             <img src="../../assets/img/top-side-images/preview.png" alt="" class="img-fluid">
           </div>
@@ -35,7 +35,7 @@
   // Master Variable / Mixins Import
   @import "../../assets/master";
 
-  .web-hero {
+  .brand-hero {
     padding-bottom: 150px;
     padding-top: 150px;
     position: relative;
@@ -65,5 +65,33 @@
     }
   }
 
+  @media (max-width: 1199px) {
 
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+    .hidden-md-down {
+      display: block;
+    }
+    .brand-hero {
+      padding-bottom: 40px;
+      padding-top: 100px;
+      text-align: center;
+    }
+    .brand-hero .service-back-grad {
+      display: none;
+    }
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
+  }
 </style>

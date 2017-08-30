@@ -3,11 +3,11 @@
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-8">
+        <div class="col-lg-8">
           <h1>Website Design & Development</h1>
           <p>Your digital presence as an individual or business is important, websites are critical assets to many businesses and can often make or break your chances of connecting with the audience you deserve. We have been providing professional website design and development to a vast amount of different companies, startups, personalities and individuals alike, we take great pride in providing a better customer experience and a exceptional end product.</p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 hidden-md-down">
           <div class="image-wrap">
             <img src="../../assets/img/top-side-images/web-development/desktop-illu.png" alt="" class="img-fluid">
           </div>
@@ -71,5 +71,34 @@
     }
   }
 
+  @media (max-width: 1199px) {
 
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+    .web-hero {
+      padding-bottom: 40px;
+      padding-top: 100px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .web-hero {
+      text-align: center;
+    }
+    .web-hero .service-back-grad {
+      display: none;
+    }
+    .hidden-md-down {
+      display: block;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 </style>

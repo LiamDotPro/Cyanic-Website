@@ -7,28 +7,28 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="feature-tile">
             <h3>Higher Visibility</h3>
             <p>
               Ranking higher on search engines such Google for keywords and phrases that apply to your website/business firstly and most importantly should lead to an increase in traffic. If the content, products or services on your website are what visitors want to consume and engage with the rate of visibility will increase through positive word of mouth and unprompted backlinking from other websites. These actions will feed back into positive SEO as search engines see more visitors and click throughs as a sign of quality content that it should promote by ranking it higher on the search results.</p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="feature-tile">
             <h3>Content Optimisation</h3>
             <p>
               The SEO of content revolves around the concept of better content attracting more visitors which in turn shows search engines that your website should be shown to more people on the search results for your topic/business area. Having engaging content that provides value to the visitors that consume it has benefits for search engine ranking as well as the popularity and perception of your brand. Visitors will return for previous or future content all of whom are potential customers for your business or fans of / an audience for your personal brand.</p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="feature-tile">
             <h3>Generating New Leads</h3>
             <p>
               Ultimately generating new leads for a lot of web businesses lies at the heart of why one might choose to take out SEO services and we understand that the bottom line is important. While we can’t promise that we can guarantee you new leads, we can put you in the best position to be able to have the chance to connect. We find that if the businesses meets the need of the consumer deeply then as long as there getting new traffic, generating new leads ends up being package and parcel. We are also able to offer our own insight into how we think this process will happen and advise on B-B selling and B-C Service monetization on your web platform alongside insight into UI/UX techniques that will really benefit your services / products.</p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="feature-tile">
             <h3>Improved Website</h3>
             <p>
@@ -36,7 +36,7 @@
             </p>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
           <div class="feature-tile">
             <h3>Connecting with Surrounding Brands</h3>
             <p>
@@ -97,5 +97,30 @@
       background: url(../../assets/img/cyanic-light-bg-short-bottom.jpg) no-repeat bottom center;
       background-size: 100% 100px;
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .feature-tile {
+      padding-right: 0;
+    }
+    .Faq .seo-features {
+      padding-bottom: 0;
+    }
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+
+  }
+
+  @media (max-width: 480px) {
+
   }
 </style>

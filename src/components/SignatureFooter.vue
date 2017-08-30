@@ -78,4 +78,28 @@
     }
   }
 
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .signature-footer {
+      padding: 40px 0 45px 0;
+    }
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+    .signature-footer {
+      padding: 20px 0 25px 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 </style>

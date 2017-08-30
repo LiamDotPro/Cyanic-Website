@@ -2,11 +2,11 @@
     <div class="WebCase">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-8">
             <h2>Case Study: Method</h2>
             <a href="https://method.gg" target="_blank">www.method.gg</a>
           </div>
-          <div class="col text-right"><img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid case-avatar"></div>
+          <div class="col-sm-4 hidden-xs-down text-right"><img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid case-avatar"></div>
         </div>
         <div class="row">
           <div class="col">
@@ -64,5 +64,29 @@
     display: block;
   }
 
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 757px) {
+    .Web h3 {
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .WebCase {
+      padding: 50px 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 
 </style>

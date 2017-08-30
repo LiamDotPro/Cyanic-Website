@@ -244,4 +244,43 @@
       }
     }
   }
+
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .contact-hero {
+      padding-top: 100px;
+    }
+    .contact-hero .service-back-grad {
+      height: 50px;
+      background-size: 100% 50px;
+    }
+  }
+
+  @media (max-width: 757px) {
+    .contact-form .btn-send {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .contact-hero .service-back-grad {
+      display: none;
+    }
+    .contact-hero {
+      padding-bottom: 50px;
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 </style>

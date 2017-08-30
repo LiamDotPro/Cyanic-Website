@@ -1,70 +1,69 @@
 <template>
   <div class="hero">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-6 col-lg-7 text-left">
-            <div class="hero-text-block">
-              <h1>{{header}}</h1>
-              <p>
-                Were a youthful and passionate web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
-              </p>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-7 text-left">
+          <div class="hero-text-block">
+            <h1>{{header}}</h1>
+            <p>
+              Were a youthful and passionate web development company that creates high quality bespoke websites using cutting edge technology. We don't cut corners in making sure your customers get the experience they deserve.
+            </p>
 
-              <div class="hero-button">
-                <router-link to="/portfolio">
-                  <button type="button" class="btn btn-outline-secondary">
-                    How we Empower Brands
-                    <svgicon icon="arrow-right" width="20" height="19"></svgicon>
-                  </button>
-                </router-link>
-
-              </div>
-
-              <div class="social-links">
-                <a href="http://facebook.com/cyanic.io" target="_blank">
-                  <icon name="facebook" scale="1.2"></icon>
-                </a>
-                <a href="https://github.com/DualityMedia" target="_blank">
-                  <icon name="github" scale="1.2"></icon>
-                </a>
-                <a href="http://twitter.com/cyanicio" target="_blank">
-                  <icon name="twitter" scale="1.2"></icon>
-                </a>
-              </div>
+            <div class="hero-button">
+              <router-link to="/portfolio">
+                <button type="button" class="btn btn-outline-secondary">
+                  How we Empower Brands
+                  <svgicon icon="arrow-right" width="20" height="19"></svgicon>
+                </button>
+              </router-link>
 
             </div>
+
+            <div class="social-links">
+              <a href="http://facebook.com/cyanic.io" target="_blank">
+                <icon name="facebook" scale="1.2"></icon>
+              </a>
+              <a href="https://github.com/DualityMedia" target="_blank">
+                <icon name="github" scale="1.2"></icon>
+              </a>
+              <a href="http://twitter.com/cyanicio" target="_blank">
+                <icon name="twitter" scale="1.2"></icon>
+              </a>
+            </div>
+
           </div>
-          <div class="col-6 col-lg-5">
-            <div class="anim-box">
-              <transition name="slide-fade2" appear>
-                <img class="img-fluid toplayer" src="../../assets/img/topLayer.png" alt="">
-              </transition>
-              <transition name="slide-fade1" appear>
-                <img class="img-fluid midlayer" src="../../assets/img/middleLayer.png" alt="">
-              </transition>
-              <transition name="slide-fade" appear>
-                <img class="img-fluid bottomlayer" src="../../assets/img/bottomLayer.png" alt="">
-              </transition>
-              <transition name="slide-up" appear>
-                <img class="img-fluid image-form" src="../../assets/img/insideForm.png">
-              </transition>
-              <transition name="slide-right" appear>
-                <img class="img-fluid typebar" src="../../assets/img/typeBar.png">
-              </transition>
-              <transition name="fade-in1" appear>
-                <img class="img-fluid leftForward" src="../../assets/img/wordForward.png">
-              </transition>
-              <transition name="fade-in" appear>
-                <img class="img-fluid leftForward" src="../../assets/img/wordBack.png">
-              </transition>
-              <transition name="grow-in" appear>
-                <img class="img-fluid leftForward" src="../../assets/img/formIcons.png">
-              </transition>
-            </div>
+        </div>
+        <div class="col-6 hidden-md-down col-lg-5">
+          <div class="anim-box">
+            <transition name="slide-fade2" appear>
+              <img class="img-fluid toplayer" src="../../assets/img/topLayer.png" alt="">
+            </transition>
+            <transition name="slide-fade1" appear>
+              <img class="img-fluid midlayer" src="../../assets/img/middleLayer.png" alt="">
+            </transition>
+            <transition name="slide-fade" appear>
+              <img class="img-fluid bottomlayer" src="../../assets/img/bottomLayer.png" alt="">
+            </transition>
+            <transition name="slide-up" appear>
+              <img class="img-fluid image-form" src="../../assets/img/insideForm.png">
+            </transition>
+            <transition name="slide-right" appear>
+              <img class="img-fluid typebar" src="../../assets/img/typeBar.png">
+            </transition>
+            <transition name="fade-in1" appear>
+              <img class="img-fluid leftForward" src="../../assets/img/wordForward.png">
+            </transition>
+            <transition name="fade-in" appear>
+              <img class="img-fluid leftForward" src="../../assets/img/wordBack.png">
+            </transition>
+            <transition name="grow-in" appear>
+              <img class="img-fluid leftForward" src="../../assets/img/formIcons.png">
+            </transition>
           </div>
         </div>
       </div>
     </div>
+
     <div class="service-back-grad"></div>
   </div>
 </template>
@@ -85,7 +84,6 @@
   // Start coding!
   @import "../../assets/master";
 
-
   .service-back-grad {
     position: absolute;
     right: 0;
@@ -93,7 +91,7 @@
     height: 250px;
     bottom: 0;
     z-index: 5;
-    background: url(../../assets/img/cyanic-dark-bg-short.jpg) no-repeat top center;
+    background: url(../../assets/img/cyanic-dark-bg-short.jpg) no-repeat bottom center;
     background-size: 100% 250px;
   }
 
@@ -370,5 +368,54 @@
     z-index: 10;
   }
 
+
+  @media (max-width: 1199px) {
+    .hero {
+      padding-bottom: 50px;
+
+      h1 {
+        font-size: 36px;
+        line-height: 1.2;
+      }
+      .service-back-grad {
+        height: 100px;
+        background-size: 100% 100px;
+
+      }
+    }
+    .Services-panel .line-wrap .line-col {
+      border-left: 10px dotted #027ef0;
+    }
+    .Services-panel .line-col-horizontal {
+      border-top: 10px dotted #027ef0;
+    }
+
+  }
+
+  @media (max-width: 991px) {
+    .hero-text-block {
+      padding-right: 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 757px) {
+
+  }
+
+  @media (max-width: 575px) {
+    .hero h1 {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+  }
 
 </style>

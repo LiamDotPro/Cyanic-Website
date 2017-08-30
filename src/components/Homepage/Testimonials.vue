@@ -2,7 +2,7 @@
   <div class="Testimonials">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col">
+        <div class="col-lg-4 col-md-6">
           <div class="testimonial-tile">
             <img src="../../assets/img/testimonials/djarii_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Djarii</span>
@@ -10,7 +10,7 @@
             <p>When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-md-6">
           <div class="testimonial-tile">
             <img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Methodgg</span>
@@ -18,7 +18,7 @@
             <p>Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-4 hidden-md-down">
           <div class="testimonial-tile">
             <img src="../../assets/img/testimonials/tinalyra.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">TinaLyra</span>
@@ -103,5 +103,41 @@
         margin: 10px 0;
       }
     }
+  }
+
+  @media (max-width: 1199px) {
+
+  }
+
+  @media (max-width: 991px) {
+    .Testimonials .testimonial-tile {
+      min-height: 370px;
+    }
+  }
+
+  @media (max-width: 757px) {
+    .Testimonials {
+      padding-top: 60px;
+      padding-bottom: 0;
+    }
+    .Testimonials .testimonial-tile {
+      min-height: auto;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .Testimonials .hidden-md-down {
+      display: block !important;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .Testimonials {
+      padding-top: 15px;
+      padding-bottom: 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+
   }
 </style>

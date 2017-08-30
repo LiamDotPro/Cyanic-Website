@@ -5,12 +5,12 @@
         <div class="col">
           <div class="page-title-block">
             <h1 class="main-title">Portfolio</h1>
-            <h2 class="sub-title">A collection of our work for a range of clients</h2>
+            <h2 class="sub-title">A collection of our previous work for a range of businesses, communities and influencers.</h2>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div v-for="project in getProjects" class="col-sm-6 col-md-6">
+      <div class="row portfolio-row">
+        <div v-for="project in getProjects" class="col-sm-12 col-md-6">
           <div class="portfolio-tile">
             <router-link class="project-link" :to="'/project' + project.pagelink">
               <img class="img-fluid" :src="project.tileimage" alt="">
@@ -19,6 +19,7 @@
         </div>
       </div>
     </div>
+    <div class="back-grad-stepping"></div>
   </div>
 </template>
 
@@ -46,8 +47,7 @@
 
   .Portfolio {
     padding: 50px 0 100px 0;
-    background: url(../assets/img/cyanic-dark-background.jpg) no-repeat bottom center;
-    background-size: 100% auto;
+    position: relative;
 
     .project-link {
       display: block;
@@ -72,6 +72,10 @@
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       opacity: 0.9;
+
+      a {
+        padding: 0;
+      }
     }
     .portfolio-tile:hover {
       -webkit-transform: scale(1.025);
@@ -81,5 +85,6 @@
       transform: scale(1.025);
       opacity: 1;
     }
+
   }
 </style>
