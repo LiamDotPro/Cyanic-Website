@@ -75,11 +75,14 @@
       text-align: center;
 
       .price-amount {
-        display: block;
-        color: #027ef1;
+        display: inline-block;
+        color: #fff;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
         text-transform: uppercase;
+        background: #027ef1;
+        padding: 4px 20px;
+        border-radius: 150px;
 
         .per-month {
 
@@ -100,7 +103,7 @@
         margin: 25px -25px 0 -25px;
 
         li {
-          border-top: 1px solid #d7d9db;
+          border-top: 1px dotted #eff1f8;
           color: #5f6b82;
           padding: 8px 25px;
         }

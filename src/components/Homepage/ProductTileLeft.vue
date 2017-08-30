@@ -74,6 +74,8 @@
     background: $primaryWhite;
     text-align: left;
     padding-top: 30px;
+    position: relative;
+    z-index: 100;
 
     .metric-note {
       color: #b6b9bf;
