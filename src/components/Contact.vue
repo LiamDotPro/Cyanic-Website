@@ -20,7 +20,6 @@
       <div class="container">
         <div class="row">
           <div class="col">
-
             <form v-show="!getEmailedState" @submit.prevent="onSubmit" method="post">
               <div class="form-group">
                 <label>Full Name: </label>
@@ -48,9 +47,19 @@
                 <textarea v-model="msg" class="form-control" name="message" required=""></textarea>
               </div>
 
+              <vue-recaptcha ref="invisibleRecaptcha"
+                             @verify="onVerify"
+                             @expired="onExpired"
+                             size="invisible"
+                             :sitekey="sitekey">
+              </vue-recaptcha>
+
               <button class="btn btn-send" type="submit">Submit</button>
             </form>
+          </div>
 
+          <div v-show="getEmailedState" class="emailSuccess">
+            <h1>THANKS FOR EMAILING</h1>
           </div>
         </div>
       </div>
@@ -60,6 +69,7 @@
 </template>
 
 <script>
+  import VueRecaptcha from 'vue-recaptcha'
   export default {
     name: 'Contact',
     data () {
@@ -67,11 +77,16 @@
         msg: '',
         name: '',
         subject: '',
-        email: ''
+        email: '',
+        sitekey: '6Le0xy4UAAAAAMtuCQWaBaGIfGLq4QlbHpf44QjQ'
       }
     },
     methods: {
       onSubmit: function (e, data) {
+        this.$refs.invisibleRecaptcha.execute()
+      },
+      onVerify: function (response) {
+        console.log('Verify: ' + response)
         if (!this.$store.state.emailed) {
           this.$http.post('http://109.74.195.166:1337/contact', {
             subject: this.subject,
@@ -88,6 +103,9 @@
             }
           })
         }
+      },
+      onExpired: function () {
+        console.log('Expired')
       }
     },
     computed: {
@@ -97,6 +115,9 @@
       getEmailedState: function () {
         return this.$store.state.emailed
       }
+    },
+    components: {
+      VueRecaptcha
     }
   }
 </script>
