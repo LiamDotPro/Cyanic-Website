@@ -46,12 +46,6 @@
       line-height: 1.2;
       /*margin-top: 150px;*/
     }
-    h3 {
-      color: #027ef1;
-      font-weight: normal;
-      font-size: 1.5rem;
-      line-height: 1.2;
-    }
 
   }
 
