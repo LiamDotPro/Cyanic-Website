@@ -41,16 +41,18 @@
     }
     h2 {
       color: #027ef1;
-      font-weight: bold;
-      font-size: 1.9rem;
+      font-weight: normal;
+      font-size: 1.7rem;
       line-height: 1.2;
+      /*margin-top: 150px;*/
     }
     h3 {
       color: #027ef1;
-      font-weight: bold;
+      font-weight: normal;
       font-size: 1.5rem;
       line-height: 1.2;
     }
+
   }
 
 </style>

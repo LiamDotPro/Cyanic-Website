@@ -80,7 +80,7 @@
       color: #fff;
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 14px;
       border-radius: 3px;
       padding: 12px 30px;
       margin-top: 0;

@@ -10,8 +10,9 @@ $darkGrey: #c9b3c1;
 $darkerBlue: #0079ea;
 $darkBlue: #0071db;
 
-//$fontFamily: 'Roboto', sans-serif;
-$fontFamily: 'Montserrat', sans-serif;
+//@import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+//$fontFamily: 'Montserrat', sans-serif;
+$fontFamily: 'Ubuntu', sans-serif;
 
 // global overrides for the bootstrap h tags
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -127,14 +128,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   h2 {
     color: #027ef1;
-    font-weight: bold;
-    font-size: 1.9rem;
+    font-weight: normal;
+    font-size: 1.7rem;
     line-height: 1.2;
   }
   h3 {
     color: #027ef1;
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: normal;
+    font-size: 1.25rem;
     line-height: 1.2;
   }
 }
