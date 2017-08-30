@@ -58,8 +58,14 @@
             </form>
           </div>
 
-          <div v-show="getEmailedState" class="emailSuccess">
-            <h1>THANKS FOR EMAILING</h1>
+        </div>
+        <div v-show="getEmailedState" class="emailSuccess row">
+          <div class="col">
+            <icon scale="4" name="check-circle"></icon>
+            <h2>Your message has been sent!</h2>
+            <p>We will always aim to respond to your message as soon as possible via the email you have provided.</p>
+            <p>
+              You can expect a quick reply during business hours (and sometimes out of business hours), otherwise it may be the next day before we can reply.</p>
           </div>
         </div>
       </div>
@@ -159,6 +165,25 @@
       background-size: 100% 150px;
     }
 
+  }
+
+  .emailSuccess {
+    text-align: center;
+    padding: 100px 0;
+
+    svg {
+      color: #3695ef;
+      margin-bottom: 10px;
+    }
+    h2 {
+      display: block;
+      font-weight:bold;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.7;
+      margin: 0 0 5px 0;
+    }
   }
 
   .contact-info-block {

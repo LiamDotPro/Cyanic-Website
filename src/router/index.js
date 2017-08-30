@@ -52,7 +52,12 @@ export default new Router({
     {
       path: '/web',
       name: 'Web',
-      component: Web
+      component: Web,
+      beforeEnter: (to, from, next) => {
+        document.title = 'Web Design Derby'
+        document.description = 'Web Design Derby'
+        next()
+      }
     },
     {
       path: '/business',
