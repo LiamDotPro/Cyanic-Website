@@ -9,7 +9,9 @@ import Seo from '@/components/Seo'
 import Web from '@/components/Web'
 import Branding from '@/components/Branding'
 
+import Meta from 'vue-meta'
 Vue.use(Router)
+Vue.use(Meta)
 
 export default new Router({
   mode: 'history',

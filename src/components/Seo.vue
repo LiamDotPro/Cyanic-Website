@@ -28,6 +28,9 @@
     name: 'Seo',
     data () {
       return {}
+    },
+    metaInfo: {
+      title: "Build an Audience using our Derby SEO services designed to give you're Website Traction"
     }
   }
 </script>

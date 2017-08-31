@@ -34,6 +34,9 @@
     name: 'Homepage',
     data () {
       return {}
+    },
+    metaInfo: {
+      title: 'Modern Web Development And Design In Derby Using Cutting Edge Technology'
     }
   }
 </script>
@@ -42,7 +45,6 @@
 <style lang="scss" scoped>
 
   .Home {
-
 
   }
 

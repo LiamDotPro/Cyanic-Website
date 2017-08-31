@@ -49,6 +49,8 @@
       getProjectData: function () {
         return this.$store.getters.getProject('/' + this.param)
       }
+    },
+    metaInfo: {
     }
   }
 

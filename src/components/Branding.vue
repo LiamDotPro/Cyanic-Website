@@ -19,6 +19,9 @@
     name: 'Branding',
     data () {
       return {}
+    },
+    metaInfo: {
+      title: 'Derby Website Design and Development utilizing UI/UX for an Impressive Web Experience'
     }
   }
 </script>

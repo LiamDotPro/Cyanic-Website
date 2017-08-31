@@ -5,7 +5,8 @@
         <div class="col">
           <div class="page-title-block">
             <h1 class="main-title">Portfolio</h1>
-            <h2 class="sub-title">A collection of our previous work for a range of businesses, communities and influencers.</h2>
+            <h2 class="sub-title">
+              A collection of our previous work for a range of businesses, communities and influencers.</h2>
           </div>
         </div>
       </div>
@@ -30,6 +31,9 @@
       return {
         msg: 'Welcome to Cyanic'
       }
+    },
+    metaInfo: {
+      title: 'Our Previous Websites built for Business, Influencers, Esports and Local Companies in Derby / Reading'
     },
     computed: {
       getProjects: function () {

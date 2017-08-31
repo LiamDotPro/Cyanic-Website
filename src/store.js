@@ -23,7 +23,7 @@ const mutations = {
 
 const actions = {
   LOAD_PROJECTS: ({commit}) => {
-    Vue.http.get('//odin.coffee:1337/projects').then(response => {
+    Vue.http.get('https://odin.coffee:1337/projects').then(response => {
       commit('SET_PROJECTS', response.body)
     })
   },

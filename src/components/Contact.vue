@@ -124,6 +124,9 @@
     },
     components: {
       VueRecaptcha
+    },
+    metaInfo: {
+      title: 'Get In Contact for a website services, Logo Design and Social Branding in Derby or Reading'
     }
   }
 </script>

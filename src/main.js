@@ -18,11 +18,6 @@ import VueSVGIcon from 'vue-svgicon'
 
 Vue.use(VueSVGIcon)
 
-// Vue Carousel
-import VueCarousel from 'vue-carousel'
-
-Vue.use(VueCarousel)
-
 // Production configure - Set to true for deployment.
 Vue.config.productionTip = false
 
@@ -50,8 +45,6 @@ Vue.component('BottomFooter', BottomFooter)
 Vue.component('NotFoundComponent', NotFoundComponent)
 Vue.component('CallToAction', CallToAction)
 Vue.component('SignatureFooter', SignatureFooter)
-
-import 'vue2-animate/dist/vue2-animate.css'
 
 // Begin routing store to our application
 import store from './store'
