@@ -6,10 +6,10 @@
         <div class="col">
           <h2>Where do we offer our SEO Services?</h2>
           <p>
-            Similar to a lot of other agencies and search engine optimisers we don’t just offer “SEO Derby” or “SEO Reading”. Although members of our team are based in Derby and Reading we aren’t limited to helping websites specifically in those areas. As we are a small, currently two person, remote team we are already adept and experienced with working with clients all over the UK. The effectiveness of the SEO work we complete isn’t affected by location as it is the same search engine algorithm determining the website’s ranking for the respective keywords; the only difference is in that there will be varying competition for keywords in different locations.
+            Similar to a lot of other agencies and search engine optimisers we don’t just offer SEO in Derby or Reading. Although members of our team are based in Derby and Reading we aren’t limited to helping websites specifically in those areas. The effectiveness of the SEO work we complete isn’t affected by location as it is the same search engine algorithm determining the website’s ranking for the respective keywords; the only difference is in that there will be varying competition for keywords in different locations. As for customer experience, we can assure you that through previous projects we are already adept and experienced at working with clients from a wide range of locations.
           </p>
           <p>
-            However, if locally there are a lot of businesses competing for similar or the same keywords you can still help rise above those who are less engaged or that have neglected the search engine optimisation of their website. Although we are not against it we don’t visit every client’s physical business locations, we instead work with clients remotely (via the most convenient form of communication for them) as we are a small team and want all clients to benefit from our cost efficiency.
+            However, if locally there are a lot of businesses competing for similar or the same keywords you can still help rise above those who are less engaged or that have neglected the search engine optimisation of their website. We currently exclusively work with clients remotely (via the most convenient form of communication for them) as we are a small team and want all clients to benefit from the subsequent cost efficiency and flexibility it provides.
           </p>
         </div>
         <div class="col-lg-4 hidden-md-down text-center">
@@ -24,7 +24,7 @@
         <div class="col">
           <h2>What is SEO and how do we approach it?</h2>
           <p>
-            Search Engine Optimisation, often referred to as SEO is the process of changing both “on page” and “offpage” factors that influence how highly a search engine (Google, Bing, etc.) value the content when users search for specific keywords.
+            Search Engine Optimisation, often referred to as SEO is the process of improving both “on page” and “offpage” factors that influence how highly a search engine (Google, Bing, etc.) value the content when users search for specific keywords.
           </p>
           <p>
             If not familiar with SEO “on page” factors relate to changing / improving the structure and content of the website’s pages to make it more appropriate to answer the questions the search engine users are asking. On page SEO is the majority of the work that we will do for you when you chose us to optimise your website. We understand that a lot of agencies and other search engine optimisers will claim to offer a wider offering, however, we understand that you can achieve great ranking results by primarily focusing on the part of SEO that you have the most control over. With better content, structure and visibility to the search engines your website will look and be more appealing to both users and other websites that may want to link to your site as a reference.

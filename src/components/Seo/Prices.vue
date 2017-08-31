@@ -2,7 +2,7 @@
   <div class="Prices">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-4 col-md-12">
+        <div class="col-4 col-md-12 col-lg-4">
           <div class="price-tile">
             <h3>Online Package</h3>
             <span class="price-amount">£150 <span class="per-month">/per month</span></span>
@@ -13,7 +13,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-4 col-md-12">
+        <div class="col-4 col-md-12 col-lg-4">
           <div class="price-tile">
             <h3>Business Package</h3>
             <span class="price-amount">£300 <span class="per-month">/per month</span></span>
@@ -27,7 +27,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-4 col-md-12">
+        <div class="col-4 col-md-12 col-lg-4">
           <div class="price-tile">
             <h3>Business Plus Package</h3>
             <span class="price-amount">£600 <span class="per-month">/per month</span></span>
