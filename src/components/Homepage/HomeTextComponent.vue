@@ -6,6 +6,11 @@
           <h2>{{headerText}}</h2>
           <p>{{descriptionText}}</p>
         </div>
+        <div class="col-12 faces-col">
+          <b-tooltip content="Liam Read" :popover-style="{backGround: '#ffffff'}" placement="bottom">
+            <img src="../../../src/assets/img/faces/liam.jpg" class="img-fluid">
+          </b-tooltip>
+        </div>
       </div>
     </div>
   </div>
@@ -42,6 +47,14 @@
     p {
       color: $mediumGrey;
       font-size: 20px;
+    }
+  }
+
+  .faces-col {
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      border-radius: 50%;
     }
   }
 
