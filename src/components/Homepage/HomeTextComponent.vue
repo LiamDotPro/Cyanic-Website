@@ -10,6 +10,9 @@
           <b-tooltip content="Liam Read" :popover-style="{backGround: '#ffffff'}" placement="bottom">
             <img src="../../../src/assets/img/faces/liam.jpg" class="img-fluid">
           </b-tooltip>
+          <b-tooltip content="Paul Harrison" :popover-style="{backGround: '#ffffff'}" placement="bottom">
+            <img src="../../../src/assets/img/faces/paul.jpg" class="img-fluid">
+          </b-tooltip>
         </div>
       </div>
     </div>
@@ -52,9 +55,13 @@
 
   .faces-col {
     img {
-      max-width: 100px;
-      max-height: 100px;
+      max-width: 75px;
+      max-height: 75px;
       border-radius: 50%;
+    }
+    div {
+      display: inline-block;
+      margin-right: 20px;
     }
   }
 
