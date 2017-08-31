@@ -33,21 +33,21 @@
             id: 1,
             image: require('../../assets/img/top-side-images/web-development/desktop-illu.png'),
             title: 'Website Development',
-            desc: 'We specialise in creating websites for business and personal branding, utilising some of newest and freshest technologies.',
+            desc: 'We specialise in creating websites for business, influencers and personal brands, utilising some of the newest and freshest technologies.',
             link: 'web'
           },
           {
             id: 2,
             image: require('../../assets/img/top-side-images/seo/seo.png'),
             title: 'Search Engine Optimisation',
-            desc: 'We can help your website be seen by more people by creating content and further optimising your website to rank you higher in google.',
+            desc: 'We can help your website be seen by more people through the creation of content and further optimization of your website to rank you higher in Google.',
             link: 'seo'
           },
           {
             id: 3,
             image: require('../../assets/img/top-side-images/preview.png'),
-            title: 'Branding & Graphical Design',
-            desc: 'Need to improve an existing platform or service you provide? we have the knowledge and skills to steer your web projects in the right direction.',
+            title: 'Branding & Graphic Design',
+            desc: 'We have worked alongside big brands to strengthen their existing branding and provided high quality, thoughtful graphical assets to enhance their platform.',
             link: 'branding'
           }
         ]

@@ -15,7 +15,7 @@
               <icon name="wrench" scale="5"></icon>
               <h4>Bespoke Solutions</h4>
               <p>
-                We create bespoke web experiences tailored to meet the needs of your business utilizing the best possible technology.
+                We create bespoke web experiences tailored to meet the needs of your business whilst utilising the best possible technology.
               </p>
             </div>
             <div class="col-12 small-card">

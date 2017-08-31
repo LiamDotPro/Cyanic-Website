@@ -22,7 +22,7 @@
     <div class="row service-row service-row-boxed align-items-center">
         <div class="col-lg-9">
           <h2>Twitch Packages</h2>
-          <p>Twitch is an ever-growing platform where you’re continually competing for the limelight, with our twitch package you can be sure all your online branding is appealing and modern. Furthermore, good consistent branding that matches all your social media makes the flow to conversion from external platforms simpler and faster. We’ll take care of your header, offline screen, panels and profile picture meet your high standards.</p>
+          <p>Twitch is an ever-growing platform where you’re continually competing for the limelight, with our twitch package you can be sure all your online branding is appealing and modern. Furthermore, good consistent branding that matches all your social media makes the flow to conversion from external platforms simpler and faster. We’ll take care of your header, offline screen, panels and profile picture to meet your high standards.</p>
         </div>
           <div class="col-3 text-right hidden-md-down">
             <img class="img-fluid" src="../../assets/img/services/twitch-icon.jpg" alt="">

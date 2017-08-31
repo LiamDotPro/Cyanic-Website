@@ -38,9 +38,6 @@
 
 <script>
 
-  /**
-   * @todo Make the images load after changing up the api.
-   */
   export default {
     name: 'Project',
     data () {
