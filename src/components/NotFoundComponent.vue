@@ -1,11 +1,13 @@
 <template>
   <div class="static-404">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 text-center">
           <h1>{{ msg }}</h1>
-          </div>
+          <h2>{{ desc }}</h2>
+          <router-link to="/home">
+            <button class="btn btn-outline-secondary">Back to home</button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -17,7 +19,8 @@
     name: 'NotFoundComponent',
     data () {
       return {
-        msg: '404 page not found'
+        msg: '404',
+        desc: 'This page can not found'
       }
     }
   }
@@ -25,8 +28,24 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+
+  @import "../assets/master";
+
   // Start coding!
   .static-404 {
+    h1 {
+      font-weight: bold;
+      font-size: 4rem;
+    }
+
+    .row {
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
 
   }
 

@@ -7,9 +7,7 @@ import Portfolio from '@/components/Portfolio'
 import Project from '@/components/Project'
 import Seo from '@/components/Seo'
 import Web from '@/components/Web'
-import Business from '@/components/Business'
 import Branding from '@/components/Branding'
-import PrivateInvestigation from '@/components/PrivateInvestigation'
 
 Vue.use(Router)
 
@@ -60,19 +58,9 @@ export default new Router({
       }
     },
     {
-      path: '/business',
-      name: 'business',
-      component: Business
-    },
-    {
       path: '/branding',
       name: 'branding',
       component: Branding
-    },
-    {
-      path: '/private-investigation',
-      name: 'Private Investigation',
-      component: PrivateInvestigation
     },
     {
       path: '/contact',
