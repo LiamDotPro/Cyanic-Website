@@ -5,8 +5,10 @@
       <div class="row service-row service-row-boxed row-location align-items-center">
         <div class="col-md-9">
           <h2>Where do we offer our website design and development services?</h2>
-          <p>We currently offer our services exclusively online (with plans to change in the future) for a number of reasons. Working remotely is currently the most effective approach for both the business and our clients whilst we are a small team looking to expand. Clients won’t be charged a premium to fund office space we simply don’t need whilst also being able to contact us outside of regular “office” hours, often getting a swift response.</p>
-           <p>We have future plans to expand locally, offering our services in-person to local businesses whilst also extending our existing offerings to cement the cyanic brand within these communities. This being said, we will always offer the same existing quality of services that our clients love online so everyone still receives the same high standard of work and customer experience no matter the location.
+          <p>
+            We currently offer our services exclusively online (with plans to change in the future) for a number of reasons. Working remotely is currently the most effective approach for both the business and our clients whilst we are a small team looking to expand. Clients won’t be charged a premium to fund office space we simply don’t need whilst also being able to contact us outside of regular “office” hours, often getting a swift response.</p>
+          <p>
+            We have future plans to expand locally, offering our services in-person to local businesses whilst also extending our existing offerings to cement the cyanic brand within these communities. This being said, we will always offer the same existing quality of services that our clients love online so everyone still receives the same high standard of work and customer experience no matter the location.
           </p>
         </div>
       </div>
@@ -43,7 +45,7 @@
               <p>
                 Since starting we vouched to approach every project with a solution that is best for the client and not ourselves. We often see and hear of many agencies and freelancers bloating their client’s websites with inflated solutions because it's their standard approach without taking into account it may not really be what the client needs and/or wants.</p>
               <p>
-                With our previous clients we have delivered websites that do not depend on a Content Management System (CMS) as the client identified to us that they wouldn’t actually be updating the website very frequently. In contrast to this, for one of our niche clients, we have created a bespoke in-house CMS that offered systems and functionality that wasn't available anywhere else as it was the best solution for what they wanted to achieve. Ultimately we still leave the decision to the client, but we are there to provide advice and support to help work towards the best website for the client.</p>
+                For one of our niche clients, we have created a bespoke in-house Content Management System that offered systems and functionality that weren't available anywhere else as it was the best solution for what they wanted to achieve. While in contrast we have worked with other clients who do not require a vast feature set but more attention to detail on smaller elements, our ability to plan well comes down to the experience we have working in the web industry and managing projects. Rest assured we have your business and project goals in mind and your job won't be pushed along without it meeting our high standards.</p>
             </div>
           </div>
 
@@ -56,9 +58,9 @@
             <div class="col-lg-11 col-md-10">
               <h3>Design and Concepts</h3>
               <p>
-                When specifications and the approach have been agreed on we produce concept designs to plan the layout, aesthetic characteristics of the website and how the required functionality will be displayed on the front end to the website’s users. We understand that up until this point the website idea may have just been something you pictured in your mind or sketched on paper which means when you see it in a digital format you may be less keen on certain elements or ideas you had originally; at this phase we welcome feedback and requests to adapt the concepts accordingly.</p>
+                When specifications and the approach have been agreed on we produce concept designs to plan the layout, aesthetic characteristics of the website and how the required functionality will be displayed on the front end to the website’s users. We understand that until now the website may have just been something you pictured in your mind or sketched on paper. This could mean when seeing a digital concept design you may be less keen on certain elements or ideas you had originally; as such we welcome feedback and requests to adapt the concepts accordingly.</p>
               <p>
-                With design and concepting we often adapt how many pages or device previews of the site we produce based on the deadline and the requests/preferences of the client. With all projects we produce concepts for the most prominent pages, but often (with the client’s approval) opt to only produce enough full concept designs to understand the branding guidelines of the website whilst avoiding excessive investment for projects that won't benefit greatly from it. As before client’s may get a better feel for the end vision of the website when they see it in a development environment opposed to a static visual concept; being efficient with the concept phase means we can work with the client on further amendments during the development of the website without impeding the deadlines for the project.</p>
+                With design and concepting we often adapt how many pages or device previews of the site we produce based on the deadline and the requests/preferences of the client. As standard for all projects we produce concepts for the most prominent pages, but often (with the client’s approval) opt to only produce enough full concept designs to understand the branding guidelines of the website whilst avoiding excessive time investment into this part of the process for projects that won't benefit greatly from it. As before client’s may get a better feel for the end vision of the website when they see it in a development environment opposed to a static visual concept; being efficient with the concept phase means we can work with the client on further amendments during the development of the website without impeding the deadlines for the project.</p>
             </div>
           </div>
 
@@ -71,7 +73,7 @@
             <div class="col-lg-11 col-md-10">
               <h3>Implementation and Creation</h3>
               <p>
-                Metaphorically this is the stage under which we put pen to paper and the design and concepts are brought to life, it’s during this phase that all the pieces will start coming together and is often the most exciting stage for our clients. Because of our strict attention to detail we often find that clients are impressed by how well the design / concepts match the final piece often praising us as being very professional and through.</p>
+                Metaphorically this is the stage under which we put pen to paper and the design and concepts are brought to life, it’s during this phase that all the pieces will start coming together and is often the most exciting stage for our clients. Because of our strict attention to detail we often find that clients are impressed by how well the design / concepts match the final piece often praising us as being professional and thorough.</p>
             </div>
           </div>
 
@@ -84,7 +86,7 @@
             <div class="col-lg-11 col-md-10">
               <h3>Testing and Launch</h3>
               <p>
-                All of our products are rigorously tested throughout development so that minimal changes need to be made to the website after it has been launched. This kind of due diligence is something we know makes our website development approach stand out. Furthermore you can be confident if you have a specific date in mind (that is reasonable to meet) that we will have everything ready for you to demo or show. Alongside this we also offer aftercare and maintenance during high priority events where your website is likely to be under heavy load and will need to be kept online. This kind of service is something we’ve offered to clients who regularly have thousands of users all trying to access the same content daily over elongated periods.</p>
+                All of our products are rigorously tested throughout development so that minimal changes need to be made to the website after it has been launched. This kind of due diligence is something we know makes our website development approach stand out. Furthermore you can be confident if you have a specific date in mind (that is reasonable to meet) we will have everything ready for you to demo or show. Alongside this we also offer aftercare and maintenance during high priority events where your website is likely to be under heavy load and will need to be kept online. This kind of service is something we’ve offered to clients who regularly have thousands of users all trying to access the same content daily over elongated periods.</p>
             </div>
           </div>
 
@@ -110,7 +112,7 @@
             <div class="col-lg-11 col-md-10">
               <h3>Regular Updates and Keeping Content Fresh</h3>
               <p>
-                We often work with brands after finishing their web projects to provide additional services such as SEO, Social branding, Design, Content Creation and sponsorships. While also providing regular maintenance to ensure that everything continues to function as expected, whilst the majority of our clients won’t need maintenance for long periods having your website offline unexpectedly can be quite catastrophic. Sometimes this isn’t even anything we can control or put preventative measures in place for before it happens, those who choose to take our maintenance packages with us will receive prompt support for all manner of issues. Because of our experience this maintenance will also often overlap into different areas which gives our clients flexibility over where it could be applicable.</p>
+                We often work with brands after finishing their web projects to provide additional services such as SEO, Social branding, Design, Content Creation and sponsorships. While also providing regular maintenance to ensure that everything continues to function as expected, whilst the majority of our clients won’t need maintenance for long periods having your website offline unexpectedly can be quite detrimental. Sometimes this isn’t even anything we can control or put preventative measures in place for before it happens, those who choose to take our maintenance packages with us will receive prompt support for all manner of issues. Because of our experience this maintenance will also often overlap into different areas which gives our clients flexibility over where it could be applicable.</p>
             </div>
           </div>
 
@@ -122,7 +124,7 @@
           <h2>Gaming and esports web design?</h2>
           <p>
             Esports website design is a niche area of the web services industry that we have always been heavily involved in and interested by. Up until recently we (founded and owned by Paul but in recent years with heavy reliance on Liam’s involvement) have exclusively worked on esports projects via <a
-            href="http://dualitymedia.co.uk" target="_blank">DualityMedia</a>. You can read more information about previous esports designs and how we offer unique and tailored solutions that clients look for and need for esports web design projects on our
+            href="http://dualitymedia.co.uk" target="_blank">DualityMedia</a>. You can read more information about previous esports designs and how we offer unique and tailored solutions that businesses and teams are looking for on our
             <router-link to="/esports">esports page</router-link>
             .
           </p>
