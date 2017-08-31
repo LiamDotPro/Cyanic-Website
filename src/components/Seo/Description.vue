@@ -17,10 +17,6 @@
         </div>
       </div>
       <div class="row service-row align-items-center">
-        <div class="col-lg-4 hidden-md-down text-center">
-          <img class="img-fluid hidden-sm-down" src="../../assets/icons/seo/seoApproach.png" alt="Cyanic SEO Derby and SEO Reading Approach">
-          <img class="img-fluid hidden-sm-up" src="../../assets/icons/seo/seoApproach-mobile.png" alt="Cyanic SEO Derby and SEO Reading Approach">
-        </div>
         <div class="col">
           <h2>What is SEO and how do we approach it?</h2>
           <p>
@@ -32,6 +28,10 @@
           <p>
             Having your website linked to from external websites is an area of SEO commonly referred to as “off page SEO” that includes “backlinking”, “outreach” and “directory listings”. We don’t claim to be experienced at the actions of approaching or enticing highly (or better) ranking websites than our client’s for the purpose of creating a backlink and positively enhancing their website’s ranking.
           </p>
+        </div>
+        <div class="col-lg-4 hidden-md-down text-center">
+          <img class="img-fluid hidden-sm-down" src="../../assets/icons/seo/seoApproach.png" alt="Cyanic SEO Derby and SEO Reading Approach">
+          <img class="img-fluid hidden-sm-up" src="../../assets/icons/seo/seoApproach-mobile.png" alt="Cyanic SEO Derby and SEO Reading Approach">
         </div>
       </div>
       <div class="row service-row service-row-boxed align-items-center">
