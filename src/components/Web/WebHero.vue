@@ -5,7 +5,7 @@
       <div class="row align-items-center">
         <div class="col-lg-8">
           <h1>Website Design & Development</h1>
-          <p>Your digital presence as an individual or business is important, websites are critical assets to many businesses and can often make or break your chances of connecting with the audience you deserve. We have been providing professional website design and development to a vast amount of different companies, startups, personalities and individuals alike, we take great pride in providing a better customer experience and a exceptional end product.</p>
+          <p>Your digital presence as an individual or business is very important. Websites are critical assets to many businesses and can often make or break your chances of connecting with the audience you deserve. We have been providing professional website design and development to a vast amount of different companies, start-ups, influencers and individuals alike. We take great pride in providing a consistently positive customer experience and an exceptional end product.</p>
         </div>
         <div class="col-lg-4 hidden-md-down">
           <div class="image-wrap">

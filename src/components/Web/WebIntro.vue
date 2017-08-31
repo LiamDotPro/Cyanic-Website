@@ -5,8 +5,9 @@
       <div class="row service-row service-row-boxed row-location align-items-center">
         <div class="col-md-9">
           <h2>Where do we offer our website design and development services?</h2>
-          <p>
-            We currently offer our services exclusively online as many of our clients and businesses are also mostly online, though this may not be the same in the future. We have plans to expand locally providing Web Development in Derby and Reading offering our services to local businesses to extend our existing offerings and cement the cyanic brand within these communities. Though we will always offer the same existing services that our clients love online so everyone plays from an even playing field.</p>
+          <p>We currently offer our services exclusively online (with plans to change in the future) for a number of reasons. Working remotely is currently the most effective approach for both the business and our clients whilst we are a small team looking to expand. Clients won’t be charged a premium to fund office space we simply don’t need whilst also being able to contact us outside of regular “office” hours, often getting a swift response.</p>
+           <p>We have future plans to expand locally, offering our services in-person to local businesses whilst also extending our existing offerings to cement the cyanic brand within these communities. This being said, we will always offer the same existing quality of services that our clients love online so everyone still receives the same high standard of work and customer experience no matter the location.
+          </p>
         </div>
       </div>
 
@@ -25,9 +26,9 @@
               </div>
             </div>
             <div class="col-lg-11 col-md-10">
-              <h3>Specification gathering</h3>
+              <h3>Specifications Gathering</h3>
               <p>
-                Firstly and we find most importantly we talk with our client to identify their vision for their website, from visual design features to core functionality and required visitor interactivity. During our initial discussion we will analyse the specifications of the project and propose multiple options for the approach we take with the delivered website.</p>
+                Firstly, and we find most importantly we talk with our client to identify their vision for their website, from visual design features, core functionality and required visitor interactivity. During these discussions we analyse the specifications of the project and propose multiple options for the approach we take with the delivered website. We are flexible with how much of our opinion you want throughout the project, something previous clients have really appreciated and felt improved the quality of the finished product.</p>
             </div>
           </div>
 
@@ -38,9 +39,9 @@
               </div>
             </div>
             <div class="col-lg-11 col-md-10">
-              <h3>Project solution/approach proposal</h3>
+              <h3>Project Solution Proposal</h3>
               <p>
-                From first starting we vouched to approach every project with a solution that is the best for the client and not ourselves. We often see and hear of many agencies and freelancers bloating their client’s websites with inflated solutions because it's their standard approach without taking into account it may not really be what the client needs and/or wants.</p>
+                Since starting we vouched to approach every project with a solution that is best for the client and not ourselves. We often see and hear of many agencies and freelancers bloating their client’s websites with inflated solutions because it's their standard approach without taking into account it may not really be what the client needs and/or wants.</p>
               <p>
                 With our previous clients we have delivered websites that do not depend on a Content Management System (CMS) as the client identified to us that they wouldn’t actually be updating the website very frequently. In contrast to this, for one of our niche clients, we have created a bespoke in-house CMS that offered systems and functionality that wasn't available anywhere else as it was the best solution for what they wanted to achieve. Ultimately we still leave the decision to the client, but we are there to provide advice and support to help work towards the best website for the client.</p>
             </div>
@@ -68,7 +69,7 @@
               </div>
             </div>
             <div class="col-lg-11 col-md-10">
-              <h3>Implementation and creation</h3>
+              <h3>Implementation and Creation</h3>
               <p>
                 Metaphorically this is the stage under which we put pen to paper and the design and concepts are brought to life, it’s during this phase that all the pieces will start coming together and is often the most exciting stage for our clients. Because of our strict attention to detail we often find that clients are impressed by how well the design / concepts match the final piece often praising us as being very professional and through.</p>
             </div>
@@ -94,7 +95,7 @@
               </div>
             </div>
             <div class="col-lg-11 col-md-10">
-              <h3>Project Post Mortem / Stage meetings </h3>
+              <h3>Project Post Mortem / Progress meetings </h3>
               <p>
                 Communication between the client and developers is a critical part of the project and unlike our competitors we strive to make sure you feel connected to the project even after it’s reached fruition. We believe that scheduled meetings even after the project launches, gives our clients the peace of mind that we truly care about there product and out come, regularly going all out to make sure our clients are happy with their website is mission critical for us. Alongside this we often find ourselves giving demos and providing ideas to help make sure people get the most out of there new website. We make sure it continues to look top notch while you add your content.</p>
             </div>
@@ -107,7 +108,7 @@
               </div>
             </div>
             <div class="col-lg-11 col-md-10">
-              <h3>Regular Updates and keeping content fresh</h3>
+              <h3>Regular Updates and Keeping Content Fresh</h3>
               <p>
                 We often work with brands after finishing their web projects to provide additional services such as SEO, Social branding, Design, Content Creation and sponsorships. While also providing regular maintenance to ensure that everything continues to function as expected, whilst the majority of our clients won’t need maintenance for long periods having your website offline unexpectedly can be quite catastrophic. Sometimes this isn’t even anything we can control or put preventative measures in place for before it happens, those who choose to take our maintenance packages with us will receive prompt support for all manner of issues. Because of our experience this maintenance will also often overlap into different areas which gives our clients flexibility over where it could be applicable.</p>
             </div>
