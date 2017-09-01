@@ -126,7 +126,10 @@
       VueRecaptcha
     },
     metaInfo: {
-      title: 'Cyanic - Get In Contact for a Website Services, Logo Design and Social Branding in Derby or Reading'
+      title: 'Cyanic - Get In Contact for a Website Services, Logo Design and Social Branding in Derby or Reading',
+      meta: [
+        {name: 'description', content: 'Want to find out more about how we can help you get the website, ranking results or branding that you deserve? Contact us today and we will be happy to help!'}
+      ]
     }
   }
 </script>

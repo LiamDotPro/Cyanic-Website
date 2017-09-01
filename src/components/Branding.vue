@@ -21,7 +21,10 @@
       return {}
     },
     metaInfo: {
-      title: "Cyanic - Derby Social Media Content, Logo's, Twitch Packages, Branded Documents"
+      title: "Cyanic - Derby Social Media Content, Logo's, Twitch Packages, Branded Documents",
+      meta: [
+        {name: 'description', content: ''}
+      ]
     }
   }
 </script>

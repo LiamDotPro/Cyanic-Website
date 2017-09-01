@@ -30,7 +30,10 @@
       return {}
     },
     metaInfo: {
-      title: 'Cyanic - Derby Website Design and Development utilizing UI/UX for an Impressive Web Experience'
+      title: 'Cyanic - Derby Website Design and Development utilizing UI/UX for an Impressive Web Experience',
+      meta: [
+        {name: 'description', content: ''}
+      ]
     }
   }
 </script>

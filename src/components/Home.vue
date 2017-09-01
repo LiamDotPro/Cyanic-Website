@@ -36,7 +36,10 @@
       return {}
     },
     metaInfo: {
-      title: 'Cyanic - Modern Web Development And Design In Derby Using Cutting Edge Technology'
+      title: 'Cyanic - Modern Web Development And Design In Derby Using Cutting Edge Technology',
+      meta: [
+        {name: 'description', content: 'Cyanic is a passionate web development company creating high quality bespoke websites using new technology for businesses, esports, individuals and influencers.'}
+      ]
     }
   }
 </script>

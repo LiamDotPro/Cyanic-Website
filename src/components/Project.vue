@@ -37,6 +37,9 @@
 
 <script>
 
+  /**
+   * @todo add meta descriptions dynamically from pulled content.
+   */
   export default {
     name: 'Project',
     data () {
