@@ -16,10 +16,6 @@
         status: this.$store.state.status
       }
     },
-    metaInfo: {
-      title: 'Modern Web Development And Design In Derby Using Cutting Edge Technology',
-      titleTemplate: 'Cyanic - %s'
-    },
     created: function () {
       this.$store.dispatch('LOAD_PROJECTS')
     },

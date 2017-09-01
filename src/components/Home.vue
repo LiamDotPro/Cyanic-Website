@@ -36,7 +36,7 @@
       return {}
     },
     metaInfo: {
-      title: 'Modern Web Development And Design In Derby Using Cutting Edge Technology'
+      title: 'Cyanic - Modern Web Development And Design In Derby Using Cutting Edge Technology'
     }
   }
 </script>

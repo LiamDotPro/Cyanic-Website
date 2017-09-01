@@ -24,7 +24,17 @@ const mutations = {
 const actions = {
   LOAD_PROJECTS: ({commit}) => {
     Vue.http.get('https://odin.coffee:1337/projects').then(response => {
-      commit('SET_PROJECTS', response.body)
+      let projects = response.body.map((el, index, arr) => {
+        if (el.url !== null) {
+          if (el.url.indexOf('https://') === 0) {
+            el['urlClean'] = el.url.replace('https://', '')
+          } else {
+            el['urlClean'] = el.url.replace('http://', '')
+          }
+        }
+        return el
+      })
+      commit('SET_PROJECTS', projects)
     })
   },
   UPDATE_EMAIL_STATUS: ({commit}) => {

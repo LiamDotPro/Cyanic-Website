@@ -10,6 +10,7 @@ import Web from '@/components/Web'
 import Branding from '@/components/Branding'
 
 import Meta from 'vue-meta'
+
 Vue.use(Router)
 Vue.use(Meta)
 
@@ -42,7 +43,23 @@ export default new Router({
     {
       path: '/project/:id',
       name: 'project catch',
-      component: Project
+      component: Project,
+      beforeEnter: (to, from, next) => {
+        function replaceAll (str, find, replace) {
+          return str.replace(new RegExp(find, 'g'), replace)
+        }
+
+        function convertCase (str) {
+          let lower = str.toLowerCase()
+          return lower.replace(/(^| )(\w)/g, function (x) {
+            return x.toUpperCase()
+          })
+        }
+
+        document.title = 'Cyanic - ' + convertCase(replaceAll(to.path.replace('/project/', ''), '-', ' '))
+        console.log(document.title)
+        next()
+      }
     },
     {
       path: '/seo',
@@ -52,12 +69,7 @@ export default new Router({
     {
       path: '/web',
       name: 'Web',
-      component: Web,
-      beforeEnter: (to, from, next) => {
-        document.title = 'Web Design Derby'
-        document.description = 'Web Design Derby'
-        next()
-      }
+      component: Web
     },
     {
       path: '/branding',

@@ -11,7 +11,7 @@
             <a v-if="getProjectData.url !== null && getProjectData.url !== ''" :href="getProjectData.url"
                class="project-url">
               <icon name="link" scale="1"></icon>
-              {{ getProjectData.url.replace('http://', '') }}
+              {{ getProjectData.urlClean }}
             </a>
           </div>
         </div>
@@ -25,7 +25,6 @@
 
           <div class="col-sm-12 col-md-12" v-for="image in getProjectData.images.images">
             <div class="portfolio-tile">
-              <!--<div class="image-label">Home Page</div>-->
               <img class="img-fluid" :src="image" alt="">
             </div>
           </div>
@@ -42,15 +41,30 @@
     name: 'Project',
     data () {
       return {
-        param: this.$route.params.id
+        param: this.$route.params.id,
+        project: null,
+        found: true
       }
     },
     computed: {
       getProjectData: function () {
-        return this.$store.getters.getProject('/' + this.param)
+        let out = this.$store.getters.getProject('/' + this.param)
+        if (typeof out.name !== 'undefined') {
+          this.found = true
+          this.project = out
+        }
+        return out
+      },
+      getProjectName: function () {
+        return this.project.name
+      },
+      getTruthStatus: function () {
+        return this.found
       }
     },
     metaInfo: {
+      title: this.getTruthStatus ? 'Cyanic Project Page' : this.getProjectName,
+      titleTemplate: null
     }
   }
 

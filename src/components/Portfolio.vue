@@ -33,7 +33,7 @@
       }
     },
     metaInfo: {
-      title: 'Our Previous Websites built for Business, Influencers, Esports and Local Companies in Derby / Reading'
+      title: 'Cyanic - Our Previous Websites built for Business, Influencers, Esports and Local Companies in Derby / Reading'
     },
     computed: {
       getProjects: function () {
