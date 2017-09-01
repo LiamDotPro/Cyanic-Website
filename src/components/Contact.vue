@@ -128,7 +128,23 @@
     metaInfo: {
       title: 'Cyanic - Get In Contact for a Website Services, Logo Design and Social Branding in Derby or Reading',
       meta: [
-        {name: 'description', content: 'Want to find out more about how we can help you get the website, ranking results or branding that you deserve? Contact us today and we will be happy to help!'}
+        {
+          vmid: 'description',
+          name: 'description',
+          content: 'Want to find out more about how we can help you get the website, ranking results or branding that you deserve? Contact us today and we will be happy to help!'
+        },
+        {
+          name: 'og:title',
+          content: 'Cyanic - Get In Contact for a Website Services, Logo Design and Social Branding in Derby or Reading'
+        },
+        {
+          name: 'og:url',
+          content: 'https://cyanic.io/contact'
+        },
+        {
+          name: 'og:description',
+          content: 'Want to find out more about how we can help you get the website, ranking results or branding that you deserve? Contact us today and we will be happy to help!'
+        }
       ]
     }
   }
@@ -183,7 +199,7 @@
     }
     h2 {
       display: block;
-      font-weight:bold;
+      font-weight: bold;
     }
     p {
       font-size: 20px;
@@ -250,7 +266,6 @@
       }
     }
   }
-
 
   @media (max-width: 1199px) {
 

@@ -23,7 +23,23 @@
     metaInfo: {
       title: "Cyanic - Derby Social Media Content, Logo's, Twitch Packages, Branded Documents",
       meta: [
-        {name: 'description', content: ''}
+        {
+          vmid: 'description',
+          name: 'description',
+          content: 'We offer a range of branding that will get you noticed for the right reasons; logos, social banners and branded documents are a few of what we offer.'
+        },
+        {
+          name: 'og:title',
+          content: "Cyanic - Derby Social Media Content, Logo's, Twitch Packages, Branded Documents"
+        },
+        {
+          name: 'og:url',
+          content: 'https://cyanic.io/branding'
+        },
+        {
+          name: 'og:description',
+          content: 'We offer a range of branding that will get you noticed for the right reasons; logos, social banners and branded documents are a few of what we offer.'
+        }
       ]
     }
   }

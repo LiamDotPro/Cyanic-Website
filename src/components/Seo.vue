@@ -32,7 +32,23 @@
     metaInfo: {
       title: "Cyanic - Build an Audience using our Derby SEO services designed to give you're Website Traction",
       meta: [
-        {name: 'description', content: ''}
+        {
+          vmid: 'description',
+          name: 'description',
+          content: 'Search engine optimisation will improve the visibility of your website on search engines for specific keywords. Find out how we can help you achieve this.'
+        },
+        {
+          name: 'og:title',
+          content: "Cyanic - Build an Audience using our Derby SEO services designed to give you're Website Traction"
+        },
+        {
+          name: 'og:url',
+          content: 'https://cyanic.io/seo'
+        },
+        {
+          name: 'og:description',
+          content: 'Search engine optimisation will improve the visibility of your website on search engines for specific keywords. Find out how we can help you achieve this.'
+        }
       ]
     }
   }

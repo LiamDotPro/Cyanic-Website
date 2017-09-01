@@ -32,7 +32,23 @@
     metaInfo: {
       title: 'Cyanic - Derby Website Design and Development utilizing UI/UX for an Impressive Web Experience',
       meta: [
-        {name: 'description', content: ''}
+        {
+          vmid: 'description',
+          name: 'description',
+          content: 'We provide professional website design and development to a variety of different clients. See how our approach achieves consistently high client satisfaction.'
+        },
+        {
+          name: 'og:title',
+          content: 'Cyanic - Derby Website Design and Development utilizing UI/UX for an Impressive Web Experience'
+        },
+        {
+          name: 'og:url',
+          content: 'https://cyanic.io/web'
+        },
+        {
+          name: 'og:description',
+          content: 'We provide professional website design and development to a variety of different clients. See how our approach achieves consistently high client satisfaction.'
+        }
       ]
     }
   }

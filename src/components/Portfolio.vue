@@ -35,7 +35,23 @@
     metaInfo: {
       title: 'Cyanic - Our Previous Websites built for Business, Influencers, Esports and Local Companies in Derby / Reading',
       meta: [
-        {name: 'description', content: ''}
+        {
+          vmid: 'description',
+          name: 'description',
+          content: 'Our portfolio includes a collection of our previous work for a range of businesses, communities and influencers. Get in touch to start your project today.'
+        },
+        {
+          name: 'og:title',
+          content: 'Cyanic - Our Previous Websites built for Business, Influencers, Esports and Local Companies in Derby / Reading'
+        },
+        {
+          name: 'og:url',
+          content: 'https://cyanic.io/portfolio'
+        },
+        {
+          name: 'og:description',
+          content: 'Our portfolio includes a collection of our previous work for a range of businesses, communities and influencers. Get in touch to start your project today.'
+        }
       ]
     },
     computed: {
