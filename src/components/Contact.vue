@@ -94,7 +94,7 @@
       onVerify: function (response) {
         console.log('Verify: ' + response)
         if (!this.$store.state.emailed) {
-          this.$http.post('http://109.74.195.166:1337/contact', {
+          this.$http.post('https://odin.coffee:1337/contact', {
             subject: this.subject,
             name: this.name,
             email: this.email,

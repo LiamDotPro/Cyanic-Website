@@ -13,6 +13,9 @@
           <b-tooltip content="Paul Harrison" :popover-style="{backGround: '#ffffff'}" placement="bottom">
             <img src="../../../src/assets/img/faces/paul.jpg" class="img-fluid">
           </b-tooltip>
+          <b-tooltip content="Dan Brown" :popover-style="{backGround: '#ffffff'}" placement="bottom">
+            <img src="../../../src/assets/img/faces/dan.jpg" class="img-fluid">
+          </b-tooltip>
         </div>
       </div>
     </div>
