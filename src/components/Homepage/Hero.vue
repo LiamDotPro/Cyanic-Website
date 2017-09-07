@@ -26,6 +26,9 @@
               <a href="https://github.com/DualityMedia" target="_blank">
                 <icon name="github" scale="1.2"></icon>
               </a>
+              <a href="https://medium.com/@cyanicltd" target="_blank">
+                <icon name="medium" scale="1.2"></icon>
+              </a>
               <a href="http://twitter.com/cyanicio" target="_blank">
                 <icon name="twitter" scale="1.2"></icon>
               </a>

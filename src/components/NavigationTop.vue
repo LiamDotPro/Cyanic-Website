@@ -26,6 +26,9 @@
                   <router-link class="nav-link" to="/branding">Branding</router-link>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="https://medium.com/@cyanicltd" target="_blank">Blog</a>
+                </li>
+                <li class="nav-item">
                   <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
                 </li>
                 <li class="nav-item">
@@ -82,6 +85,7 @@
       }
     }
   }
+
   .main-navbar {
     width: 100%;
 
@@ -116,7 +120,6 @@
     padding-right: 0;
   }
 
-
   .router-link-active {
 
     color: $primaryWhite;
@@ -150,7 +153,6 @@
       max-height: 60px;
     }
   }
-
 
   @media (max-width: 1199px) {
 
