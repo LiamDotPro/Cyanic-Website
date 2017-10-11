@@ -6,24 +6,33 @@
           <div class="testimonial-tile">
             <img src="../../assets/img/testimonials/djarii_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Djarii</span>
-            <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle"><icon name="twitter" scale="1"></icon> @Djari328</a>
-            <p>When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>
+            <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle">
+              <icon name="twitter" scale="1"></icon>
+              @Djari328</a>
+            <p>
+              When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="testimonial-tile">
             <img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">Methodgg</span>
-            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle"><icon name="twitter" scale="1"></icon> @methodgg</a>
-            <p>Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>
+            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle">
+              <icon name="twitter" scale="1"></icon>
+              @methodgg</a>
+            <p>
+              Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>
           </div>
         </div>
         <div class="col-lg-4 hidden-md-down">
           <div class="testimonial-tile">
             <img src="../../assets/img/testimonials/tinalyra.jpg" alt="" class="img-fluid testimonial-avatar">
             <span class="testimonial-title">TinaLyra</span>
-            <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle"><icon name="twitter" scale="1"></icon> @kvestina</a>
-            <p>It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.</p>
+            <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle">
+              <icon name="twitter" scale="1"></icon>
+              @kvestina</a>
+            <p>
+              It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.</p>
           </div>
         </div>
       </div>
@@ -31,9 +40,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div v-masonry origin-left="false" transition-duration="1s" item-selector=".item">
+          <div v-masonry transition-duration="0.3s" item-selector=".item">
             <div v-masonry-tile class="item" v-for="(item, index) in blocks">
-              <p><lorem add="1-3s"></lorem></p>
+              <!-- block item markup -->
+              <p>{{item.id}}</p>
             </div>
           </div>
         </div>
@@ -44,11 +54,15 @@
 
 <script>
   import '../../assets/icons/arrow-right'
+
   export default {
     name: 'Testimonials',
     data () {
       return {
-        header: 'Building Web Experiences for the Future'
+        header: 'Building Web Experiences for the Future',
+        blocks: [
+          {id: 1, link: '', twitter: '', image: '', name: '', description: ''}
+        ]
       }
     }
   }
@@ -66,16 +80,16 @@
     .testimonial-tile {
       padding: 40px 25px;
       background: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
       border-radius: 3px;
       margin-bottom: 30px;
       position: relative;
-      text-align:center;
+      text-align: center;
       min-height: 340px;
 
       a {
         border: none;
-        padding:0;
+        padding: 0;
       }
 
       .testimonial-avatar {
@@ -87,7 +101,7 @@
       }
       .testimonial-title {
         display: block;
-        font-weight:bold;
+        font-weight: bold;
         font-size: 18px;
         color: #027ef1;
       }

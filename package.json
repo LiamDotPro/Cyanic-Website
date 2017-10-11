@@ -14,7 +14,7 @@
   "dependencies": {
     "bootstrap-vue": "^0.16.1",
     "chart.js": "^2.6.0",
-    "vue": "^2.2.6",
+    "vue": "^2.4.4",
     "vue-awesome": "^2.3.1",
     "vue-chartjs": "^2.6.3",
     "vue-masonry": "^0.10.12",
@@ -63,7 +63,7 @@
     "vue-loader": "^11.3.4",
     "vue-style-loader": "^2.0.5",
     "vue-svgicon": "^1.1.8",
-    "vue-template-compiler": "^2.2.6",
+    "vue-template-compiler": "^2.4.4",
     "webpack": "^2.3.3",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.10.0",

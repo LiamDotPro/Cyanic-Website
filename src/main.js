@@ -32,6 +32,10 @@ import VueResource from 'vue-resource'
 
 Vue.use(VueResource)
 
+import {VueMasonryPlugin} from 'vue-masonry'
+
+Vue.use(VueMasonryPlugin)
+
 // components below!
 import NavigationTop from './components/NavigationTop'
 import BottomFooter from './components/BottomFooter'
