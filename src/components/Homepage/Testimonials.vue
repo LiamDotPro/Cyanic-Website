@@ -28,13 +28,24 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div v-masonry origin-left="false" transition-duration="1s" item-selector=".item">
+            <div v-masonry-tile class="item" v-for="(item, index) in blocks">
+              <p><lorem add="1-3s"></lorem></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
   import '../../assets/icons/arrow-right'
   export default {
-    name: 'Hero',
+    name: 'Testimonials',
     data () {
       return {
         header: 'Building Web Experiences for the Future'
@@ -50,13 +61,14 @@
   .Testimonials {
     @include gradient(#1989f0, #027ef1, vertical);
     padding-bottom: 30px;
+    padding-top: 60px;
 
     .testimonial-tile {
       padding: 40px 25px;
       background: #fff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       border-radius: 3px;
-      margin-top: -50px;
+      margin-bottom: 30px;
       position: relative;
       text-align:center;
       min-height: 340px;
