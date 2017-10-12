@@ -1,49 +1,56 @@
 <template>
   <div class="Testimonials">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-md-6">
-          <div class="testimonial-tile">
-            <img src="../../assets/img/testimonials/djarii_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">Djarii</span>
-            <a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle">
-              <icon name="twitter" scale="1"></icon>
-              @Djari328</a>
-            <p>
-              When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="testimonial-tile">
-            <img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">Methodgg</span>
-            <a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle">
-              <icon name="twitter" scale="1"></icon>
-              @methodgg</a>
-            <p>
-              Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 hidden-md-down">
-          <div class="testimonial-tile">
-            <img src="../../assets/img/testimonials/tinalyra.jpg" alt="" class="img-fluid testimonial-avatar">
-            <span class="testimonial-title">TinaLyra</span>
-            <a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle">
-              <icon name="twitter" scale="1"></icon>
-              @kvestina</a>
-            <p>
-              It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!--<div class="container">-->
+      <!--<div class="row align-items-center">-->
+        <!--<div class="col-lg-4 col-md-6">-->
+          <!--<div class="testimonial-tile">-->
+            <!--<img src="../../assets/img/testimonials/djarii_400x400.jpg" alt="" class="img-fluid testimonial-avatar">-->
+            <!--<span class="testimonial-title">Djarii</span>-->
+            <!--<a target="_blank" href="http://www.twitter.com/Djari328" class="twitter-handle">-->
+              <!--<icon name="twitter" scale="1"></icon>-->
+              <!--@Djari328</a>-->
+            <!--<p>-->
+              <!--When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-lg-4 col-md-6">-->
+          <!--<div class="testimonial-tile">-->
+            <!--<img src="../../assets/img/testimonials/method_400x400.jpg" alt="" class="img-fluid testimonial-avatar">-->
+            <!--<span class="testimonial-title">Methodgg</span>-->
+            <!--<a target="_blank" href="http://www.twitter.com/methodgg" class="twitter-handle">-->
+              <!--<icon name="twitter" scale="1"></icon>-->
+              <!--@methodgg</a>-->
+            <!--<p>-->
+              <!--Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-lg-4 hidden-md-down">-->
+          <!--<div class="testimonial-tile">-->
+            <!--<img src="../../assets/img/testimonials/tinalyra.jpg" alt="" class="img-fluid testimonial-avatar">-->
+            <!--<span class="testimonial-title">TinaLyra</span>-->
+            <!--<a target="_blank" href="http://www.twitter.com/kvestina" class="twitter-handle">-->
+              <!--<icon name="twitter" scale="1"></icon>-->
+              <!--@kvestina</a>-->
+            <!--<p>-->
+              <!--It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div v-masonry transition-duration="0.3s" item-selector=".item">
-            <div v-masonry-tile class="item" v-for="(item, index) in blocks">
-              <!-- block item markup -->
-              <p>{{item.id}}</p>
+          <div class="row" v-masonry transition-duration="0.3s" item-selector=".item">
+            <div v-masonry-tile class="item col-md-4" v-for="(item, index) in blocks">
+              <div class="testimonial-tile">
+                <img :src="item.image" alt="" class="img-fluid testimonial-avatar">
+                <span class="testimonial-title">{{item.name}}</span>
+                <a target="_blank" :href="item.link" class="twitter-handle">
+                  <icon name="twitter" scale="1"></icon>
+                  {{item.twitter}}</a>
+                <p>{{item.description}}</p>
+                </div>
             </div>
           </div>
         </div>
@@ -61,7 +68,12 @@
       return {
         header: 'Building Web Experiences for the Future',
         blocks: [
-          {id: 1, link: '', twitter: '', image: '', name: '', description: ''}
+          {id: 1, link: 'http://www.twitter.com/Djari328', twitter: '@Djari328', image: require('../../assets/img/testimonials/djarii_400x400.jpg'), name: 'Djarii', description: "When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects."},
+          {id: 2, link: 'http://www.twitter.com/methodgg', twitter: '@Methodgg', image: require('../../assets/img/testimonials/djarii_400x400.jpg'), name: 'Methodgg', description: 'Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.'},
+          {id: 3, link: 'http://www.twitter.com/kvestina', twitter: '@kvestina', image: require('../../assets/img/testimonials/djarii_400x400.jpg'), name: 'TinaLyra', description: 'It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.'},
+          {id: 4, link: 'http://www.twitter.com/Djari328', twitter: '@Djari328', image: require('../../assets/img/testimonials/djarii_400x400.jpg'), name: 'Djarii', description: "When working with Paul and Liam, it's like working with friends. They're awesome, competent and humble guys who go out of their way to perfect every aspect of their projects."},
+          {id: 5, link: 'http://www.twitter.com/kvestina', twitter: '@kvestina', image: require('../../assets/img/testimonials/djarii_400x400.jpg'), name: 'TinaLyra', description: 'It was utmost a lovely cooperation I had with Cyanic as they were easygoing  available and helpful beyond means.'},
+          {id: 6, link: 'http://www.twitter.com/kvestina', twitter: '@Methodgg', image: require('../../assets/img/testimonials/djarii_400x400.jpg'), name: 'Methodgg', description: 'Method has been working with Cyanic for over a year and counting. Paul and Liam understand the needs of us as a client very well and they are swift to turn a concept into a fully functional web solution.'}
         ]
       }
     }
@@ -85,8 +97,10 @@
       margin-bottom: 30px;
       position: relative;
       text-align: center;
-      min-height: 340px;
+      /*min-height: 340px;*/
+      /*width: 33.333333%;*/
 
+      /*width: 350px;*/
       a {
         border: none;
         padding: 0;
