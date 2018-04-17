@@ -1,5 +1,7 @@
 # cyanic
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LiamDotPro/Cyanic-Website.svg)](https://greenkeeper.io/)
+
 > A Vue.js project
 
 ## Build Setup
